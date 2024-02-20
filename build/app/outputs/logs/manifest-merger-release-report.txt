@@ -317,7 +317,7 @@ ADDED from /home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.
 		ADDED from /home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:33:13-68
 	android:name
 		ADDED from /home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:32:20-65
-activity#com.sixamtech.stack_food.MainActivity
+activity#com.pedelogo.pede_logo.MainActivity
 ADDED from /home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:35:9-79:20
 	android:launchMode
 		ADDED from /home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:37:13-43
@@ -1115,7 +1115,7 @@ ADDED from [com.facebook.android:facebook-common:16.0.1] /home/mauricio/.gradle/
 		ADDED from [com.facebook.android:facebook-common:16.0.1] /home/mauricio/.gradle/caches/transforms-3/2e0af1b261a95480f87a248222e8ac4b/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:26:19-68
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:16.0.1] /home/mauricio/.gradle/caches/transforms-3/2e0af1b261a95480f87a248222e8ac4b/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:31:13-40:29
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.sixamtech.stack_food+data:scheme:fbconnect
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.pedelogo.pede_logo+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:16.0.1] /home/mauricio/.gradle/caches/transforms-3/2e0af1b261a95480f87a248222e8ac4b/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:31:13-40:29
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/mauricio/.gradle/caches/transforms-3/a7e30eb3677680b6aae4dc66a26e8729/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
@@ -1261,7 +1261,7 @@ ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-
 		ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
-permission#com.sixamtech.stack_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.pedelogo.pede_logo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
@@ -1271,7 +1271,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
-uses-permission#com.sixamtech.stack_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.pedelogo.pede_logo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:26:22-94

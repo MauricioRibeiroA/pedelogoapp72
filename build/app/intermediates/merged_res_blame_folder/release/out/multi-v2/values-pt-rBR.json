@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sixamtech.stack_food.app-mergeReleaseResources-49:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.pedelogo.pede_logo.app-mergeReleaseResources-49:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/home/mauricio/.gradle/caches/transforms-3/e294ae356b3c761dbde21b65dfa2f41e/transformed/jetified-play-services-base-18.1.0/res/values-pt-rBR/values.xml",

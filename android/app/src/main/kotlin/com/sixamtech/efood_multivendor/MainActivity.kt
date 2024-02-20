@@ -1,4 +1,4 @@
-package com.sixamtech.stack_food
+package com.pedelogo.pede_logo
 
 import io.flutter.embedding.android.FlutterActivity
 

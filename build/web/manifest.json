@@ -1,11 +1,11 @@
 {
-    "name": "StackFood",
-    "short_name": "StackFood",
+    "name": "PedeLogo",
+    "short_name": "PedeLogo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#EF7822",
     "theme_color": "#EF7822",
-    "description": "A multi-restaurant e-commerce web app.",
+    "description": "Um aplicativo web de e-commerce para vários restaurantes.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

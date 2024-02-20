@@ -196,7 +196,7 @@ com.pichillilorenzo.flutter_inappwebview.types.DownloadStartRequest
 androidx.window.embedding.SplitRuleParser
 com.pichillilorenzo.flutter_inappwebview.in_app_webview.InAppWebViewChromeClient$18
 com.google.firebase.concurrent.ExecutorsRegistrar
-com.sixamtech.stack_food.MainActivity
+com.pedelogo.pede_logo.MainActivity
 com.pichillilorenzo.flutter_inappwebview.plugin_scripts_js.InterceptFetchRequestJS
 com.dexterous.flutterlocalnotifications.models.styles.MessagingStyleInformation
 com.pichillilorenzo.flutter_inappwebview.content_blocker.ContentBlockerTriggerResourceType
@@ -8442,7 +8442,7 @@ androidx.core.app.RemoteInput$Api26Impl: void addDataResultToIntent(androidx.cor
 androidx.core.app.ActivityCompat$Api21Impl: void setEnterSharedElementCallback(android.app.Activity,android.app.SharedElementCallback)
 androidx.fragment.app.FragmentActivity: void onActivityResult(int,int,android.content.Intent)
 io.flutter.embedding.engine.mutatorsstack.FlutterMutatorsStack$FlutterMutatorType: io.flutter.embedding.engine.mutatorsstack.FlutterMutatorsStack$FlutterMutatorType valueOf(java.lang.String)
-com.sixamtech.stack_food.MainActivity: MainActivity()
+com.pedelogo.pede_logo.MainActivity: MainActivity()
 androidx.activity.ComponentActivity: void removeOnContextAvailableListener(androidx.activity.contextaware.OnContextAvailableListener)
 com.pichillilorenzo.flutter_inappwebview.JavaScriptBridgeInterface$1: void run()
 com.dexterous.flutterlocalnotifications.FlutterLocalNotificationsPlugin: void repeat(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result)

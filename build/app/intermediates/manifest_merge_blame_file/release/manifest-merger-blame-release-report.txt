@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.sixamtech.stack_food"
+3    package="com.pedelogo.pede_logo"
 4    android:versionCode="4001"
 5    android:versionName="1.0.0" >
 6
@@ -143,12 +143,12 @@
 75
 76    <permission
 76-->[androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
-77        android:name="com.sixamtech.stack_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+77        android:name="com.pedelogo.pede_logo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 77-->[androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 78        android:protectionLevel="signature" />
 78-->[androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 79
-80    <uses-permission android:name="com.sixamtech.stack_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+80    <uses-permission android:name="com.pedelogo.pede_logo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 80-->[androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 80-->[androidx.core:core:1.10.1] /home/mauricio/.gradle/caches/transforms-3/a774af37300be4187dad3b9ede8d4e64/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 81    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
@@ -178,7 +178,7 @@
 93
 94        <activity
 94-->/home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:35:9-79:20
-95            android:name="com.sixamtech.stack_food.MainActivity"
+95            android:name="com.pedelogo.pede_logo.MainActivity"
 95-->/home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:36:13-41
 96            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 96-->/home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:39:13-163
@@ -333,7 +333,7 @@
 181
 182                <data
 182-->/home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:15:13-44
-183                    android:host="cct.com.sixamtech.stack_food"
+183                    android:host="cct.com.pedelogo.pede_logo"
 183-->/home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:76:21-49
 184                    android:scheme="fbconnect" />
 184-->/home/mauricio/Documents/ifoome/android/app/src/main/AndroidManifest.xml:15:19-41
@@ -503,7 +503,7 @@
 270-->[:firebase_messaging] /home/mauricio/Documents/ifoome/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
 271            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
 271-->[:firebase_messaging] /home/mauricio/Documents/ifoome/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
-272            android:authorities="com.sixamtech.stack_food.flutterfirebasemessaginginitprovider"
+272            android:authorities="com.pedelogo.pede_logo.flutterfirebasemessaginginitprovider"
 272-->[:firebase_messaging] /home/mauricio/Documents/ifoome/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
 273            android:exported="false"
 273-->[:firebase_messaging] /home/mauricio/Documents/ifoome/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
@@ -626,7 +626,7 @@
 335-->[:share_plus] /home/mauricio/Documents/ifoome/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:20
 336            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
 336-->[:share_plus] /home/mauricio/Documents/ifoome/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-77
-337            android:authorities="com.sixamtech.stack_food.flutter.share_provider"
+337            android:authorities="com.pedelogo.pede_logo.flutter.share_provider"
 337-->[:share_plus] /home/mauricio/Documents/ifoome/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-74
 338            android:exported="false"
 338-->[:share_plus] /home/mauricio/Documents/ifoome/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
@@ -661,7 +661,7 @@
 356-->[:image_picker_android] /home/mauricio/Documents/ifoome/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
 357            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
 357-->[:image_picker_android] /home/mauricio/Documents/ifoome/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
-358            android:authorities="com.sixamtech.stack_food.flutter.image_provider"
+358            android:authorities="com.pedelogo.pede_logo.flutter.image_provider"
 358-->[:image_picker_android] /home/mauricio/Documents/ifoome/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
 359            android:exported="false"
 359-->[:image_picker_android] /home/mauricio/Documents/ifoome/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
@@ -730,7 +730,7 @@
 396-->[com.google.firebase:firebase-common:20.4.2] /home/mauricio/.gradle/caches/transforms-3/22d16b9e465c0094c18a8e6a8b0e920a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
 397            android:name="com.google.firebase.provider.FirebaseInitProvider"
 397-->[com.google.firebase:firebase-common:20.4.2] /home/mauricio/.gradle/caches/transforms-3/22d16b9e465c0094c18a8e6a8b0e920a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-398            android:authorities="com.sixamtech.stack_food.firebaseinitprovider"
+398            android:authorities="com.pedelogo.pede_logo.firebaseinitprovider"
 398-->[com.google.firebase:firebase-common:20.4.2] /home/mauricio/.gradle/caches/transforms-3/22d16b9e465c0094c18a8e6a8b0e920a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
 399            android:directBootAware="true"
 399-->[com.google.firebase:firebase-common:20.4.2] /home/mauricio/.gradle/caches/transforms-3/22d16b9e465c0094c18a8e6a8b0e920a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
@@ -794,7 +794,7 @@
 432-->[androidx.emoji2:emoji2:1.2.0] /home/mauricio/.gradle/caches/transforms-3/4d9a2742d3686c77433b5768c97eb92c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 433            android:name="androidx.startup.InitializationProvider"
 433-->[androidx.emoji2:emoji2:1.2.0] /home/mauricio/.gradle/caches/transforms-3/4d9a2742d3686c77433b5768c97eb92c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-434            android:authorities="com.sixamtech.stack_food.androidx-startup"
+434            android:authorities="com.pedelogo.pede_logo.androidx-startup"
 434-->[androidx.emoji2:emoji2:1.2.0] /home/mauricio/.gradle/caches/transforms-3/4d9a2742d3686c77433b5768c97eb92c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 435            android:exported="false" >
 435-->[androidx.emoji2:emoji2:1.2.0] /home/mauricio/.gradle/caches/transforms-3/4d9a2742d3686c77433b5768c97eb92c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
@@ -830,7 +830,7 @@
 455-->[com.facebook.android:facebook-core:16.0.1] /home/mauricio/.gradle/caches/transforms-3/9809797b9dedf81f23bcc8a9bc159128/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:29:9-32:40
 456            android:name="com.facebook.internal.FacebookInitProvider"
 456-->[com.facebook.android:facebook-core:16.0.1] /home/mauricio/.gradle/caches/transforms-3/9809797b9dedf81f23bcc8a9bc159128/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:30:13-70
-457            android:authorities="com.sixamtech.stack_food.FacebookInitProvider"
+457            android:authorities="com.pedelogo.pede_logo.FacebookInitProvider"
 457-->[com.facebook.android:facebook-core:16.0.1] /home/mauricio/.gradle/caches/transforms-3/9809797b9dedf81f23bcc8a9bc159128/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:31:13-72
 458            android:exported="false" />
 458-->[com.facebook.android:facebook-core:16.0.1] /home/mauricio/.gradle/caches/transforms-3/9809797b9dedf81f23bcc8a9bc159128/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:32:13-37

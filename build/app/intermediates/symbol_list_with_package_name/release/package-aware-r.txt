@@ -1,4 +1,4 @@
-com.sixamtech.stack_food
+com.pedelogo.pede_logo
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
