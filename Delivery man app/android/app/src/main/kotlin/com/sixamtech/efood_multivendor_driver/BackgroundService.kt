@@ -1,4 +1,4 @@
-package com.sixamtech.stack_food_delivery
+package com.pedelogo.pede_entregador
 
 import android.app.Service
 import android.content.Context
@@ -90,7 +90,7 @@ class BackgroundService : Service(), LifecycleDetector.Listener {
     }
 
     companion object {
-        private const val SHARED_PREFERENCES_NAME = "com.sixamtech.stack_food_delivery"
+        private const val SHARED_PREFERENCES_NAME = "com.pedelogo.pede_entregador"
 
         private const val KEY_CALLBACK_RAW_HANDLE = "callbackRawHandle"
 

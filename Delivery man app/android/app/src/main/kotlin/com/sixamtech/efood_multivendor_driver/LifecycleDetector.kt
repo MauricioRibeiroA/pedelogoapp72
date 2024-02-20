@@ -1,4 +1,4 @@
-package com.sixamtech.stack_food_delivery
+package com.pedelogo.pede_entregador
 
 import android.app.Activity
 import android.app.Application
