@@ -3,1376 +3,816 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-61.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-61.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "_flutterfire_internals",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/_flutterfire_internals-1.3.12",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/_flutterfire_internals-1.3.12",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "analyzer",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/analyzer-5.13.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-5.13.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "animated_flip_counter",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/animated_flip_counter-0.2.6",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/animated_flip_counter-0.2.6",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "archive",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/archive-3.4.9",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/archive-3.4.9",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "args",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/args-2.4.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.4.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "async",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/async-2.11.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.11.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "audio_session",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/audio_session-0.1.18",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/audio_session-0.1.18",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "boolean_selector",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/boolean_selector-2.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "cached_network_image",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/cached_network_image-3.3.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/cached_network_image-3.3.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "cached_network_image_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/cached_network_image_platform_interface-3.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/cached_network_image_platform_interface-3.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "cached_network_image_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/cached_network_image_web-1.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/cached_network_image_web-1.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "card_swiper",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/card_swiper-2.0.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/card_swiper-2.0.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "carousel_slider",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/carousel_slider-4.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/carousel_slider-4.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "characters",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/characters-1.3.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.3.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "charcode",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/charcode-1.3.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/charcode-1.3.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "chewie",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/chewie-1.5.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/chewie-1.5.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.13"
     },
     {
       "name": "clock",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/clock-1.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "collection",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/collection-1.18.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.18.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "connectivity",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/connectivity-3.0.6",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity-3.0.6",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "connectivity_for_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/connectivity_for_web-0.4.0+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_for_web-0.4.0+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "connectivity_macos",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/connectivity_macos-0.2.1+2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_macos-0.2.1+2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "connectivity_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/connectivity_platform_interface-2.0.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_platform_interface-2.0.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "convert",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/convert-3.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/convert-3.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "country_code_picker",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/country_code_picker-2.0.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/country_code_picker-2.0.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "cross_file",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/cross_file-0.3.3+6",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/cross_file-0.3.3+6",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "crypto",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/crypto-3.0.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "csslib",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/csslib-0.17.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/csslib-0.17.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "cupertino_icons",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.6",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.6",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "custom_map_markers",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/custom_map_markers-0.0.2+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/custom_map_markers-0.0.2+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "dbus",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/dbus-0.7.10",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/dbus-0.7.10",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "dotted_border",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/dotted_border-2.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/dotted_border-2.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "expandable_bottom_sheet",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/expandable_bottom_sheet-1.1.1+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/expandable_bottom_sheet-1.1.1+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "facebook_auth_desktop",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/facebook_auth_desktop-0.0.9",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/facebook_auth_desktop-0.0.9",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fading_edge_scrollview",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fading_edge_scrollview-3.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fading_edge_scrollview-3.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fake_async",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "ffi",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/ffi-2.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "file",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/file-6.1.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/file-6.1.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "file_picker",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/file_picker-5.2.10",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/file_picker-5.2.10",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "file_selector_linux",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.2+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_linux-0.9.2+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "file_selector_macos",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.3+3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_macos-0.9.3+3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "file_selector_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/file_selector_platform_interface-2.6.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_platform_interface-2.6.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "file_selector_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_windows-0.9.3+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "firebase_core",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/firebase_core-2.22.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-2.22.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_core_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/firebase_core_platform_interface-5.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_platform_interface-5.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_core_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/firebase_core_web-2.8.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_web-2.8.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_crashlytics",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.4.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_crashlytics-3.4.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_crashlytics_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/firebase_crashlytics_platform_interface-3.6.12",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_crashlytics_platform_interface-3.6.12",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_messaging",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/firebase_messaging-14.7.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_messaging-14.7.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_messaging_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/firebase_messaging_platform_interface-4.5.13",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_messaging_platform_interface-4.5.13",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_messaging_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/firebase_messaging_web-3.5.13",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_messaging_web-3.5.13",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "flutter",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/snap/flutter/common/flutter/packages/flutter",
-=======
-      "rootUri": "file:///C:/sdk/flutter/packages/flutter",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_cache_manager",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_cache_manager-3.3.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_cache_manager-3.3.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "flutter_facebook_auth",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_facebook_auth-5.0.11",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_facebook_auth-5.0.11",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "flutter_facebook_auth_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_facebook_auth_platform_interface-4.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_facebook_auth_platform_interface-4.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_facebook_auth_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_facebook_auth_web-4.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_facebook_auth_web-4.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_html",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_html-3.0.0-alpha.5",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_html-3.0.0-alpha.5",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_image_compress",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_image_compress-1.1.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_image_compress-1.1.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_inappwebview",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_inappwebview-5.8.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "flutter_keyboard_visibility",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_linux",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_linux-1.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_keyboard_visibility_linux-1.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_macos",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_macos-1.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_keyboard_visibility_macos-1.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_platform_interface-2.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_keyboard_visibility_platform_interface-2.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_web-2.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_keyboard_visibility_web-2.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_windows-1.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_keyboard_visibility_windows-1.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_lints",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "flutter_local_notifications",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_local_notifications-13.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_local_notifications-13.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "flutter_local_notifications_linux",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_local_notifications_linux-3.0.0+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_local_notifications_linux-3.0.0+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "flutter_local_notifications_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_local_notifications_platform_interface-6.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_local_notifications_platform_interface-6.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_localizations",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/snap/flutter/common/flutter/packages/flutter_localizations",
-=======
-      "rootUri": "file:///C:/sdk/flutter/packages/flutter_localizations",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_plugin_android_lifecycle",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "flutter_secure_storage",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_secure_storage-8.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage-8.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_secure_storage_linux",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_secure_storage_linux-1.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_linux-1.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_secure_storage_macos",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_secure_storage_macos-3.0.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_macos-3.0.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_secure_storage_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_secure_storage_platform_interface-1.0.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_platform_interface-1.0.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_secure_storage_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_secure_storage_web-1.1.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_web-1.1.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_secure_storage_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_secure_storage_windows-2.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_windows-2.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_slidable",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_slidable-3.0.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_slidable-3.0.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "flutter_svg",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_svg-1.1.6",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-1.1.6",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "flutter_test",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/snap/flutter/common/flutter/packages/flutter_test",
-=======
-      "rootUri": "file:///C:/sdk/flutter/packages/flutter_test",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_typeahead",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_typeahead-4.8.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_typeahead-4.8.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "flutter_web_plugins",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/snap/flutter/common/flutter/packages/flutter_web_plugins",
-=======
-      "rootUri": "file:///C:/sdk/flutter/packages/flutter_web_plugins",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_widget_from_html",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_widget_from_html-0.8.5",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_widget_from_html-0.8.5",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "flutter_widget_from_html_core",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/flutter_widget_from_html_core-0.8.5+3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_widget_from_html_core-0.8.5+3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fluttertoast",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fluttertoast-8.2.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fluttertoast-8.2.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fwfh_cached_network_image",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fwfh_cached_network_image-0.7.0+7",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fwfh_cached_network_image-0.7.0+7",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "fwfh_chewie",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fwfh_chewie-0.7.1+4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fwfh_chewie-0.7.1+4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "fwfh_just_audio",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fwfh_just_audio-0.6.2+2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fwfh_just_audio-0.6.2+2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fwfh_selectable_text",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fwfh_selectable_text-0.8.3+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fwfh_selectable_text-0.8.3+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fwfh_svg",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fwfh_svg-0.7.2+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fwfh_svg-0.7.2+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "fwfh_text_style",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fwfh_text_style-2.23.8",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fwfh_text_style-2.23.8",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "fwfh_url_launcher",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fwfh_url_launcher-0.6.1+3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fwfh_url_launcher-0.6.1+3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fwfh_webview",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/fwfh_webview-0.6.2+5",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/fwfh_webview-0.6.2+5",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "geolocator",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/geolocator-9.0.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/geolocator-9.0.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "geolocator_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/geolocator_android-4.4.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/geolocator_android-4.4.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "geolocator_apple",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/geolocator_apple-2.3.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/geolocator_apple-2.3.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "geolocator_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/geolocator_platform_interface-4.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/geolocator_platform_interface-4.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "geolocator_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/geolocator_web-2.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/geolocator_web-2.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "geolocator_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/geolocator_windows-0.1.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/geolocator_windows-0.1.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "get",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/get-4.6.6",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/get-4.6.6",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "glob",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/glob-2.1.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/glob-2.1.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "google_maps",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_maps-6.3.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps-6.3.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "google_maps_flutter",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_maps_flutter-2.2.8",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter-2.2.8",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "google_maps_flutter_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_maps_flutter_android-2.5.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_android-2.5.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "google_maps_flutter_ios",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_maps_flutter_ios-2.3.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_ios-2.3.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "google_maps_flutter_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_maps_flutter_platform_interface-2.4.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_platform_interface-2.4.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "google_maps_flutter_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_maps_flutter_web-0.4.0+9",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_web-0.4.0+9",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "google_sign_in",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_sign_in-5.4.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in-5.4.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "google_sign_in_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.20",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_android-6.1.20",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "google_sign_in_ios",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.6.5",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_ios-5.6.5",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "google_sign_in_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "google_sign_in_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/google_sign_in_web-0.10.2+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_web-0.10.2+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "html",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/html-0.15.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/html-0.15.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "http",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/http-0.13.6",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/http-0.13.6",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "http_parser",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "image",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image-4.1.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image-4.1.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "image_compression",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_compression-1.0.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_compression-1.0.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "image_compression_flutter",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_compression_flutter-1.0.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_compression_flutter-1.0.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "image_picker",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_picker-0.8.9",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker-0.8.9",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "image_picker_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_picker_android-0.8.8+2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_android-0.8.8+2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_for_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_picker_for_web-2.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_for_web-2.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "image_picker_ios",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.8+4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_ios-0.8.8+4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_linux",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.1+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_linux-0.2.1+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_macos",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.1+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_macos-0.2.1+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_picker_platform_interface-2.9.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_platform_interface-2.9.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.1+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_windows-0.2.1+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "intl",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/intl-0.18.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "js",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/js-0.6.7",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "js_wrapping",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/js_wrapping-0.7.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/js_wrapping-0.7.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "just_audio",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/just_audio-0.9.36",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/just_audio-0.9.36",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "just_audio_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/just_audio_platform_interface-4.2.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/just_audio_platform_interface-4.2.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "just_audio_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/just_audio_web-0.4.9",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/just_audio_web-0.4.9",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "just_the_tooltip",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/just_the_tooltip-0.0.12",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/just_the_tooltip-0.0.12",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
-<<<<<<< HEAD
       "name": "lints",
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/lints-2.1.1",
-=======
-      "name": "leak_tracker",
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "leak_tracker_testing",
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "lints",
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "marquee",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/marquee-2.2.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/marquee-2.2.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "matcher",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/matcher-0.12.16",
       "packageUri": "lib/",
       "languageVersion": "2.18"
@@ -1380,101 +820,59 @@
     {
       "name": "material_color_utilities",
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.16+1",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "material_color_utilities",
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.8.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/meta-1.10.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.11.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "meta_seo",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/meta_seo-3.0.7",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/meta_seo-3.0.7",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "mime",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/mime-1.0.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/mime-1.0.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "modal_bottom_sheet",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/modal_bottom_sheet-3.0.0-pre",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/modal_bottom_sheet-3.0.0-pre",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "nested",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/nested-1.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/nested-1.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "numerus",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/numerus-1.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/numerus-1.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "octo_image",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/octo_image-2.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/octo_image-2.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "package_config",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/package_config-2.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/package_config-2.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
@@ -1482,902 +880,534 @@
     {
       "name": "path_drawing",
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path_drawing-1.0.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "path_drawing",
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path_drawing-1.0.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path_parsing",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path_parsing-1.0.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path_parsing-1.0.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path_provider",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path_provider-2.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider-2.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "path_provider_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path_provider_android-2.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_android-2.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "path_provider_foundation",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_foundation-2.3.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "path_provider_linux",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "path_provider_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_platform_interface-2.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "path_provider_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "petitparser",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/petitparser-6.0.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-6.0.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "phone_number",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/phone_number-1.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/phone_number-1.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "photo_view",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/photo_view-0.14.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/photo_view-0.14.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "pigeon",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/pigeon-11.0.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/pigeon-11.0.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "pin_code_fields",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/pin_code_fields-7.4.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/pin_code_fields-7.4.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "platform",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/platform-3.1.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "plugin_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.7",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.7",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "pointer_interceptor",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/pointer_interceptor-0.9.3+7",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/pointer_interceptor-0.9.3+7",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "pointycastle",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/pointycastle-3.7.3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/pointycastle-3.7.3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "process",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/process-4.2.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/process-4.2.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "provider",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/provider-6.1.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.1.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "pub_semver",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/pub_semver-2.1.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/pub_semver-2.1.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "quiver",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/quiver-3.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/quiver-3.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "rxdart",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/rxdart-0.27.7",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/rxdart-0.27.7",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sanitize_html",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/sanitize_html-2.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/sanitize_html-2.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "share_plus",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/share_plus-6.3.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus-6.3.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "share_plus_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/share_plus_platform_interface-3.3.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus_platform_interface-3.3.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "shared_preferences",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/shared_preferences-2.2.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences-2.2.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "shared_preferences_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/shared_preferences_android-2.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_android-2.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "shared_preferences_foundation",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_foundation-2.3.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "shared_preferences_linux",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.3.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_linux-2.3.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "shared_preferences_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/shared_preferences_platform_interface-2.3.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_platform_interface-2.3.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "shared_preferences_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/shared_preferences_web-2.2.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_web-2.2.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "shared_preferences_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.3.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_windows-2.3.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "shimmer_animation",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/shimmer_animation-2.1.0+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/shimmer_animation-2.1.0+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sign_in_with_apple",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/sign_in_with_apple-4.3.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/sign_in_with_apple-4.3.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sign_in_with_apple_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/sign_in_with_apple_platform_interface-1.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/sign_in_with_apple_platform_interface-1.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sign_in_with_apple_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/sign_in_with_apple_web-1.0.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/sign_in_with_apple_web-1.0.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sky_engine",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/snap/flutter/common/flutter/bin/cache/pkg/sky_engine",
-=======
-      "rootUri": "file:///C:/sdk/flutter/bin/cache/pkg/sky_engine",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "source_span",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/source_span-1.10.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "sprintf",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/sprintf-7.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sqflite",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/sqflite-2.3.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite-2.3.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "sqflite_common",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/sqflite_common-2.5.0+2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common-2.5.0+2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "stack_trace",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/stream_channel-2.1.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "stream_transform",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/stream_transform-2.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/stream_transform-2.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "string_scanner",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "syncfusion_flutter_core",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/syncfusion_flutter_core-23.2.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_core-23.2.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_flutter_datepicker",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/syncfusion_flutter_datepicker-23.2.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_datepicker-23.2.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "synchronized",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/synchronized-3.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/synchronized-3.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "term_glyph",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "test_api",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/test_api-0.6.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.6.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "timezone",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/timezone-0.9.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/timezone-0.9.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "typed_data",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.3.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "uni_links",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/uni_links-0.5.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/uni_links-0.5.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "uni_links_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/uni_links_platform_interface-1.0.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/uni_links_platform_interface-1.0.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "uni_links_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/uni_links_web-0.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/uni_links_web-0.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "universal_html",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/universal_html-2.2.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/universal_html-2.2.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "universal_io",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/universal_io-2.2.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/universal_io-2.2.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "universal_platform",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/universal_platform-1.0.0+1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/universal_platform-1.0.0+1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "url_launcher",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_launcher-6.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher-6.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "url_launcher_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_launcher_android-6.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_launcher_ios",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_launcher_ios-6.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_ios-6.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "url_launcher_linux",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_launcher_linux-3.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_linux-3.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_launcher_macos",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_launcher_macos-3.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_macos-3.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_launcher_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_launcher_platform_interface-2.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_platform_interface-2.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_launcher_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_launcher_web-2.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_web-2.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "url_launcher_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_windows-3.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_strategy",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/url_strategy-0.2.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/url_strategy-0.2.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "uuid",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/uuid-4.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "vector_math",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "video_player",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/video_player-2.8.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/video_player-2.8.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "video_player_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/video_player_android-2.4.10",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/video_player_android-2.4.10",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "video_player_avfoundation",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/video_player_avfoundation-2.5.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "video_player_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/video_player_platform_interface-6.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/video_player_platform_interface-6.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "video_player_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/video_player_web-2.1.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/video_player_web-2.1.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
-<<<<<<< HEAD
       "name": "wakelock",
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/wakelock-0.6.2",
-=======
-      "name": "vm_service",
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-13.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "wakelock",
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/wakelock-0.6.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "wakelock_macos",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/wakelock_macos-0.4.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/wakelock_macos-0.4.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "wakelock_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/wakelock_platform_interface-0.3.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/wakelock_platform_interface-0.3.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "wakelock_web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/wakelock_web-0.4.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/wakelock_web-0.4.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "wakelock_windows",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/wakelock_windows-0.2.1",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/wakelock_windows-0.2.1",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "watcher",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/watcher-1.1.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/watcher-1.1.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "web",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/web-0.3.0",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.3.0",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "webview_flutter",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/webview_flutter-3.0.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/webview_flutter-3.0.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "webview_flutter_android",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/webview_flutter_android-2.10.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/webview_flutter_android-2.10.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "webview_flutter_platform_interface",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/webview_flutter_platform_interface-1.9.5",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/webview_flutter_platform_interface-1.9.5",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "webview_flutter_wkwebview",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-2.9.5",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/webview_flutter_wkwebview-2.9.5",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "win32",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/win32-3.1.4",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/win32-3.1.4",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "xdg_directories",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/xdg_directories-0.2.0+3",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/xdg_directories-0.2.0+3",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "xml",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/xml-6.4.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.4.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "yaml",
-<<<<<<< HEAD
       "rootUri": "file:///home/mauricio/.pub-cache/hosted/pub.dev/yaml-3.1.2",
-=======
-      "rootUri": "file:///C:/Users/romeu/AppData/Local/Pub/Cache/hosted/pub.dev/yaml-3.1.2",
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -2388,13 +1418,7 @@
       "languageVersion": "3.0"
     }
   ],
-<<<<<<< HEAD
-  "generated": "2024-02-20T14:40:28.607625Z",
+  "generated": "2024-02-20T16:09:47.220451Z",
   "generator": "pub",
   "generatorVersion": "3.2.6"
-=======
-  "generated": "2024-02-20T14:16:31.153189Z",
-  "generator": "pub",
-  "generatorVersion": "3.3.0"
->>>>>>> 7935231dfdee51578a462bb9f381bfae438da98d
 }
