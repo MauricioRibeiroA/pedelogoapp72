@@ -221,6 +221,11 @@ class AppConstants {
   /// Languages
   static List<LanguageModel> languages = [
     LanguageModel(
+        imageUrl: Images.portuguese,
+        languageName: 'Português',
+        countryCode: 'BR',
+        languageCode: 'pt'),
+    LanguageModel(
         imageUrl: Images.english,
         languageName: 'English',
         countryCode: 'US',
@@ -230,11 +235,6 @@ class AppConstants {
         languageName: 'Spanish',
         countryCode: 'ES',
         languageCode: 'es'),
-    LanguageModel(
-        imageUrl: Images.portuguese,
-        languageName: 'Portugues',
-        countryCode: 'BR',
-        languageCode: 'pt'),
   ];
 
   static List<String> joinDropdown = [
