@@ -8,7 +8,7 @@ class AppConstants {
 
   static const String fontFamily = 'Roboto';
   static const bool payInWevView = false;
-  static const String webHostedUrl = 'https://stackfood-web.6amtech.com';
+  static const String webHostedUrl = 'https://web.pedelogo.com';
 
   static const String baseUrl = 'https://pedelogo.com';
   static const String categoryUri = '/api/v1/categories';

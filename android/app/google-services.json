@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1049699819506",
-    "project_id": "stackfood-bd3ee",
-    "storage_bucket": "stackfood-bd3ee.appspot.com"
+    "project_number": "1042917200218",
+    "project_id": "pedelogo-3f824",
+    "storage_bucket": "pedelogo-3f824.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1049699819506:android:c80cf797b22c81f089956b",
+        "mobilesdk_app_id": "1:1042917200218:android:4d9c5710c1ecddb7736363",
         "android_client_info": {
-          "package_name": "com.sixamtech.stack_food"
+          "package_name": "com.pedelogo.cliente"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1049699819506-r9agjij7oigjssbffc2g6i2glegb21io.apps.googleusercontent.com",
+          "client_id": "1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBScz65YN8J9YoKdtKPl4ecCB3Vkc7iNL8"
+          "current_key": "AIzaSyDLNS40sKR90kt0_lrr26aFXXriWhPB3e8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1049699819506-r9agjij7oigjssbffc2g6i2glegb21io.apps.googleusercontent.com",
+              "client_id": "1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -36,27 +36,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1049699819506:android:490a8d64ef54403889956b",
+        "mobilesdk_app_id": "1:1042917200218:android:7e7f25c250ff448e736363",
         "android_client_info": {
-          "package_name": "com.sixamtech.stack_food_delivery"
+          "package_name": "com.pedelogo.restaurante"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1049699819506-r9agjij7oigjssbffc2g6i2glegb21io.apps.googleusercontent.com",
+          "client_id": "1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBScz65YN8J9YoKdtKPl4ecCB3Vkc7iNL8"
+          "current_key": "AIzaSyDLNS40sKR90kt0_lrr26aFXXriWhPB3e8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1049699819506-r9agjij7oigjssbffc2g6i2glegb21io.apps.googleusercontent.com",
+              "client_id": "1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
