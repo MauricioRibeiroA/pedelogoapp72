@@ -4,7 +4,6 @@ import 'package:efood_multivendor/util/dimensions.dart';
 import 'package:efood_multivendor/util/styles.dart';
 import 'package:efood_multivendor/view/base/code_picker_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:country_dial_code/country_dial_code.dart';
 import 'package:flutter/services.dart';
 
 class CustomTextField extends StatefulWidget {
