@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:firebase_messaging::release"
-      jars="/home/mauricio/Documents/ifoome/build/firebase_messaging/.transforms/170924000ee7d1e80a53c89d06a5b30e/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_messaging::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/firebase_messaging/.transforms/89e86ad8216d089c41152856a513791a/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebasemessaging:firebase_messaging:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/firebase_messaging/.transforms/170924000ee7d1e80a53c89d06a5b30e/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/firebase_messaging/.transforms/89e86ad8216d089c41152856a513791a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:firebase_core::release"
-      jars="/home/mauricio/Documents/ifoome/build/firebase_core/.transforms/eee948cab696548b6c840d0b8274072c/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_core::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/firebase_core/.transforms/9fc756a1cfa32c2b896560234ae56216/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/firebase_core/.transforms/eee948cab696548b6c840d0b8274072c/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/firebase_core/.transforms/9fc756a1cfa32c2b896560234ae56216/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:geolocator_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/geolocator_android/.transforms/b61306959263bad17dddf71e9699d8c4/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:geolocator_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/geolocator_android/.transforms/d17a3b507cddee7781251908050ea308/transformed/out/jars/classes.jar"
       resolved="com.baseflow.geolocator:geolocator_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/geolocator_android/.transforms/b61306959263bad17dddf71e9699d8c4/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/geolocator_android/.transforms/d17a3b507cddee7781251908050ea308/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:flutter_local_notifications::release"
-      jars="/home/mauricio/Documents/ifoome/build/flutter_local_notifications/.transforms/921e43c7d2f60488ae23af627796e840/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_local_notifications::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/flutter_local_notifications/.transforms/f2a60e262d55bff47b365fa9f0c59ce9/transformed/out/jars/classes.jar"
       resolved="com.dexterous.flutterlocalnotifications:flutter_local_notifications:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/flutter_local_notifications/.transforms/921e43c7d2f60488ae23af627796e840/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/flutter_local_notifications/.transforms/f2a60e262d55bff47b365fa9f0c59ce9/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:file_picker::release"
-      jars="/home/mauricio/Documents/ifoome/build/file_picker/.transforms/a5db766ee173d16c4f23d423e2d538af/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:file_picker::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/file_picker/.transforms/595de30661138041ae6510573cda6938/transformed/out/jars/classes.jar"
       resolved="com.mr.flutter.plugin.filepicker:file_picker:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/file_picker/.transforms/a5db766ee173d16c4f23d423e2d538af/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/file_picker/.transforms/595de30661138041ae6510573cda6938/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:path_provider_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/path_provider_android/.transforms/f68e4d0944b7a02fd49364f053d2a361/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:path_provider_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/path_provider_android/.transforms/5f650481b8090ce014d9890afd98ac1d/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/path_provider_android/.transforms/f68e4d0944b7a02fd49364f053d2a361/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/path_provider_android/.transforms/5f650481b8090ce014d9890afd98ac1d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +82,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:flutter_secure_storage::release"
-      jars="/home/mauricio/Documents/ifoome/build/flutter_secure_storage/.transforms/19622f6f682a90dabd94117f0d981eaa/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_secure_storage::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/flutter_secure_storage/.transforms/5437840afeefc4a2e08935cd8b563a1a/transformed/out/jars/classes.jar"
       resolved="com.it_nomads.fluttersecurestorage:flutter_secure_storage:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/flutter_secure_storage/.transforms/19622f6f682a90dabd94117f0d981eaa/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/flutter_secure_storage/.transforms/5437840afeefc4a2e08935cd8b563a1a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:flutter_facebook_auth::release"
-      jars="/home/mauricio/Documents/ifoome/build/flutter_facebook_auth/.transforms/4b39bd1b3dd16be5e959c7905f063dae/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_facebook_auth::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/flutter_facebook_auth/.transforms/3f9652ede7d7b3859936d9920b7aa397/transformed/out/jars/classes.jar"
       resolved="app.meedu.flutter_facebook_auth:flutter_facebook_auth:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/flutter_facebook_auth/.transforms/4b39bd1b3dd16be5e959c7905f063dae/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/flutter_facebook_auth/.transforms/3f9652ede7d7b3859936d9920b7aa397/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -108,10 +108,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:wakelock::release"
-      jars="/home/mauricio/Documents/ifoome/build/wakelock/.transforms/4ce7c53436b55c1dd62ade36b31368ed/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:wakelock::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/wakelock/.transforms/8cd4668dd71084704876b47bec2d071b/transformed/out/jars/classes.jar"
       resolved="creativemaybeno.wakelock:wakelock:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/wakelock/.transforms/4ce7c53436b55c1dd62ade36b31368ed/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/wakelock/.transforms/8cd4668dd71084704876b47bec2d071b/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -121,10 +121,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:just_audio::release"
-      jars="/home/mauricio/Documents/ifoome/build/just_audio/.transforms/5df8214d503602e7fe33f3b92af59b3e/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:just_audio::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/just_audio/.transforms/32f2640e6c8ce4d0d85859ce99cf8895/transformed/out/jars/classes.jar"
       resolved="com.ryanheise.just_audio:just_audio:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/just_audio/.transforms/5df8214d503602e7fe33f3b92af59b3e/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/just_audio/.transforms/32f2640e6c8ce4d0d85859ce99cf8895/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -134,10 +134,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:shared_preferences_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/shared_preferences_android/.transforms/45df7f67faccc78489af9641fabedd03/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:shared_preferences_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/shared_preferences_android/.transforms/4b5f222ed033746c84ce00f753b6ab26/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/shared_preferences_android/.transforms/45df7f67faccc78489af9641fabedd03/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/shared_preferences_android/.transforms/4b5f222ed033746c84ce00f753b6ab26/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -147,10 +147,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:flutter_inappwebview::release"
-      jars="/home/mauricio/Documents/ifoome/build/flutter_inappwebview/.transforms/da236f85c745cfc57978b06876f5eaa2/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_inappwebview::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/.transforms/4aaa1af25ec6012590fa86a90b8792cb/transformed/out/jars/classes.jar"
       resolved="com.pichillilorenzo.flutter_inappwebview:flutter_inappwebview:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/flutter_inappwebview/.transforms/da236f85c745cfc57978b06876f5eaa2/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/.transforms/4aaa1af25ec6012590fa86a90b8792cb/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -160,10 +160,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:connectivity::release"
-      jars="/home/mauricio/Documents/ifoome/build/connectivity/.transforms/364ba104e66b5e2bea348050921432d8/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:connectivity::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/connectivity/.transforms/479dc42770e6e3e8dd081ede6f73cf4a/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.connectivity:connectivity:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/connectivity/.transforms/364ba104e66b5e2bea348050921432d8/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/connectivity/.transforms/479dc42770e6e3e8dd081ede6f73cf4a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -173,10 +173,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:share_plus::release"
-      jars="/home/mauricio/Documents/ifoome/build/share_plus/.transforms/9314a7557922e897b4825d6ffce85c00/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:share_plus::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/share_plus/.transforms/e54120f12e417e0330cb278152d05621/transformed/out/jars/classes.jar"
       resolved="dev.fluttercommunity.plus.share:share_plus:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/share_plus/.transforms/9314a7557922e897b4825d6ffce85c00/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/share_plus/.transforms/e54120f12e417e0330cb278152d05621/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -186,10 +186,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:flutter_keyboard_visibility::release"
-      jars="/home/mauricio/Documents/ifoome/build/flutter_keyboard_visibility/.transforms/c4b61a20a16481bb8f18fbaf64778652/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_keyboard_visibility::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/flutter_keyboard_visibility/.transforms/94e65a4d34586346a6a04771a7463c2a/transformed/out/jars/classes.jar"
       resolved="com.jrai.flutter_keyboard_visibility:flutter_keyboard_visibility:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/flutter_keyboard_visibility/.transforms/c4b61a20a16481bb8f18fbaf64778652/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/flutter_keyboard_visibility/.transforms/94e65a4d34586346a6a04771a7463c2a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -199,10 +199,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:fluttertoast::release"
-      jars="/home/mauricio/Documents/ifoome/build/fluttertoast/.transforms/aeea80da0de84c071e0f39bac4cd4e7b/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_image_compress_common::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/flutter_image_compress_common/.transforms/7a2b5e296ed001b416c19d7a40e3f157/transformed/out/jars/classes.jar"
+      resolved="com.fluttercandies.flutter_image_compress:flutter_image_compress_common:unspecified"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/flutter_image_compress_common/.transforms/7a2b5e296ed001b416c19d7a40e3f157/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:fluttertoast::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/fluttertoast/.transforms/64a74a702511c08d3799aa7bf3af28e7/transformed/out/jars/classes.jar"
       resolved="com.example.FlutterToast:fluttertoast:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/fluttertoast/.transforms/aeea80da0de84c071e0f39bac4cd4e7b/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/fluttertoast/.transforms/64a74a702511c08d3799aa7bf3af28e7/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -212,10 +225,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:image_picker_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/image_picker_android/.transforms/e7fa8e5720f63791bbdbc5c5f9c4a4eb/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:image_picker_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/image_picker_android/.transforms/9044e6ef7246a5af7eb933c36fdea504/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.imagepicker:image_picker_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/image_picker_android/.transforms/e7fa8e5720f63791bbdbc5c5f9c4a4eb/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/image_picker_android/.transforms/9044e6ef7246a5af7eb933c36fdea504/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -225,10 +238,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:uni_links::release"
-      jars="/home/mauricio/Documents/ifoome/build/uni_links/.transforms/dadf9d3491ecb87f164d24cc43726d30/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:uni_links::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/uni_links/.transforms/84b2570dbace2f10c4066d8037a3a1af/transformed/out/jars/classes.jar"
       resolved="name.avioli.unilinks:uni_links:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/uni_links/.transforms/dadf9d3491ecb87f164d24cc43726d30/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/uni_links/.transforms/84b2570dbace2f10c4066d8037a3a1af/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -238,10 +251,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:video_player_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/video_player_android/.transforms/5f81ec87540e365fc3ccf92f3d78a885/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:video_player_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/video_player_android/.transforms/ce4227d7a5d45c4f88e6a0cc84f3e657/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.videoplayer:video_player_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/video_player_android/.transforms/5f81ec87540e365fc3ccf92f3d78a885/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/video_player_android/.transforms/ce4227d7a5d45c4f88e6a0cc84f3e657/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -251,10 +264,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:sign_in_with_apple::release"
-      jars="/home/mauricio/Documents/ifoome/build/sign_in_with_apple/.transforms/85b92469453eee7b5c4b5820b22840ac/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:sign_in_with_apple::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/sign_in_with_apple/.transforms/f1e368e82278f6921c407c7a38357c8c/transformed/out/jars/classes.jar"
       resolved="com.aboutyou.dart_packages.sign_in_with_apple:sign_in_with_apple:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/sign_in_with_apple/.transforms/85b92469453eee7b5c4b5820b22840ac/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/sign_in_with_apple/.transforms/f1e368e82278f6921c407c7a38357c8c/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -264,10 +277,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:firebase_crashlytics::release"
-      jars="/home/mauricio/Documents/ifoome/build/firebase_crashlytics/.transforms/ec855531f04fb0e747eb37d68320e4fc/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_crashlytics::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/firebase_crashlytics/.transforms/72a4bbca71dd3666d1291aeab555a9cf/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.crashlytics:firebase_crashlytics:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/firebase_crashlytics/.transforms/ec855531f04fb0e747eb37d68320e4fc/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/firebase_crashlytics/.transforms/72a4bbca71dd3666d1291aeab555a9cf/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -277,10 +290,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:flutter_plugin_android_lifecycle::release"
-      jars="/home/mauricio/Documents/ifoome/build/flutter_plugin_android_lifecycle/.transforms/99053dcf4188810dcf3c26eec42a2cf2/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_plugin_android_lifecycle::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/flutter_plugin_android_lifecycle/.transforms/c1deff02e4aeb430daba900e2a1f8d3e/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/flutter_plugin_android_lifecycle/.transforms/99053dcf4188810dcf3c26eec42a2cf2/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/flutter_plugin_android_lifecycle/.transforms/c1deff02e4aeb430daba900e2a1f8d3e/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -290,10 +303,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:sqflite::release"
-      jars="/home/mauricio/Documents/ifoome/build/sqflite/.transforms/975eee3ce2210219497c3110b263a976/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:sqflite::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/sqflite/.transforms/bf36c2a47951c79319fd4a1a5d78b9cd/transformed/out/jars/classes.jar"
       resolved="com.tekartik.sqflite:sqflite:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/sqflite/.transforms/975eee3ce2210219497c3110b263a976/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/sqflite/.transforms/bf36c2a47951c79319fd4a1a5d78b9cd/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -303,10 +316,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:url_launcher_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/url_launcher_android/.transforms/5c3903029f8eca889271382789897473/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:url_launcher_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/url_launcher_android/.transforms/f5474264233d87c03ea2003370494cb8/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/url_launcher_android/.transforms/5c3903029f8eca889271382789897473/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/url_launcher_android/.transforms/f5474264233d87c03ea2003370494cb8/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -316,10 +329,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:google_maps_flutter_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/google_maps_flutter_android/.transforms/5cbb759c26cbda602b4073c35e04c39c/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:google_maps_flutter_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/google_maps_flutter_android/.transforms/ec04d810e5da7de4dc0bcb7b3ebee5ac/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.googlemaps:google_maps_flutter_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/google_maps_flutter_android/.transforms/5cbb759c26cbda602b4073c35e04c39c/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/google_maps_flutter_android/.transforms/ec04d810e5da7de4dc0bcb7b3ebee5ac/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -329,10 +342,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:google_sign_in_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/google_sign_in_android/.transforms/01ba69584f8e40fac753f6a1059cd889/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:google_sign_in_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/google_sign_in_android/.transforms/567b8d9dfc964116ac60e1a644ea8f29/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.googlesignin:google_sign_in_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/google_sign_in_android/.transforms/01ba69584f8e40fac753f6a1059cd889/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/google_sign_in_android/.transforms/567b8d9dfc964116ac60e1a644ea8f29/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -342,10 +355,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:webview_flutter_android::release"
-      jars="/home/mauricio/Documents/ifoome/build/webview_flutter_android/.transforms/5ff105e248cdf8e4370d7d5e448999d8/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:webview_flutter_android::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/webview_flutter_android/.transforms/13e49873b50498955a8f51ab82b68038/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.webviewflutter:webview_flutter_android:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/webview_flutter_android/.transforms/5ff105e248cdf8e4370d7d5e448999d8/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/webview_flutter_android/.transforms/13e49873b50498955a8f51ab82b68038/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -355,10 +368,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:image_compression_flutter::release"
-      jars="/home/mauricio/Documents/ifoome/build/image_compression_flutter/.transforms/4705e7d9095a1e18fd9f21830f344d38/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:image_compression_flutter::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/image_compression_flutter/.transforms/6e967f5d2b0e15d33151e66b48315d35/transformed/out/jars/classes.jar"
       resolved="id.co.eyro.image_compression_flutter:image_compression_flutter:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/image_compression_flutter/.transforms/4705e7d9095a1e18fd9f21830f344d38/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/image_compression_flutter/.transforms/6e967f5d2b0e15d33151e66b48315d35/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -368,10 +381,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:phone_number::release"
-      jars="/home/mauricio/Documents/ifoome/build/phone_number/.transforms/fe0a08de7e81c1dd415d9fa5b119f035/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:phone_number::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/phone_number/.transforms/5d35660e6b0613036b4567615f0dd35c/transformed/out/jars/classes.jar"
       resolved="com.julienvignali.phone_number:phone_number:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/phone_number/.transforms/fe0a08de7e81c1dd415d9fa5b119f035/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/phone_number/.transforms/5d35660e6b0613036b4567615f0dd35c/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -381,23 +394,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/mauricio/Documents/ifoome/android@@:audio_session::release"
-      jars="/home/mauricio/Documents/ifoome/build/audio_session/.transforms/976d19a185700d29b42e2ad7a51d5b3e/transformed/out/jars/classes.jar"
+      name="/home/mauricio/Documents/pedelogoapp72/android@@:audio_session::release"
+      jars="/home/mauricio/Documents/pedelogoapp72/build/audio_session/.transforms/3bc9c6c77edb592fcf891875c44df63c/transformed/out/jars/classes.jar"
       resolved="com.ryanheise.audio_session:audio_session:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/audio_session/.transforms/976d19a185700d29b42e2ad7a51d5b3e/transformed/out"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="/home/mauricio/Documents/ifoome/android@@:flutter_image_compress::release"
-      jars="/home/mauricio/Documents/ifoome/build/flutter_image_compress/.transforms/2eba94ae1070b3839a6af02a474f0d87/transformed/out/jars/classes.jar"
-      resolved="com.fluttercandies.flutter_image_compress:flutter_image_compress:unspecified"
-      folder="/home/mauricio/Documents/ifoome/build/flutter_image_compress/.transforms/2eba94ae1070b3839a6af02a474f0d87/transformed/out"
+      folder="/home/mauricio/Documents/pedelogoapp72/build/audio_session/.transforms/3bc9c6c77edb592fcf891875c44df63c/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -498,9 +498,9 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="io.flutter:flutter_embedding_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
-      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad/3c9a34a1ffaa848dd4569b483fcf5041eb3021d7/flutter_embedding_release-1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad.jar"
-      resolved="io.flutter:flutter_embedding_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad"/>
+      name="io.flutter:flutter_embedding_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
+      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-04817c99c9fd4956f27505204f7e344335810aed/32809c8dc647f1ac834899bf9e489202692ad1b2/flutter_embedding_release-1.0.0-04817c99c9fd4956f27505204f7e344335810aed.jar"
+      resolved="io.flutter:flutter_embedding_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed"/>
   <library
       name="com.google.firebase:firebase-iid-interop:17.1.0@aar"
       jars="/home/mauricio/.gradle/caches/transforms-3/e5e2898a1d4b79b8e66f3f012d94e8ab/transformed/jetified-firebase-iid-interop-17.1.0/jars/classes.jar"
@@ -829,17 +829,17 @@
       jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.22/4dabb8248310d833bb6a8b516024a91fd3d275c/kotlin-stdlib-jdk7-1.8.22.jar"
       resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22"/>
   <library
-      name="io.flutter:armeabi_v7a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
-      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/io.flutter/armeabi_v7a_release/1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad/df9b9eaa96dbaa275b765518104740999b1f62f2/armeabi_v7a_release-1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad.jar"
-      resolved="io.flutter:armeabi_v7a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad"/>
+      name="io.flutter:armeabi_v7a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
+      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/io.flutter/armeabi_v7a_release/1.0.0-04817c99c9fd4956f27505204f7e344335810aed/43c705a45bf4af2dd17d26bb2e23f79d4bc37513/armeabi_v7a_release-1.0.0-04817c99c9fd4956f27505204f7e344335810aed.jar"
+      resolved="io.flutter:armeabi_v7a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed"/>
   <library
-      name="io.flutter:arm64_v8a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
-      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/io.flutter/arm64_v8a_release/1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad/666908769339a27774ac74732b82a3ab7cf237c0/arm64_v8a_release-1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad.jar"
-      resolved="io.flutter:arm64_v8a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad"/>
+      name="io.flutter:arm64_v8a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
+      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/io.flutter/arm64_v8a_release/1.0.0-04817c99c9fd4956f27505204f7e344335810aed/ac2063ed943d55d78781745168a59aff3b27cdd2/arm64_v8a_release-1.0.0-04817c99c9fd4956f27505204f7e344335810aed.jar"
+      resolved="io.flutter:arm64_v8a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed"/>
   <library
-      name="io.flutter:x86_64_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
-      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/io.flutter/x86_64_release/1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad/83e83df69b392937515bb1a80c3dca3dfc897a5b/x86_64_release-1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad.jar"
-      resolved="io.flutter:x86_64_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad"/>
+      name="io.flutter:x86_64_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
+      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/io.flutter/x86_64_release/1.0.0-04817c99c9fd4956f27505204f7e344335810aed/9a40d6a486e44cdca88de950fef76ef42a2421d8/x86_64_release-1.0.0-04817c99c9fd4956f27505204f7e344335810aed.jar"
+      resolved="io.flutter:x86_64_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed"/>
   <library
       name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
       jars="/home/mauricio/.gradle/caches/transforms-3/0081d91bc2e153fc7ee24edd39846742/transformed/versionedparcelable-1.1.1/jars/classes.jar"
@@ -978,9 +978,9 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.annotation:annotation-jvm:1.7.0@jar"
-      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.7.0/920472d40adcdef5e18708976b3e314f9a636fcd/annotation-jvm-1.7.0.jar"
-      resolved="androidx.annotation:annotation-jvm:1.7.0"/>
+      name="androidx.annotation:annotation-jvm:1.7.1@jar"
+      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.7.1/920472d40adcdef5e18708976b3e314f9a636fcd/annotation-jvm-1.7.1.jar"
+      resolved="androidx.annotation:annotation-jvm:1.7.1"/>
   <library
       name="androidx.annotation:annotation-experimental:1.3.0@aar"
       jars="/home/mauricio/.gradle/caches/transforms-3/e393af8a7528b3b11c077a33523d9e48/transformed/jetified-annotation-experimental-1.3.0/jars/classes.jar"
@@ -995,13 +995,13 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar"
-      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.22/636bf8b320e7627482771bbac9ed7246773c02bd/kotlin-stdlib-1.8.22.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib:1.8.22"/>
+      name="org.jetbrains.kotlin:kotlin-stdlib:1.9.0@jar"
+      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.0/8ee15ef0c67dc83d874f412d84378d7f0eb50b63/kotlin-stdlib-1.9.0.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib:1.9.0"/>
   <library
-      name="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar"
-      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.22/1a8e3601703ae14bb58757ea6b2d8e8e5935a586/kotlin-stdlib-common-1.8.22.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22"/>
+      name="org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0@jar"
+      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.9.0/cd65c21cfd1eec4d44ef09f9f52b6d9f8a720636/kotlin-stdlib-common-1.9.0.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0"/>
   <library
       name="org.jetbrains:annotations:13.0@jar"
       jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
@@ -1036,10 +1036,10 @@
       jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
       resolved="javax.inject:javax.inject:1"/>
   <library
-      name="com.google.firebase:firebase-crashlytics:18.5.1@aar"
-      jars="/home/mauricio/.gradle/caches/transforms-3/b8c8c707a682484a88b7fb738cc3a9ac/transformed/jetified-firebase-crashlytics-18.5.1/jars/classes.jar"
-      resolved="com.google.firebase:firebase-crashlytics:18.5.1"
-      folder="/home/mauricio/.gradle/caches/transforms-3/b8c8c707a682484a88b7fb738cc3a9ac/transformed/jetified-firebase-crashlytics-18.5.1"
+      name="com.google.firebase:firebase-crashlytics:18.6.0@aar"
+      jars="/home/mauricio/.gradle/caches/transforms-3/7493475d0d8a8d3df3f36fd86ef48b88/transformed/jetified-firebase-crashlytics-18.6.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-crashlytics:18.6.0"
+      folder="/home/mauricio/.gradle/caches/transforms-3/7493475d0d8a8d3df3f36fd86ef48b88/transformed/jetified-firebase-crashlytics-18.6.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1062,10 +1062,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.firebase:firebase-sessions:1.1.0@aar"
-      jars="/home/mauricio/.gradle/caches/transforms-3/4f8177d6c1247716c2f72309a0066f77/transformed/jetified-firebase-sessions-1.1.0/jars/classes.jar"
-      resolved="com.google.firebase:firebase-sessions:1.1.0"
-      folder="/home/mauricio/.gradle/caches/transforms-3/4f8177d6c1247716c2f72309a0066f77/transformed/jetified-firebase-sessions-1.1.0"
+      name="com.google.firebase:firebase-sessions:1.2.0@aar"
+      jars="/home/mauricio/.gradle/caches/transforms-3/8a6205a767dde2ca013e9ef60ae0e676/transformed/jetified-firebase-sessions-1.2.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-sessions:1.2.0"
+      folder="/home/mauricio/.gradle/caches/transforms-3/8a6205a767dde2ca013e9ef60ae0e676/transformed/jetified-firebase-sessions-1.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1153,10 +1153,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.android.gms:play-services-location:21.0.1@aar"
-      jars="/home/mauricio/.gradle/caches/transforms-3/72b05d1507c08e0789f558b6df20f758/transformed/jetified-play-services-location-21.0.1/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-location:21.0.1"
-      folder="/home/mauricio/.gradle/caches/transforms-3/72b05d1507c08e0789f558b6df20f758/transformed/jetified-play-services-location-21.0.1"
+      name="com.google.android.gms:play-services-location:21.1.0@aar"
+      jars="/home/mauricio/.gradle/caches/transforms-3/2c39030831abc9a73774ae8eadce1761/transformed/jetified-play-services-location-21.1.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-location:21.1.0"
+      folder="/home/mauricio/.gradle/caches/transforms-3/2c39030831abc9a73774ae8eadce1761/transformed/jetified-play-services-location-21.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1538,6 +1538,19 @@
       jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/androidx.datastore/datastore-core/1.0.0/91b04fb657294e2906d95dce6a9e5a851f6125c1/datastore-core-1.0.0.jar"
       resolved="androidx.datastore:datastore-core:1.0.0"/>
   <library
+      name="com.google.firebase:firebase-config-interop:16.0.0@aar"
+      jars="/home/mauricio/.gradle/caches/transforms-3/f81f4a49d23876add7f52181bd4382ca/transformed/jetified-firebase-config-interop-16.0.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-config-interop:16.0.0"
+      folder="/home/mauricio/.gradle/caches/transforms-3/f81f4a49d23876add7f52181bd4382ca/transformed/jetified-firebase-config-interop-16.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.security:security-crypto:1.1.0-alpha06@aar"
       jars="/home/mauricio/.gradle/caches/transforms-3/0af2a2a8d61e6ff4d06cb48d574d4a11/transformed/jetified-security-crypto-1.1.0-alpha06/jars/classes.jar"
       resolved="androidx.security:security-crypto:1.1.0-alpha06"
@@ -1551,10 +1564,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.exifinterface:exifinterface:1.3.6@aar"
-      jars="/home/mauricio/.gradle/caches/transforms-3/c6a9a376e6cde9b1f6201df471ffe445/transformed/exifinterface-1.3.6/jars/classes.jar"
-      resolved="androidx.exifinterface:exifinterface:1.3.6"
-      folder="/home/mauricio/.gradle/caches/transforms-3/c6a9a376e6cde9b1f6201df471ffe445/transformed/exifinterface-1.3.6"
+      name="androidx.heifwriter:heifwriter:1.0.0@aar"
+      jars="/home/mauricio/.gradle/caches/transforms-3/1be2eaa55ce13fec5a48874d9337e2a0/transformed/heifwriter-1.0.0/jars/classes.jar"
+      resolved="androidx.heifwriter:heifwriter:1.0.0"
+      folder="/home/mauricio/.gradle/caches/transforms-3/1be2eaa55ce13fec5a48874d9337e2a0/transformed/heifwriter-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1564,10 +1577,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.heifwriter:heifwriter:1.0.0@aar"
-      jars="/home/mauricio/.gradle/caches/transforms-3/1be2eaa55ce13fec5a48874d9337e2a0/transformed/heifwriter-1.0.0/jars/classes.jar"
-      resolved="androidx.heifwriter:heifwriter:1.0.0"
-      folder="/home/mauricio/.gradle/caches/transforms-3/1be2eaa55ce13fec5a48874d9337e2a0/transformed/heifwriter-1.0.0"
+      name="androidx.exifinterface:exifinterface:1.3.6@aar"
+      jars="/home/mauricio/.gradle/caches/transforms-3/c6a9a376e6cde9b1f6201df471ffe445/transformed/exifinterface-1.3.6/jars/classes.jar"
+      resolved="androidx.exifinterface:exifinterface:1.3.6"
+      folder="/home/mauricio/.gradle/caches/transforms-3/c6a9a376e6cde9b1f6201df471ffe445/transformed/exifinterface-1.3.6"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1723,6 +1736,10 @@
       jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.9/3e6d101343c7ea687cd593e4990f73b25c878383/okhttp-3.14.9.jar"
       resolved="com.squareup.okhttp3:okhttp:3.14.9"/>
   <library
+      name="commons-io:commons-io:2.6@jar"
+      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/815893df5f31da2ece4040fe0a12fd44b577afaf/commons-io-2.6.jar"
+      resolved="commons-io:commons-io:2.6"/>
+  <library
       name="com.google.guava:guava:32.0.1-android@jar"
       jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.1-android/d3fe54a75aeaca33fc562a2a9c1dc181e54cc5e9/guava-32.0.1-android.jar"
       resolved="com.google.guava:guava:32.0.1-android"/>
@@ -1730,10 +1747,6 @@
       name="com.googlecode.libphonenumber:libphonenumber:8.12.52@jar"
       jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.12.52/232864ac73826686c875ebceace65e6e269e1226/libphonenumber-8.12.52.jar"
       resolved="com.googlecode.libphonenumber:libphonenumber:8.12.52"/>
-  <library
-      name="commons-io:commons-io:2.6@jar"
-      jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/815893df5f31da2ece4040fe0a12fd44b577afaf/commons-io-2.6.jar"
-      resolved="commons-io:commons-io:2.6"/>
   <library
       name="com.squareup.okio:okio:1.17.2@jar"
       jars="/home/mauricio/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar"

@@ -1,102 +1,102 @@
 <dependencies>
   <compile
-      roots="__local_aars__:/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/home/mauricio/Documents/ifoome/android@@:firebase_messaging::release,/home/mauricio/Documents/ifoome/android@@:firebase_core::release,/home/mauricio/Documents/ifoome/android@@:geolocator_android::release,/home/mauricio/Documents/ifoome/android@@:flutter_local_notifications::release,/home/mauricio/Documents/ifoome/android@@:file_picker::release,/home/mauricio/Documents/ifoome/android@@:path_provider_android::release,/home/mauricio/Documents/ifoome/android@@:flutter_secure_storage::release,/home/mauricio/Documents/ifoome/android@@:flutter_facebook_auth::release,/home/mauricio/Documents/ifoome/android@@:wakelock::release,/home/mauricio/Documents/ifoome/android@@:just_audio::release,/home/mauricio/Documents/ifoome/android@@:shared_preferences_android::release,/home/mauricio/Documents/ifoome/android@@:flutter_inappwebview::release,/home/mauricio/Documents/ifoome/android@@:connectivity::release,/home/mauricio/Documents/ifoome/android@@:share_plus::release,/home/mauricio/Documents/ifoome/android@@:flutter_keyboard_visibility::release,/home/mauricio/Documents/ifoome/android@@:fluttertoast::release,/home/mauricio/Documents/ifoome/android@@:image_picker_android::release,/home/mauricio/Documents/ifoome/android@@:uni_links::release,/home/mauricio/Documents/ifoome/android@@:video_player_android::release,/home/mauricio/Documents/ifoome/android@@:sign_in_with_apple::release,/home/mauricio/Documents/ifoome/android@@:firebase_crashlytics::release,/home/mauricio/Documents/ifoome/android@@:flutter_plugin_android_lifecycle::release,/home/mauricio/Documents/ifoome/android@@:sqflite::release,/home/mauricio/Documents/ifoome/android@@:url_launcher_android::release,/home/mauricio/Documents/ifoome/android@@:google_maps_flutter_android::release,/home/mauricio/Documents/ifoome/android@@:google_sign_in_android::release,/home/mauricio/Documents/ifoome/android@@:webview_flutter_android::release,/home/mauricio/Documents/ifoome/android@@:image_compression_flutter::release,/home/mauricio/Documents/ifoome/android@@:phone_number::release,/home/mauricio/Documents/ifoome/android@@:audio_session::release,/home/mauricio/Documents/ifoome/android@@:flutter_image_compress::release,com.google.firebase:firebase-messaging:23.3.1@aar,com.google.firebase:firebase-datatransport:18.1.8@aar,com.google.android.datatransport:transport-backend-cct:3.1.9@aar,com.google.firebase:firebase-encoders-json:18.0.1@aar,com.google.firebase:firebase-installations:17.2.0@aar,com.google.firebase:firebase-common-ktx:20.4.2@aar,com.google.firebase:firebase-common:20.4.2@aar,io.flutter:flutter_embedding_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar,com.google.firebase:firebase-iid-interop:17.1.0@aar,com.google.android.gms:play-services-base:18.1.0@aar,com.google.android.gms:play-services-cloud-messaging:17.0.1@aar,com.google.firebase:firebase-installations-interop:17.1.1@aar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.android.gms:play-services-stats:17.0.2@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.2.0@aar,androidx.fragment:fragment:1.3.6@aar,androidx.fragment:fragment:1.3.6@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.7.2@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar,io.flutter:arm64_v8a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar,io.flutter:x86_64_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,com.google.android.datatransport:transport-runtime:3.1.9@aar,com.google.firebase:firebase-encoders-proto:16.0.0@jar,com.google.android.datatransport:transport-api:3.0.0@aar,com.google.firebase:firebase-encoders:17.0.0@jar,com.google.firebase:firebase-components:17.1.5@aar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.savedstate:savedstate:1.2.1@aar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.print:print:1.0.0@aar,androidx.annotation:annotation-jvm:1.7.0@jar,androidx.annotation:annotation-experimental:1.3.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.jetbrains:annotations:13.0@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,androidx.tracing:tracing:1.0.0@aar,com.google.errorprone:error_prone_annotations:2.18.0@jar,com.google.firebase:firebase-annotations:16.2.0@jar,javax.inject:javax.inject:1@jar">
+      roots="__local_aars__:/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/home/mauricio/Documents/pedelogoapp72/android@@:firebase_messaging::release,/home/mauricio/Documents/pedelogoapp72/android@@:firebase_core::release,/home/mauricio/Documents/pedelogoapp72/android@@:geolocator_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_local_notifications::release,/home/mauricio/Documents/pedelogoapp72/android@@:file_picker::release,/home/mauricio/Documents/pedelogoapp72/android@@:path_provider_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_secure_storage::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_facebook_auth::release,/home/mauricio/Documents/pedelogoapp72/android@@:wakelock::release,/home/mauricio/Documents/pedelogoapp72/android@@:just_audio::release,/home/mauricio/Documents/pedelogoapp72/android@@:shared_preferences_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_inappwebview::release,/home/mauricio/Documents/pedelogoapp72/android@@:connectivity::release,/home/mauricio/Documents/pedelogoapp72/android@@:share_plus::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_keyboard_visibility::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_image_compress_common::release,/home/mauricio/Documents/pedelogoapp72/android@@:fluttertoast::release,/home/mauricio/Documents/pedelogoapp72/android@@:image_picker_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:uni_links::release,/home/mauricio/Documents/pedelogoapp72/android@@:video_player_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:sign_in_with_apple::release,/home/mauricio/Documents/pedelogoapp72/android@@:firebase_crashlytics::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_plugin_android_lifecycle::release,/home/mauricio/Documents/pedelogoapp72/android@@:sqflite::release,/home/mauricio/Documents/pedelogoapp72/android@@:url_launcher_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:google_maps_flutter_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:google_sign_in_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:webview_flutter_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:image_compression_flutter::release,/home/mauricio/Documents/pedelogoapp72/android@@:phone_number::release,/home/mauricio/Documents/pedelogoapp72/android@@:audio_session::release,com.google.firebase:firebase-messaging:23.3.1@aar,com.google.firebase:firebase-datatransport:18.1.8@aar,com.google.android.datatransport:transport-backend-cct:3.1.9@aar,com.google.firebase:firebase-encoders-json:18.0.1@aar,com.google.firebase:firebase-installations:17.2.0@aar,com.google.firebase:firebase-common-ktx:20.4.2@aar,com.google.firebase:firebase-common:20.4.2@aar,io.flutter:flutter_embedding_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar,com.google.firebase:firebase-iid-interop:17.1.0@aar,com.google.android.gms:play-services-base:18.1.0@aar,com.google.android.gms:play-services-cloud-messaging:17.0.1@aar,com.google.firebase:firebase-installations-interop:17.1.1@aar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.android.gms:play-services-stats:17.0.2@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.2.0@aar,androidx.fragment:fragment:1.3.6@aar,androidx.fragment:fragment:1.3.6@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.7.2@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar,io.flutter:arm64_v8a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar,io.flutter:x86_64_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,com.google.android.datatransport:transport-runtime:3.1.9@aar,com.google.firebase:firebase-encoders-proto:16.0.0@jar,com.google.android.datatransport:transport-api:3.0.0@aar,com.google.firebase:firebase-encoders:17.0.0@jar,com.google.firebase:firebase-components:17.1.5@aar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.savedstate:savedstate:1.2.1@aar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.print:print:1.0.0@aar,androidx.annotation:annotation-jvm:1.7.1@jar,androidx.annotation:annotation-experimental:1.3.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.9.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0@jar,org.jetbrains:annotations:13.0@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,androidx.tracing:tracing:1.0.0@aar,com.google.errorprone:error_prone_annotations:2.18.0@jar,com.google.firebase:firebase-annotations:16.2.0@jar,javax.inject:javax.inject:1@jar">
     <dependency
-        name="__local_aars__:/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-        simpleName="__local_aars__:/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar"/>
+        name="__local_aars__:/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:firebase_messaging::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_messaging::release"
         simpleName="io.flutter.plugins.firebasemessaging:firebase_messaging"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:firebase_core::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_core::release"
         simpleName="io.flutter.plugins.firebase.core:firebase_core"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:geolocator_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:geolocator_android::release"
         simpleName="com.baseflow.geolocator:geolocator_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_local_notifications::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_local_notifications::release"
         simpleName="com.dexterous.flutterlocalnotifications:flutter_local_notifications"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:file_picker::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:file_picker::release"
         simpleName="com.mr.flutter.plugin.filepicker:file_picker"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:path_provider_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:path_provider_android::release"
         simpleName="io.flutter.plugins.pathprovider:path_provider_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_secure_storage::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_secure_storage::release"
         simpleName="com.it_nomads.fluttersecurestorage:flutter_secure_storage"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_facebook_auth::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_facebook_auth::release"
         simpleName="app.meedu.flutter_facebook_auth:flutter_facebook_auth"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:wakelock::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:wakelock::release"
         simpleName="creativemaybeno.wakelock:wakelock"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:just_audio::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:just_audio::release"
         simpleName="com.ryanheise.just_audio:just_audio"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:shared_preferences_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:shared_preferences_android::release"
         simpleName="io.flutter.plugins.sharedpreferences:shared_preferences_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_inappwebview::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_inappwebview::release"
         simpleName="com.pichillilorenzo.flutter_inappwebview:flutter_inappwebview"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:connectivity::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:connectivity::release"
         simpleName="io.flutter.plugins.connectivity:connectivity"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:share_plus::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:share_plus::release"
         simpleName="dev.fluttercommunity.plus.share:share_plus"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_keyboard_visibility::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_keyboard_visibility::release"
         simpleName="com.jrai.flutter_keyboard_visibility:flutter_keyboard_visibility"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:fluttertoast::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_image_compress_common::release"
+        simpleName="com.fluttercandies.flutter_image_compress:flutter_image_compress_common"/>
+    <dependency
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:fluttertoast::release"
         simpleName="com.example.FlutterToast:fluttertoast"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:image_picker_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:image_picker_android::release"
         simpleName="io.flutter.plugins.imagepicker:image_picker_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:uni_links::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:uni_links::release"
         simpleName="name.avioli.unilinks:uni_links"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:video_player_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:video_player_android::release"
         simpleName="io.flutter.plugins.videoplayer:video_player_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:sign_in_with_apple::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:sign_in_with_apple::release"
         simpleName="com.aboutyou.dart_packages.sign_in_with_apple:sign_in_with_apple"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:firebase_crashlytics::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_crashlytics::release"
         simpleName="io.flutter.plugins.firebase.crashlytics:firebase_crashlytics"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_plugin_android_lifecycle::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_plugin_android_lifecycle::release"
         simpleName="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:sqflite::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:sqflite::release"
         simpleName="com.tekartik.sqflite:sqflite"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:url_launcher_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:url_launcher_android::release"
         simpleName="io.flutter.plugins.urllauncher:url_launcher_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:google_maps_flutter_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:google_maps_flutter_android::release"
         simpleName="io.flutter.plugins.googlemaps:google_maps_flutter_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:google_sign_in_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:google_sign_in_android::release"
         simpleName="io.flutter.plugins.googlesignin:google_sign_in_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:webview_flutter_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:webview_flutter_android::release"
         simpleName="io.flutter.plugins.webviewflutter:webview_flutter_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:image_compression_flutter::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:image_compression_flutter::release"
         simpleName="id.co.eyro.image_compression_flutter:image_compression_flutter"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:phone_number::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:phone_number::release"
         simpleName="com.julienvignali.phone_number:phone_number"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:audio_session::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:audio_session::release"
         simpleName="com.ryanheise.audio_session:audio_session"/>
-    <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_image_compress::release"
-        simpleName="com.fluttercandies.flutter_image_compress:flutter_image_compress"/>
     <dependency
         name="com.google.firebase:firebase-messaging:23.3.1@aar"
         simpleName="com.google.firebase:firebase-messaging"/>
@@ -119,7 +119,7 @@
         name="com.google.firebase:firebase-common:20.4.2@aar"
         simpleName="com.google.firebase:firebase-common"/>
     <dependency
-        name="io.flutter:flutter_embedding_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
+        name="io.flutter:flutter_embedding_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
         simpleName="io.flutter:flutter_embedding_release"/>
     <dependency
         name="com.google.firebase:firebase-iid-interop:17.1.0@aar"
@@ -212,13 +212,13 @@
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
     <dependency
-        name="io.flutter:armeabi_v7a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
+        name="io.flutter:armeabi_v7a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
         simpleName="io.flutter:armeabi_v7a_release"/>
     <dependency
-        name="io.flutter:arm64_v8a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
+        name="io.flutter:arm64_v8a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
         simpleName="io.flutter:arm64_v8a_release"/>
     <dependency
-        name="io.flutter:x86_64_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
+        name="io.flutter:x86_64_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
         simpleName="io.flutter:x86_64_release"/>
     <dependency
         name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
@@ -263,16 +263,16 @@
         name="androidx.print:print:1.0.0@aar"
         simpleName="androidx.print:print"/>
     <dependency
-        name="androidx.annotation:annotation-jvm:1.7.0@jar"
+        name="androidx.annotation:annotation-jvm:1.7.1@jar"
         simpleName="androidx.annotation:annotation-jvm"/>
     <dependency
         name="androidx.annotation:annotation-experimental:1.3.0@aar"
         simpleName="androidx.annotation:annotation-experimental"/>
     <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar"
+        name="org.jetbrains.kotlin:kotlin-stdlib:1.9.0@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib"/>
     <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar"
+        name="org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-common"/>
     <dependency
         name="org.jetbrains:annotations:13.0@jar"
@@ -294,105 +294,105 @@
         simpleName="javax.inject:javax.inject"/>
   </compile>
   <package
-      roots="__local_aars__:/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/home/mauricio/Documents/ifoome/android@@:firebase_messaging::release,/home/mauricio/Documents/ifoome/android@@:firebase_crashlytics::release,/home/mauricio/Documents/ifoome/android@@:firebase_core::release,/home/mauricio/Documents/ifoome/android@@:geolocator_android::release,/home/mauricio/Documents/ifoome/android@@:flutter_local_notifications::release,/home/mauricio/Documents/ifoome/android@@:file_picker::release,/home/mauricio/Documents/ifoome/android@@:path_provider_android::release,/home/mauricio/Documents/ifoome/android@@:flutter_secure_storage::release,/home/mauricio/Documents/ifoome/android@@:flutter_facebook_auth::release,/home/mauricio/Documents/ifoome/android@@:wakelock::release,/home/mauricio/Documents/ifoome/android@@:just_audio::release,/home/mauricio/Documents/ifoome/android@@:shared_preferences_android::release,/home/mauricio/Documents/ifoome/android@@:flutter_inappwebview::release,/home/mauricio/Documents/ifoome/android@@:connectivity::release,/home/mauricio/Documents/ifoome/android@@:share_plus::release,/home/mauricio/Documents/ifoome/android@@:flutter_keyboard_visibility::release,/home/mauricio/Documents/ifoome/android@@:fluttertoast::release,/home/mauricio/Documents/ifoome/android@@:image_picker_android::release,/home/mauricio/Documents/ifoome/android@@:uni_links::release,/home/mauricio/Documents/ifoome/android@@:video_player_android::release,/home/mauricio/Documents/ifoome/android@@:sign_in_with_apple::release,/home/mauricio/Documents/ifoome/android@@:google_maps_flutter_android::release,/home/mauricio/Documents/ifoome/android@@:flutter_plugin_android_lifecycle::release,/home/mauricio/Documents/ifoome/android@@:sqflite::release,/home/mauricio/Documents/ifoome/android@@:url_launcher_android::release,/home/mauricio/Documents/ifoome/android@@:google_sign_in_android::release,/home/mauricio/Documents/ifoome/android@@:webview_flutter_android::release,/home/mauricio/Documents/ifoome/android@@:image_compression_flutter::release,/home/mauricio/Documents/ifoome/android@@:phone_number::release,/home/mauricio/Documents/ifoome/android@@:audio_session::release,/home/mauricio/Documents/ifoome/android@@:flutter_image_compress::release,com.google.firebase:firebase-crashlytics:18.5.1@aar,com.google.firebase:firebase-iid:21.1.0@aar,com.google.firebase:firebase-messaging:23.3.1@aar,com.google.firebase:firebase-sessions:1.1.0@aar,com.google.firebase:firebase-installations:17.2.0@aar,com.google.firebase:firebase-common-ktx:20.4.2@aar,com.google.firebase:firebase-common:20.4.2@aar,com.facebook.android:facebook-login:16.0.1@aar,com.facebook.android:facebook-common:16.0.1@aar,androidx.appcompat:appcompat-resources:1.5.1@aar,androidx.appcompat:appcompat:1.5.1@aar,io.flutter:flutter_embedding_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar,com.google.android.gms:play-services-maps:18.2.0@aar,com.google.android.gms:play-services-auth:20.7.0@aar,com.google.android.gms:play-services-location:21.0.1@aar,com.google.android.gms:play-services-auth-api-phone:18.0.1@aar,com.google.android.gms:play-services-auth-base:18.0.4@aar,com.google.android.gms:play-services-fido:20.0.1@aar,com.google.android.gms:play-services-base:18.1.0@aar,com.google.firebase:firebase-iid-interop:17.1.0@aar,com.google.android.gms:play-services-cloud-messaging:17.0.1@aar,com.google.firebase:firebase-installations-interop:17.1.1@aar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.android.gms:play-services-stats:17.0.2@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.2.0@aar,androidx.legacy:legacy-support-v4:1.0.0@aar,androidx.fragment:fragment:1.3.6@aar,androidx.fragment:fragment:1.3.6@aar,androidx.activity:activity:1.7.2@aar,com.google.android.exoplayer:exoplayer-dash:2.18.7@aar,com.google.android.exoplayer:exoplayer-hls:2.18.7@aar,com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7@aar,com.google.android.exoplayer:exoplayer-core:2.18.7@aar,androidx.webkit:webkit:1.5.0@aar,androidx.legacy:legacy-support-core-ui:1.0.0@aar,androidx.swiperefreshlayout:swiperefreshlayout:1.1.0@aar,androidx.browser:browser:1.5.0@aar,androidx.window:window-java:1.0.0-beta04@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,androidx.emoji2:emoji2-views-helper:1.2.0@aar,androidx.emoji2:emoji2:1.2.0@aar,com.facebook.android:facebook-core:16.0.1@aar,com.facebook.android:facebook-bolts:16.0.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.media2:media2-session:1.2.1@aar,androidx.media2:media2-common:1.2.1@aar,androidx.window:window:1.0.0-beta04@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar,androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.media:media:1.4.1@aar,androidx.media:media:1.4.1@aar,androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-process:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,androidx.datastore:datastore-preferences:1.0.0@aar,androidx.datastore:datastore:1.0.0@aar,androidx.datastore:datastore-preferences-core:1.0.0@jar,androidx.datastore:datastore-core:1.0.0@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4@jar,com.google.firebase:firebase-datatransport:18.1.8@aar,com.google.android.datatransport:transport-backend-cct:3.1.9@aar,com.google.firebase:firebase-encoders-json:18.0.1@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar,io.flutter:arm64_v8a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar,io.flutter:x86_64_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar,androidx.security:security-crypto:1.1.0-alpha06@aar,androidx.exifinterface:exifinterface:1.3.6@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.heifwriter:heifwriter:1.0.0@aar,androidx.profileinstaller:profileinstaller:1.3.0@aar,androidx.startup:startup-runtime:1.1.1@aar,androidx.tracing:tracing:1.0.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,com.google.android.exoplayer:exoplayer-datasource:2.18.7@aar,com.google.android.exoplayer:exoplayer-extractor:2.18.7@aar,com.google.android.exoplayer:exoplayer-decoder:2.18.7@aar,com.google.android.exoplayer:exoplayer-database:2.18.7@aar,com.google.android.exoplayer:exoplayer-common:2.18.7@aar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar,androidx.interpolator:interpolator:1.0.0@aar,com.google.firebase:firebase-components:17.1.5@aar,androidx.concurrent:concurrent-futures:1.1.0@jar,com.google.android.datatransport:transport-runtime:3.1.9@aar,com.google.firebase:firebase-encoders-proto:16.0.0@jar,com.google.android.datatransport:transport-api:3.0.0@aar,com.google.firebase:firebase-encoders:17.0.0@jar,androidx.cardview:cardview:1.0.0@aar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.print:print:1.0.0@aar,com.google.crypto.tink:tink-android:1.8.0@jar,com.google.code.gson:gson:2.8.9@jar,com.squareup.okhttp3:okhttp:3.14.9@jar,androidx.annotation:annotation-jvm:1.7.0@jar,androidx.annotation:annotation-experimental:1.3.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,com.google.guava:guava:32.0.1-android@jar,com.googlecode.libphonenumber:libphonenumber:8.12.52@jar,commons-io:commons-io:2.6@jar,com.squareup.okio:okio:1.17.2@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,com.google.guava:failureaccess:1.0.1@jar,com.google.code.findbugs:jsr305:3.0.2@jar,org.checkerframework:checker-qual:3.33.0@jar,com.google.errorprone:error_prone_annotations:2.18.0@jar,com.google.j2objc:j2objc-annotations:2.8@jar,com.google.firebase:firebase-annotations:16.2.0@jar,com.android.installreferrer:installreferrer:1.0@aar,com.google.zxing:core:3.3.3@jar,org.jetbrains:annotations:13.0@jar,javax.inject:javax.inject:1@jar">
+      roots="__local_aars__:/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/home/mauricio/Documents/pedelogoapp72/android@@:firebase_messaging::release,/home/mauricio/Documents/pedelogoapp72/android@@:firebase_crashlytics::release,/home/mauricio/Documents/pedelogoapp72/android@@:firebase_core::release,/home/mauricio/Documents/pedelogoapp72/android@@:geolocator_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_local_notifications::release,/home/mauricio/Documents/pedelogoapp72/android@@:file_picker::release,/home/mauricio/Documents/pedelogoapp72/android@@:path_provider_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_secure_storage::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_facebook_auth::release,/home/mauricio/Documents/pedelogoapp72/android@@:wakelock::release,/home/mauricio/Documents/pedelogoapp72/android@@:just_audio::release,/home/mauricio/Documents/pedelogoapp72/android@@:shared_preferences_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_inappwebview::release,/home/mauricio/Documents/pedelogoapp72/android@@:connectivity::release,/home/mauricio/Documents/pedelogoapp72/android@@:share_plus::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_keyboard_visibility::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_image_compress_common::release,/home/mauricio/Documents/pedelogoapp72/android@@:fluttertoast::release,/home/mauricio/Documents/pedelogoapp72/android@@:image_picker_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:uni_links::release,/home/mauricio/Documents/pedelogoapp72/android@@:video_player_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:sign_in_with_apple::release,/home/mauricio/Documents/pedelogoapp72/android@@:google_maps_flutter_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:flutter_plugin_android_lifecycle::release,/home/mauricio/Documents/pedelogoapp72/android@@:sqflite::release,/home/mauricio/Documents/pedelogoapp72/android@@:url_launcher_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:google_sign_in_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:webview_flutter_android::release,/home/mauricio/Documents/pedelogoapp72/android@@:image_compression_flutter::release,/home/mauricio/Documents/pedelogoapp72/android@@:phone_number::release,/home/mauricio/Documents/pedelogoapp72/android@@:audio_session::release,com.google.firebase:firebase-crashlytics:18.6.0@aar,com.google.firebase:firebase-iid:21.1.0@aar,com.google.firebase:firebase-messaging:23.3.1@aar,com.google.firebase:firebase-sessions:1.2.0@aar,com.google.firebase:firebase-installations:17.2.0@aar,com.google.firebase:firebase-common-ktx:20.4.2@aar,com.google.firebase:firebase-common:20.4.2@aar,com.facebook.android:facebook-login:16.0.1@aar,com.facebook.android:facebook-common:16.0.1@aar,androidx.appcompat:appcompat-resources:1.5.1@aar,androidx.appcompat:appcompat:1.5.1@aar,io.flutter:flutter_embedding_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar,com.google.android.gms:play-services-maps:18.2.0@aar,com.google.android.gms:play-services-auth:20.7.0@aar,com.google.android.gms:play-services-location:21.1.0@aar,com.google.android.gms:play-services-auth-api-phone:18.0.1@aar,com.google.android.gms:play-services-auth-base:18.0.4@aar,com.google.android.gms:play-services-fido:20.0.1@aar,com.google.android.gms:play-services-base:18.1.0@aar,com.google.firebase:firebase-iid-interop:17.1.0@aar,com.google.android.gms:play-services-cloud-messaging:17.0.1@aar,com.google.firebase:firebase-installations-interop:17.1.1@aar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.android.gms:play-services-stats:17.0.2@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.2.0@aar,androidx.legacy:legacy-support-v4:1.0.0@aar,androidx.fragment:fragment:1.3.6@aar,androidx.fragment:fragment:1.3.6@aar,androidx.activity:activity:1.7.2@aar,com.google.android.exoplayer:exoplayer-dash:2.18.7@aar,com.google.android.exoplayer:exoplayer-hls:2.18.7@aar,com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7@aar,com.google.android.exoplayer:exoplayer-core:2.18.7@aar,androidx.webkit:webkit:1.5.0@aar,androidx.legacy:legacy-support-core-ui:1.0.0@aar,androidx.swiperefreshlayout:swiperefreshlayout:1.1.0@aar,androidx.browser:browser:1.5.0@aar,androidx.window:window-java:1.0.0-beta04@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,androidx.emoji2:emoji2-views-helper:1.2.0@aar,androidx.emoji2:emoji2:1.2.0@aar,com.facebook.android:facebook-core:16.0.1@aar,com.facebook.android:facebook-bolts:16.0.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.media2:media2-session:1.2.1@aar,androidx.media2:media2-common:1.2.1@aar,androidx.window:window:1.0.0-beta04@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar,androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.media:media:1.4.1@aar,androidx.media:media:1.4.1@aar,androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-process:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,androidx.datastore:datastore-preferences:1.0.0@aar,androidx.datastore:datastore:1.0.0@aar,androidx.datastore:datastore-preferences-core:1.0.0@jar,androidx.datastore:datastore-core:1.0.0@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4@jar,com.google.firebase:firebase-datatransport:18.1.8@aar,com.google.android.datatransport:transport-backend-cct:3.1.9@aar,com.google.firebase:firebase-config-interop:16.0.0@aar,com.google.firebase:firebase-encoders-json:18.0.1@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar,io.flutter:arm64_v8a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar,io.flutter:x86_64_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar,androidx.security:security-crypto:1.1.0-alpha06@aar,androidx.heifwriter:heifwriter:1.0.0@aar,androidx.exifinterface:exifinterface:1.3.6@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.profileinstaller:profileinstaller:1.3.0@aar,androidx.startup:startup-runtime:1.1.1@aar,androidx.tracing:tracing:1.0.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,com.google.android.exoplayer:exoplayer-datasource:2.18.7@aar,com.google.android.exoplayer:exoplayer-extractor:2.18.7@aar,com.google.android.exoplayer:exoplayer-decoder:2.18.7@aar,com.google.android.exoplayer:exoplayer-database:2.18.7@aar,com.google.android.exoplayer:exoplayer-common:2.18.7@aar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar,androidx.interpolator:interpolator:1.0.0@aar,com.google.firebase:firebase-components:17.1.5@aar,androidx.concurrent:concurrent-futures:1.1.0@jar,com.google.android.datatransport:transport-runtime:3.1.9@aar,com.google.firebase:firebase-encoders-proto:16.0.0@jar,com.google.android.datatransport:transport-api:3.0.0@aar,com.google.firebase:firebase-encoders:17.0.0@jar,androidx.cardview:cardview:1.0.0@aar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.print:print:1.0.0@aar,com.google.crypto.tink:tink-android:1.8.0@jar,com.google.code.gson:gson:2.8.9@jar,com.squareup.okhttp3:okhttp:3.14.9@jar,androidx.annotation:annotation-jvm:1.7.1@jar,androidx.annotation:annotation-experimental:1.3.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.9.0@jar,commons-io:commons-io:2.6@jar,com.google.guava:guava:32.0.1-android@jar,com.googlecode.libphonenumber:libphonenumber:8.12.52@jar,com.squareup.okio:okio:1.17.2@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,com.google.guava:failureaccess:1.0.1@jar,com.google.code.findbugs:jsr305:3.0.2@jar,org.checkerframework:checker-qual:3.33.0@jar,com.google.errorprone:error_prone_annotations:2.18.0@jar,com.google.j2objc:j2objc-annotations:2.8@jar,com.google.firebase:firebase-annotations:16.2.0@jar,org.jetbrains:annotations:13.0@jar,com.android.installreferrer:installreferrer:1.0@aar,com.google.zxing:core:3.3.3@jar,javax.inject:javax.inject:1@jar">
     <dependency
-        name="__local_aars__:/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-        simpleName="__local_aars__:/home/mauricio/Documents/ifoome/build/app/intermediates/flutter/release/libs.jar"/>
+        name="__local_aars__:/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/flutter/release/libs.jar"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:firebase_messaging::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_messaging::release"
         simpleName="io.flutter.plugins.firebasemessaging:firebase_messaging"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:firebase_crashlytics::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_crashlytics::release"
         simpleName="io.flutter.plugins.firebase.crashlytics:firebase_crashlytics"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:firebase_core::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:firebase_core::release"
         simpleName="io.flutter.plugins.firebase.core:firebase_core"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:geolocator_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:geolocator_android::release"
         simpleName="com.baseflow.geolocator:geolocator_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_local_notifications::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_local_notifications::release"
         simpleName="com.dexterous.flutterlocalnotifications:flutter_local_notifications"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:file_picker::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:file_picker::release"
         simpleName="com.mr.flutter.plugin.filepicker:file_picker"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:path_provider_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:path_provider_android::release"
         simpleName="io.flutter.plugins.pathprovider:path_provider_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_secure_storage::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_secure_storage::release"
         simpleName="com.it_nomads.fluttersecurestorage:flutter_secure_storage"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_facebook_auth::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_facebook_auth::release"
         simpleName="app.meedu.flutter_facebook_auth:flutter_facebook_auth"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:wakelock::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:wakelock::release"
         simpleName="creativemaybeno.wakelock:wakelock"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:just_audio::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:just_audio::release"
         simpleName="com.ryanheise.just_audio:just_audio"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:shared_preferences_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:shared_preferences_android::release"
         simpleName="io.flutter.plugins.sharedpreferences:shared_preferences_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_inappwebview::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_inappwebview::release"
         simpleName="com.pichillilorenzo.flutter_inappwebview:flutter_inappwebview"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:connectivity::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:connectivity::release"
         simpleName="io.flutter.plugins.connectivity:connectivity"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:share_plus::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:share_plus::release"
         simpleName="dev.fluttercommunity.plus.share:share_plus"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_keyboard_visibility::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_keyboard_visibility::release"
         simpleName="com.jrai.flutter_keyboard_visibility:flutter_keyboard_visibility"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:fluttertoast::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_image_compress_common::release"
+        simpleName="com.fluttercandies.flutter_image_compress:flutter_image_compress_common"/>
+    <dependency
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:fluttertoast::release"
         simpleName="com.example.FlutterToast:fluttertoast"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:image_picker_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:image_picker_android::release"
         simpleName="io.flutter.plugins.imagepicker:image_picker_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:uni_links::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:uni_links::release"
         simpleName="name.avioli.unilinks:uni_links"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:video_player_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:video_player_android::release"
         simpleName="io.flutter.plugins.videoplayer:video_player_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:sign_in_with_apple::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:sign_in_with_apple::release"
         simpleName="com.aboutyou.dart_packages.sign_in_with_apple:sign_in_with_apple"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:google_maps_flutter_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:google_maps_flutter_android::release"
         simpleName="io.flutter.plugins.googlemaps:google_maps_flutter_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_plugin_android_lifecycle::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:flutter_plugin_android_lifecycle::release"
         simpleName="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:sqflite::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:sqflite::release"
         simpleName="com.tekartik.sqflite:sqflite"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:url_launcher_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:url_launcher_android::release"
         simpleName="io.flutter.plugins.urllauncher:url_launcher_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:google_sign_in_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:google_sign_in_android::release"
         simpleName="io.flutter.plugins.googlesignin:google_sign_in_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:webview_flutter_android::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:webview_flutter_android::release"
         simpleName="io.flutter.plugins.webviewflutter:webview_flutter_android"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:image_compression_flutter::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:image_compression_flutter::release"
         simpleName="id.co.eyro.image_compression_flutter:image_compression_flutter"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:phone_number::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:phone_number::release"
         simpleName="com.julienvignali.phone_number:phone_number"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:audio_session::release"
+        name="/home/mauricio/Documents/pedelogoapp72/android@@:audio_session::release"
         simpleName="com.ryanheise.audio_session:audio_session"/>
     <dependency
-        name="/home/mauricio/Documents/ifoome/android@@:flutter_image_compress::release"
-        simpleName="com.fluttercandies.flutter_image_compress:flutter_image_compress"/>
-    <dependency
-        name="com.google.firebase:firebase-crashlytics:18.5.1@aar"
+        name="com.google.firebase:firebase-crashlytics:18.6.0@aar"
         simpleName="com.google.firebase:firebase-crashlytics"/>
     <dependency
         name="com.google.firebase:firebase-iid:21.1.0@aar"
@@ -401,7 +401,7 @@
         name="com.google.firebase:firebase-messaging:23.3.1@aar"
         simpleName="com.google.firebase:firebase-messaging"/>
     <dependency
-        name="com.google.firebase:firebase-sessions:1.1.0@aar"
+        name="com.google.firebase:firebase-sessions:1.2.0@aar"
         simpleName="com.google.firebase:firebase-sessions"/>
     <dependency
         name="com.google.firebase:firebase-installations:17.2.0@aar"
@@ -425,7 +425,7 @@
         name="androidx.appcompat:appcompat:1.5.1@aar"
         simpleName="androidx.appcompat:appcompat"/>
     <dependency
-        name="io.flutter:flutter_embedding_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
+        name="io.flutter:flutter_embedding_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
         simpleName="io.flutter:flutter_embedding_release"/>
     <dependency
         name="com.google.android.gms:play-services-maps:18.2.0@aar"
@@ -434,7 +434,7 @@
         name="com.google.android.gms:play-services-auth:20.7.0@aar"
         simpleName="com.google.android.gms:play-services-auth"/>
     <dependency
-        name="com.google.android.gms:play-services-location:21.0.1@aar"
+        name="com.google.android.gms:play-services-location:21.1.0@aar"
         simpleName="com.google.android.gms:play-services-location"/>
     <dependency
         name="com.google.android.gms:play-services-auth-api-phone:18.0.1@aar"
@@ -620,6 +620,9 @@
         name="com.google.android.datatransport:transport-backend-cct:3.1.9@aar"
         simpleName="com.google.android.datatransport:transport-backend-cct"/>
     <dependency
+        name="com.google.firebase:firebase-config-interop:16.0.0@aar"
+        simpleName="com.google.firebase:firebase-config-interop"/>
+    <dependency
         name="com.google.firebase:firebase-encoders-json:18.0.1@aar"
         simpleName="com.google.firebase:firebase-encoders-json"/>
     <dependency
@@ -629,26 +632,26 @@
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
     <dependency
-        name="io.flutter:armeabi_v7a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
+        name="io.flutter:armeabi_v7a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
         simpleName="io.flutter:armeabi_v7a_release"/>
     <dependency
-        name="io.flutter:arm64_v8a_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
+        name="io.flutter:arm64_v8a_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
         simpleName="io.flutter:arm64_v8a_release"/>
     <dependency
-        name="io.flutter:x86_64_release:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad@jar"
+        name="io.flutter:x86_64_release:1.0.0-04817c99c9fd4956f27505204f7e344335810aed@jar"
         simpleName="io.flutter:x86_64_release"/>
     <dependency
         name="androidx.security:security-crypto:1.1.0-alpha06@aar"
         simpleName="androidx.security:security-crypto"/>
+    <dependency
+        name="androidx.heifwriter:heifwriter:1.0.0@aar"
+        simpleName="androidx.heifwriter:heifwriter"/>
     <dependency
         name="androidx.exifinterface:exifinterface:1.3.6@aar"
         simpleName="androidx.exifinterface:exifinterface"/>
     <dependency
         name="androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar"
         simpleName="androidx.localbroadcastmanager:localbroadcastmanager"/>
-    <dependency
-        name="androidx.heifwriter:heifwriter:1.0.0@aar"
-        simpleName="androidx.heifwriter:heifwriter"/>
     <dependency
         name="androidx.profileinstaller:profileinstaller:1.3.0@aar"
         simpleName="androidx.profileinstaller:profileinstaller"/>
@@ -731,14 +734,17 @@
         name="com.squareup.okhttp3:okhttp:3.14.9@jar"
         simpleName="com.squareup.okhttp3:okhttp"/>
     <dependency
-        name="androidx.annotation:annotation-jvm:1.7.0@jar"
+        name="androidx.annotation:annotation-jvm:1.7.1@jar"
         simpleName="androidx.annotation:annotation-jvm"/>
     <dependency
         name="androidx.annotation:annotation-experimental:1.3.0@aar"
         simpleName="androidx.annotation:annotation-experimental"/>
     <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar"
+        name="org.jetbrains.kotlin:kotlin-stdlib:1.9.0@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib"/>
+    <dependency
+        name="commons-io:commons-io:2.6@jar"
+        simpleName="commons-io:commons-io"/>
     <dependency
         name="com.google.guava:guava:32.0.1-android@jar"
         simpleName="com.google.guava:guava"/>
@@ -746,13 +752,10 @@
         name="com.googlecode.libphonenumber:libphonenumber:8.12.52@jar"
         simpleName="com.googlecode.libphonenumber:libphonenumber"/>
     <dependency
-        name="commons-io:commons-io:2.6@jar"
-        simpleName="commons-io:commons-io"/>
-    <dependency
         name="com.squareup.okio:okio:1.17.2@jar"
         simpleName="com.squareup.okio:okio"/>
     <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar"
+        name="org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-common"/>
     <dependency
         name="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar"
@@ -776,14 +779,14 @@
         name="com.google.firebase:firebase-annotations:16.2.0@jar"
         simpleName="com.google.firebase:firebase-annotations"/>
     <dependency
+        name="org.jetbrains:annotations:13.0@jar"
+        simpleName="org.jetbrains:annotations"/>
+    <dependency
         name="com.android.installreferrer:installreferrer:1.0@aar"
         simpleName="com.android.installreferrer:installreferrer"/>
     <dependency
         name="com.google.zxing:core:3.3.3@jar"
         simpleName="com.google.zxing:core"/>
-    <dependency
-        name="org.jetbrains:annotations:13.0@jar"
-        simpleName="org.jetbrains:annotations"/>
     <dependency
         name="javax.inject:javax.inject:1@jar"
         simpleName="javax.inject:javax.inject"/>

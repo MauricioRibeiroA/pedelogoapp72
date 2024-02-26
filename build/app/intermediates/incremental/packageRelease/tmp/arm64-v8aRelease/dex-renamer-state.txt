@@ -1,4 +1,4 @@
-#Mon Feb 19 23:29:44 BRT 2024
-base.0=/home/mauricio/Documents/ifoome/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Sun Feb 25 19:04:25 BRT 2024
+base.0=/home/mauricio/Documents/pedelogoapp72/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

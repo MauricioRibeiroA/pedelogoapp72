@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sixamtech.stack_food.app-mergeReleaseResources-49:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.pedelogo.cliente.app-mergeReleaseResources-49:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "/home/mauricio/.gradle/caches/transforms-3/549a5d360e74acb434938f7e796443a1/transformed/appcompat-1.5.1/res/values-watch-v21/values-watch-v21.xml",

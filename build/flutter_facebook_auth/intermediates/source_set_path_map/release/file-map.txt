@@ -16,9 +16,9 @@ app.meedu.flutter_facebook_auth-core-1.6.0-14 /home/mauricio/.gradle/caches/tran
 app.meedu.flutter_facebook_auth-jetified-window-java-1.0.0-beta04-15 /home/mauricio/.gradle/caches/transforms-3/f0af934171088345b00674811820840e/transformed/jetified-window-java-1.0.0-beta04/res
 app.meedu.flutter_facebook_auth-main-16 /home/mauricio/.pub-cache/hosted/pub.dev/flutter_facebook_auth-5.0.11/android/src/main/res
 app.meedu.flutter_facebook_auth-release-17 /home/mauricio/.pub-cache/hosted/pub.dev/flutter_facebook_auth-5.0.11/android/src/release/res
-app.meedu.flutter_facebook_auth-pngs-18 /home/mauricio/Documents/ifoome/build/flutter_facebook_auth/generated/res/pngs/release
-app.meedu.flutter_facebook_auth-resValues-19 /home/mauricio/Documents/ifoome/build/flutter_facebook_auth/generated/res/resValues/release
-app.meedu.flutter_facebook_auth-rs-20 /home/mauricio/Documents/ifoome/build/flutter_facebook_auth/generated/res/rs/release
-app.meedu.flutter_facebook_auth-mergeReleaseResources-21 /home/mauricio/Documents/ifoome/build/flutter_facebook_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
-app.meedu.flutter_facebook_auth-mergeReleaseResources-22 /home/mauricio/Documents/ifoome/build/flutter_facebook_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-app.meedu.flutter_facebook_auth-merged_res-23 /home/mauricio/Documents/ifoome/build/flutter_facebook_auth/intermediates/merged_res/release
+app.meedu.flutter_facebook_auth-pngs-18 /home/mauricio/Documents/pedelogoapp72/build/flutter_facebook_auth/generated/res/pngs/release
+app.meedu.flutter_facebook_auth-resValues-19 /home/mauricio/Documents/pedelogoapp72/build/flutter_facebook_auth/generated/res/resValues/release
+app.meedu.flutter_facebook_auth-rs-20 /home/mauricio/Documents/pedelogoapp72/build/flutter_facebook_auth/generated/res/rs/release
+app.meedu.flutter_facebook_auth-mergeReleaseResources-21 /home/mauricio/Documents/pedelogoapp72/build/flutter_facebook_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+app.meedu.flutter_facebook_auth-mergeReleaseResources-22 /home/mauricio/Documents/pedelogoapp72/build/flutter_facebook_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+app.meedu.flutter_facebook_auth-merged_res-23 /home/mauricio/Documents/pedelogoapp72/build/flutter_facebook_auth/intermediates/merged_res/release
