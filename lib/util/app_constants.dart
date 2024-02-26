@@ -3,14 +3,14 @@ import 'package:efood_multivendor/util/images.dart';
 import 'package:get/get.dart';
 
 class AppConstants {
-  static const String appName = 'StackFood'; //Download from Scriptzhub.com
+  static const String appName = 'PedeLogo'; //Download from Scriptzhub.com
   static const double appVersion = 7.2;
 
   static const String fontFamily = 'Roboto';
   static const bool payInWevView = false;
-  static const String webHostedUrl = 'https://stackfood-web.6amtech.com';
+  static const String webHostedUrl = 'https://web.pedelogo.com';
 
-  static const String baseUrl = 'https://stackfood-admin.6amtech.com';
+  static const String baseUrl = 'https://pedelogo.com';
   static const String categoryUri = '/api/v1/categories';
   static const String bannerUri = '/api/v1/banners';
   static const String restaurantProductUri = '/api/v1/products/latest';
@@ -197,10 +197,10 @@ class AppConstants {
 
   /// Languages
   static List<LanguageModel> languages = [
+    LanguageModel(imageUrl: Images.portuguese, languageName: 'Portugues', countryCode: 'BR', languageCode: 'pt'),
     LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
     LanguageModel(imageUrl: Images.spanish, languageName: 'Spanish', countryCode: 'ES', languageCode: 'es'),
-    LanguageModel(imageUrl: Images.portuguese, languageName: 'Portugues', countryCode: 'BR', languageCode: 'pt'),
-  ];
+    ];
 
   static List<String> joinDropdown = [
     'join_us',

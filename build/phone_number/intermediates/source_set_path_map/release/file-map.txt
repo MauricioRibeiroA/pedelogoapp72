@@ -4,9 +4,9 @@ com.julienvignali.phone_number-core-1.6.0-2 /home/mauricio/.gradle/caches/transf
 com.julienvignali.phone_number-jetified-window-java-1.0.0-beta04-3 /home/mauricio/.gradle/caches/transforms-3/f0af934171088345b00674811820840e/transformed/jetified-window-java-1.0.0-beta04/res
 com.julienvignali.phone_number-main-4 /home/mauricio/.pub-cache/hosted/pub.dev/phone_number-1.0.0/android/src/main/res
 com.julienvignali.phone_number-release-5 /home/mauricio/.pub-cache/hosted/pub.dev/phone_number-1.0.0/android/src/release/res
-com.julienvignali.phone_number-pngs-6 /home/mauricio/Documents/pedelogoapp72/build/phone_number/generated/res/pngs/release
-com.julienvignali.phone_number-resValues-7 /home/mauricio/Documents/pedelogoapp72/build/phone_number/generated/res/resValues/release
-com.julienvignali.phone_number-rs-8 /home/mauricio/Documents/pedelogoapp72/build/phone_number/generated/res/rs/release
-com.julienvignali.phone_number-mergeReleaseResources-9 /home/mauricio/Documents/pedelogoapp72/build/phone_number/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.julienvignali.phone_number-mergeReleaseResources-10 /home/mauricio/Documents/pedelogoapp72/build/phone_number/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.julienvignali.phone_number-merged_res-11 /home/mauricio/Documents/pedelogoapp72/build/phone_number/intermediates/merged_res/release
+com.julienvignali.phone_number-pngs-6 /home/mauricio/Documents/ifoome/build/phone_number/generated/res/pngs/release
+com.julienvignali.phone_number-resValues-7 /home/mauricio/Documents/ifoome/build/phone_number/generated/res/resValues/release
+com.julienvignali.phone_number-rs-8 /home/mauricio/Documents/ifoome/build/phone_number/generated/res/rs/release
+com.julienvignali.phone_number-mergeReleaseResources-9 /home/mauricio/Documents/ifoome/build/phone_number/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.julienvignali.phone_number-mergeReleaseResources-10 /home/mauricio/Documents/ifoome/build/phone_number/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.julienvignali.phone_number-merged_res-11 /home/mauricio/Documents/ifoome/build/phone_number/intermediates/merged_res/release

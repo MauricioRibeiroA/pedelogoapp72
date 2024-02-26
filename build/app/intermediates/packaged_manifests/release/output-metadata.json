@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.pedelogo.cliente",
+  "applicationId": "com.sixamtech.stack_food",
   "variantName": "release",
   "elements": [
     {

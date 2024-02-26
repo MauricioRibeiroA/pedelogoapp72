@@ -5,9 +5,9 @@ com.aboutyou.dart_packages.sign_in_with_apple-core-1.6.0-3 /home/mauricio/.gradl
 com.aboutyou.dart_packages.sign_in_with_apple-jetified-window-java-1.0.0-beta04-4 /home/mauricio/.gradle/caches/transforms-3/f0af934171088345b00674811820840e/transformed/jetified-window-java-1.0.0-beta04/res
 com.aboutyou.dart_packages.sign_in_with_apple-main-5 /home/mauricio/.pub-cache/hosted/pub.dev/sign_in_with_apple-4.3.0/android/src/main/res
 com.aboutyou.dart_packages.sign_in_with_apple-release-6 /home/mauricio/.pub-cache/hosted/pub.dev/sign_in_with_apple-4.3.0/android/src/release/res
-com.aboutyou.dart_packages.sign_in_with_apple-pngs-7 /home/mauricio/Documents/pedelogoapp72/build/sign_in_with_apple/generated/res/pngs/release
-com.aboutyou.dart_packages.sign_in_with_apple-resValues-8 /home/mauricio/Documents/pedelogoapp72/build/sign_in_with_apple/generated/res/resValues/release
-com.aboutyou.dart_packages.sign_in_with_apple-rs-9 /home/mauricio/Documents/pedelogoapp72/build/sign_in_with_apple/generated/res/rs/release
-com.aboutyou.dart_packages.sign_in_with_apple-mergeReleaseResources-10 /home/mauricio/Documents/pedelogoapp72/build/sign_in_with_apple/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.aboutyou.dart_packages.sign_in_with_apple-mergeReleaseResources-11 /home/mauricio/Documents/pedelogoapp72/build/sign_in_with_apple/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.aboutyou.dart_packages.sign_in_with_apple-merged_res-12 /home/mauricio/Documents/pedelogoapp72/build/sign_in_with_apple/intermediates/merged_res/release
+com.aboutyou.dart_packages.sign_in_with_apple-pngs-7 /home/mauricio/Documents/ifoome/build/sign_in_with_apple/generated/res/pngs/release
+com.aboutyou.dart_packages.sign_in_with_apple-resValues-8 /home/mauricio/Documents/ifoome/build/sign_in_with_apple/generated/res/resValues/release
+com.aboutyou.dart_packages.sign_in_with_apple-rs-9 /home/mauricio/Documents/ifoome/build/sign_in_with_apple/generated/res/rs/release
+com.aboutyou.dart_packages.sign_in_with_apple-mergeReleaseResources-10 /home/mauricio/Documents/ifoome/build/sign_in_with_apple/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.aboutyou.dart_packages.sign_in_with_apple-mergeReleaseResources-11 /home/mauricio/Documents/ifoome/build/sign_in_with_apple/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.aboutyou.dart_packages.sign_in_with_apple-merged_res-12 /home/mauricio/Documents/ifoome/build/sign_in_with_apple/intermediates/merged_res/release

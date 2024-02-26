@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /home/mauricio/Documents/pedelogoapp72/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.1
+# The proguard configuration file for the following section is /home/mauricio/Documents/ifoome/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.1
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -116,7 +116,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /home/mauricio/Documents/pedelogoapp72/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.1
+# End of content from /home/mauricio/Documents/ifoome/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.1
 # The proguard configuration file for the following section is /home/mauricio/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
 # Build the ephemeral app in a module project.
 # Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**
@@ -127,7 +127,7 @@
 -dontwarn android.**
 
 # End of content from /home/mauricio/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
-# The proguard configuration file for the following section is /home/mauricio/Documents/pedelogoapp72/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /home/mauricio/Documents/ifoome/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
@@ -152,14 +152,13 @@
 -keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
 -keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
--keep class com.google.firebase.sessions.SessionLifecycleService { <init>(); }
--keep class com.pedelogo.cliente.MainActivity { <init>(); }
 -keep class com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver { <init>(); }
 -keep class com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity { <init>(); }
 -keep class com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance { <init>(); }
 -keep class com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity { <init>(); }
 -keep class com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance { <init>(); }
 -keep class com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity { <init>(); }
+-keep class com.sixamtech.stack_food.MainActivity { <init>(); }
 -keep class dev.fluttercommunity.plus.share.ShareFileProvider { <init>(); }
 -keep class dev.fluttercommunity.plus.share.SharePlusPendingIntent { <init>(); }
 -keep class io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService { <init>(); }
@@ -231,8 +230,8 @@
 -keepclassmembers class * { *** shareButtonClicked(android.view.MenuItem); }
 
 
-# End of content from /home/mauricio/Documents/pedelogoapp72/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
-# The proguard configuration file for the following section is /home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
+# End of content from /home/mauricio/Documents/ifoome/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /home/mauricio/Documents/ifoome/build/flutter_inappwebview/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
 # WebView
 -keepattributes *JavascriptInterface*
 -keepclassmembers class * {
@@ -250,8 +249,8 @@
      private *;
 }
 -keep class com.pichillilorenzo.flutter_inappwebview.** { *; }
-# End of content from /home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
-# The proguard configuration file for the following section is /home/mauricio/Documents/pedelogoapp72/build/flutter_plugin_android_lifecycle/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
+# End of content from /home/mauricio/Documents/ifoome/build/flutter_inappwebview/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
+# The proguard configuration file for the following section is /home/mauricio/Documents/ifoome/build/flutter_plugin_android_lifecycle/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
 # The point of this package is to specify that a dependent plugin intends to
 # use the AndroidX lifecycle classes. Make sure no R8 heuristics shrink classes
 # brought in by the embedding's pom.
@@ -262,7 +261,7 @@
 # https://issuetracker.google.com/issues/142778206.
 -keep class androidx.lifecycle.DefaultLifecycleObserver
 
-# End of content from /home/mauricio/Documents/pedelogoapp72/build/flutter_plugin_android_lifecycle/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
+# End of content from /home/mauricio/Documents/ifoome/build/flutter_plugin_android_lifecycle/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
 # The proguard configuration file for the following section is /home/mauricio/.gradle/caches/transforms-3/22d16b9e465c0094c18a8e6a8b0e920a/transformed/jetified-firebase-common-20.4.2/proguard.txt
 -dontwarn com.google.firebase.platforminfo.KotlinDetector
 -dontwarn com.google.auto.value.AutoValue
@@ -1091,7 +1090,7 @@
 -dontwarn okhttp3.internal.platform.ConscryptPlatform
 
 # End of content from /home/mauricio/.gradle/caches/transforms-3/3980f5a96c730e755794436fd4bef7a2/transformed/rules/lib/META-INF/proguard/okhttp3.pro
-# The proguard configuration file for the following section is /home/mauricio/.gradle/caches/transforms-3/173216df4fd3a69ce1e0bf791b596510/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# The proguard configuration file for the following section is /home/mauricio/.gradle/caches/transforms-3/4332ea2c9780b89dae450596823fa84d/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -1111,7 +1110,7 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from /home/mauricio/.gradle/caches/transforms-3/173216df4fd3a69ce1e0bf791b596510/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# End of content from /home/mauricio/.gradle/caches/transforms-3/4332ea2c9780b89dae450596823fa84d/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

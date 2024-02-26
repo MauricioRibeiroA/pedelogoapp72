@@ -375,7 +375,7 @@
     <string name="call_notification_incoming_text">Incoming call</string>
     <string name="call_notification_ongoing_text">Ongoing call</string>
     <string name="call_notification_screening_text">Screening an incoming call</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">4da0b64874fc4048821fecfe25bec465</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">be182798bf56469ba31a640f92641e2b</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -419,7 +419,7 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="default_notification_channel_name">Now playing</string>
-    <string name="default_web_client_id" translatable="false">1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">1049699819506-r9agjij7oigjssbffc2g6i2glegb21io.apps.googleusercontent.com</string>
     <string name="exo_download_completed">Download completed</string>
     <string name="exo_download_description">Download</string>
     <string name="exo_download_downloading">Downloading</string>
@@ -436,15 +436,15 @@
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fb_login_protocol_scheme">fb452131619626499</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="gcm_defaultSenderId" translatable="false">1042917200218</string>
-    <string name="google_api_key" translatable="false">AIzaSyDLNS40sKR90kt0_lrr26aFXXriWhPB3e8</string>
-    <string name="google_app_id" translatable="false">1:1042917200218:android:4d9c5710c1ecddb7736363</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDLNS40sKR90kt0_lrr26aFXXriWhPB3e8</string>
-    <string name="google_storage_bucket" translatable="false">pedelogo-3f824.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1049699819506</string>
+    <string name="google_api_key" translatable="false">AIzaSyBScz65YN8J9YoKdtKPl4ecCB3Vkc7iNL8</string>
+    <string name="google_app_id" translatable="false">1:1049699819506:android:c80cf797b22c81f089956b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBScz65YN8J9YoKdtKPl4ecCB3Vkc7iNL8</string>
+    <string name="google_storage_bucket" translatable="false">stackfood-bd3ee.appspot.com</string>
     <string name="menu_search">Search</string>
     <string name="pause_button_content_description">Pause</string>
     <string name="play_button_content_description">Play</string>
-    <string name="project_id" translatable="false">pedelogo-3f824</string>
+    <string name="project_id" translatable="false">stackfood-bd3ee</string>
     <string name="search_menu_title">Search</string>
     <string name="skip_to_next_item_button_content_description">Skip to next item</string>
     <string name="skip_to_previous_item_button_content_description">Skip to previous item</string>

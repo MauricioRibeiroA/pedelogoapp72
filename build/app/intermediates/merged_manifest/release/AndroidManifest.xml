@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pedelogo.cliente"
+    package="com.sixamtech.stack_food"
     android:versionCode="4001"
     android:versionName="1.0.0" >
 
@@ -74,16 +74,16 @@
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <permission
-        android:name="com.pedelogo.cliente.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.sixamtech.stack_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.pedelogo.cliente.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.sixamtech.stack_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <application
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/ic_launcher"
-        android:label="PedeLogo"
+        android:label="StackFood"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true" >
@@ -92,7 +92,7 @@
             android:value="AIzaSyCaCSJ0BZItSyXqBv8vpD1N4WBffJeKhLQ" />
 
         <activity
-            android:name="com.pedelogo.cliente.MainActivity"
+            android:name="com.sixamtech.stack_food.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -180,7 +180,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="cct.com.pedelogo.cliente"
+                    android:host="cct.com.sixamtech.stack_food"
                     android:scheme="fbconnect" />
             </intent-filter>
         </activity>
@@ -269,7 +269,7 @@
 
         <provider
             android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-            android:authorities="com.pedelogo.cliente.flutterfirebasemessaginginitprovider"
+            android:authorities="com.sixamtech.stack_food.flutterfirebasemessaginginitprovider"
             android:exported="false"
             android:initOrder="99" />
 
@@ -334,7 +334,7 @@
         -->
         <provider
             android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
-            android:authorities="com.pedelogo.cliente.flutter.share_provider"
+            android:authorities="com.sixamtech.stack_food.flutter.share_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -355,7 +355,7 @@
 
         <provider
             android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-            android:authorities="com.pedelogo.cliente.flutter.image_provider"
+            android:authorities="com.sixamtech.stack_food.flutter.image_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -392,14 +392,10 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service
-            android:name="com.google.firebase.sessions.SessionLifecycleService"
-            android:enabled="true"
-            android:exported="false" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.pedelogo.cliente.firebaseinitprovider"
+            android:authorities="com.sixamtech.stack_food.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -435,7 +431,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.pedelogo.cliente.androidx-startup"
+            android:authorities="com.sixamtech.stack_food.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -458,7 +454,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.pedelogo.cliente.FacebookInitProvider"
+            android:authorities="com.sixamtech.stack_food.FacebookInitProvider"
             android:exported="false" />
 
         <receiver

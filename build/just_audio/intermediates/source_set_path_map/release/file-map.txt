@@ -9,10 +9,10 @@ com.ryanheise.just_audio-lifecycle-runtime-2.3.1-7 /home/mauricio/.gradle/caches
 com.ryanheise.just_audio-jetified-window-java-1.0.0-beta04-8 /home/mauricio/.gradle/caches/transforms-3/f0af934171088345b00674811820840e/transformed/jetified-window-java-1.0.0-beta04/res
 com.ryanheise.just_audio-main-9 /home/mauricio/.pub-cache/hosted/pub.dev/just_audio-0.9.36/android/src/main/res
 com.ryanheise.just_audio-release-10 /home/mauricio/.pub-cache/hosted/pub.dev/just_audio-0.9.36/android/src/release/res
-com.ryanheise.just_audio-packaged_res-11 /home/mauricio/Documents/pedelogoapp72/build/audio_session/intermediates/packaged_res/release
-com.ryanheise.just_audio-pngs-12 /home/mauricio/Documents/pedelogoapp72/build/just_audio/generated/res/pngs/release
-com.ryanheise.just_audio-resValues-13 /home/mauricio/Documents/pedelogoapp72/build/just_audio/generated/res/resValues/release
-com.ryanheise.just_audio-rs-14 /home/mauricio/Documents/pedelogoapp72/build/just_audio/generated/res/rs/release
-com.ryanheise.just_audio-mergeReleaseResources-15 /home/mauricio/Documents/pedelogoapp72/build/just_audio/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.ryanheise.just_audio-mergeReleaseResources-16 /home/mauricio/Documents/pedelogoapp72/build/just_audio/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.ryanheise.just_audio-merged_res-17 /home/mauricio/Documents/pedelogoapp72/build/just_audio/intermediates/merged_res/release
+com.ryanheise.just_audio-packaged_res-11 /home/mauricio/Documents/ifoome/build/audio_session/intermediates/packaged_res/release
+com.ryanheise.just_audio-pngs-12 /home/mauricio/Documents/ifoome/build/just_audio/generated/res/pngs/release
+com.ryanheise.just_audio-resValues-13 /home/mauricio/Documents/ifoome/build/just_audio/generated/res/resValues/release
+com.ryanheise.just_audio-rs-14 /home/mauricio/Documents/ifoome/build/just_audio/generated/res/rs/release
+com.ryanheise.just_audio-mergeReleaseResources-15 /home/mauricio/Documents/ifoome/build/just_audio/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.ryanheise.just_audio-mergeReleaseResources-16 /home/mauricio/Documents/ifoome/build/just_audio/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.ryanheise.just_audio-merged_res-17 /home/mauricio/Documents/ifoome/build/just_audio/intermediates/merged_res/release

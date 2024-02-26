@@ -21,8 +21,8 @@ com.pichillilorenzo.flutter_inappwebview-jetified-window-java-1.0.0-beta04-19 /h
 com.pichillilorenzo.flutter_inappwebview-jetified-core-ktx-1.8.0-20 /home/mauricio/.gradle/caches/transforms-3/f658d71e4c9e827ba1a04db290a33790/transformed/jetified-core-ktx-1.8.0/res
 com.pichillilorenzo.flutter_inappwebview-main-21 /home/mauricio/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/android/src/main/res
 com.pichillilorenzo.flutter_inappwebview-release-22 /home/mauricio/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/android/src/release/res
-com.pichillilorenzo.flutter_inappwebview-resValues-23 /home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/generated/res/resValues/release
-com.pichillilorenzo.flutter_inappwebview-rs-24 /home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/generated/res/rs/release
-com.pichillilorenzo.flutter_inappwebview-mergeReleaseResources-25 /home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.pichillilorenzo.flutter_inappwebview-mergeReleaseResources-26 /home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.pichillilorenzo.flutter_inappwebview-merged_res-27 /home/mauricio/Documents/pedelogoapp72/build/flutter_inappwebview/intermediates/merged_res/release
+com.pichillilorenzo.flutter_inappwebview-resValues-23 /home/mauricio/Documents/ifoome/build/flutter_inappwebview/generated/res/resValues/release
+com.pichillilorenzo.flutter_inappwebview-rs-24 /home/mauricio/Documents/ifoome/build/flutter_inappwebview/generated/res/rs/release
+com.pichillilorenzo.flutter_inappwebview-mergeReleaseResources-25 /home/mauricio/Documents/ifoome/build/flutter_inappwebview/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.pichillilorenzo.flutter_inappwebview-mergeReleaseResources-26 /home/mauricio/Documents/ifoome/build/flutter_inappwebview/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.pichillilorenzo.flutter_inappwebview-merged_res-27 /home/mauricio/Documents/ifoome/build/flutter_inappwebview/intermediates/merged_res/release

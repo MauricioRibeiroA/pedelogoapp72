@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.pedelogo.cliente.app-mergeReleaseResources-49:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.sixamtech.stack_food.app-mergeReleaseResources-49:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/Documents/pedelogoapp72/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/mauricio/Documents/ifoome/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
