@@ -4,6 +4,23 @@
             "outputFile": "io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-merged_res-15:/values/values.xml",
             "map": [
                 {
+                    "source": "/home/mauricio/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.4.9/android/src/main/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "501",
+                        "endColumns": "60",
+                        "endOffsets": "557"
+                    }
+                },
+                {
                     "source": "/home/mauricio/.gradle/caches/transforms-3/c901fe5f1f8d6a37936bdd0c97e8199d/transformed/jetified-play-services-basement-18.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -56,23 +73,6 @@
                         "endLines": "7,8,9,10,73,114,118,232,244,252",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "339,399,451,496,4498,6895,7026,10983,11423,11732"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.4.4/android/src/main/res/values/values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "2",
-                        "startOffsets": "53",
-                        "endColumns": "58",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "501",
-                        "endColumns": "60",
-                        "endOffsets": "557"
                     }
                 }
             ]
@@ -81,6 +81,23 @@
             "outputFile": "io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-mergeReleaseResources-13:/values/values.xml",
             "map": [
                 {
+                    "source": "/home/mauricio/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.4.9/android/src/main/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "501",
+                        "endColumns": "60",
+                        "endOffsets": "557"
+                    }
+                },
+                {
                     "source": "/home/mauricio/.gradle/caches/transforms-3/c901fe5f1f8d6a37936bdd0c97e8199d/transformed/jetified-play-services-basement-18.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -133,23 +150,6 @@
                         "endLines": "7,8,9,10,73,114,118,232,244,252",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "339,399,451,496,4498,6895,7026,10983,11423,11732"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.4.4/android/src/main/res/values/values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "2",
-                        "startOffsets": "53",
-                        "endColumns": "58",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "501",
-                        "endColumns": "60",
-                        "endOffsets": "557"
                     }
                 }
             ]

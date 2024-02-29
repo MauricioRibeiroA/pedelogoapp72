@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sixamtech.stack_food.app-mergeReleaseResources-49:/values-pt/values-pt.xml",
+            "outputFile": "com.pedelogo.cliente.app-mergeReleaseResources-49:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "/home/mauricio/.gradle/caches/transforms-3/96740b6185e92a7eaddf440e1c147695/transformed/jetified-media2-session-1.2.1/res/values-pt/values-pt.xml",

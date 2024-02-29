@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sixamtech.stack_food.app-mergeReleaseResources-49:/values-uz/values-uz.xml",
+            "outputFile": "com.pedelogo.cliente.app-mergeReleaseResources-49:/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/home/mauricio/.gradle/caches/transforms-3/f7270479a62dc1470d785aa3f5ccb165/transformed/browser-1.5.0/res/values-uz/values-uz.xml",
