@@ -58,10 +58,10 @@ Future<void> main() async {
 
   if(GetPlatform.isWeb) {
     await Firebase.initializeApp(options: const FirebaseOptions(
-      apiKey: 'AIzaSyCeaw_gVN0iQwFHyuF8pQ6PbVDmSVQw8AY',
-      appId: '1:1049699819506:web:a4b5e3bedc729aab89956b',
-      messagingSenderId: '1049699819506',
-      projectId: 'stackfood-bd3ee',
+      apiKey: 'AIzaSyC5az9sNi0x6QoNgHZSbs57ZPSjuZPhr1Q',
+      appId: '1:1042917200218:web:1141f59d4bf3650a736363',
+      messagingSenderId: '1042917200218',
+      projectId: 'pedelogo-3f824',
     ));
     MetaSEO().config();
   }else {

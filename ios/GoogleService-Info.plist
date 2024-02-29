@@ -15,11 +15,11 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.sixamtech.stackFood</string>
+	<string>com.pedelogo.cliente</string>
 	<key>PROJECT_ID</key>
-	<string>stackfood-bd3ee</string>
+	<string>pedelogo-3f824</string>
 	<key>STORAGE_BUCKET</key>
-	<string>stackfood-bd3ee.appspot.com</string>
+	<string>pedelogo-3f824.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
