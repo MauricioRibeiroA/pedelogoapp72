@@ -1,4 +1,4 @@
-#Fri Mar 01 23:20:09 BRT 2024
+#Sat Mar 02 13:09:40 BRT 2024
 base.0=D\:\\Projetos\\pedelogo\\pedelogoapp72\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Projetos\\pedelogo\\pedelogoapp72\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=D\:\\Projetos\\pedelogo\\pedelogoapp72\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

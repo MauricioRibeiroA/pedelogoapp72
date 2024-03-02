@@ -92,7 +92,7 @@ Future<void> main() async {
 
   if (ResponsiveHelper.isWeb()) {
     await FacebookAuth.instance.webAndDesktopInitialize(
-      appId: "452131619626499",
+      appId: "935000671305411",
       cookie: true,
       xfbml: true,
       version: "v13.0",
