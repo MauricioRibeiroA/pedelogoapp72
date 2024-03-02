@@ -1,0 +1,947 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pedelogo.cliente"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:8:5-66
+14-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:10:22-78
+17
+18    <queries>
+18-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:12:5-25:15
+19        <intent>
+19-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:13:9-16:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:13-65
+20-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:21-62
+21
+22            <data android:scheme="https" />
+22-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+22-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:19-41
+23        </intent>
+24        <intent>
+24-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:17:9-20:18
+25            <action android:name="android.intent.action.DIAL" />
+25-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:18:13-65
+25-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:18:21-62
+26
+27            <data android:scheme="tel" />
+27-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+27-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:19-41
+28        </intent>
+29        <intent>
+29-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:21:9-24:18
+30            <action android:name="android.intent.action.SEND" />
+30-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:22:13-65
+30-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:22:21-62
+31
+32            <data android:mimeType="*/*" />
+32-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+33        </intent>
+34        <intent>
+34-->[:file_picker] D:\Projetos\pedelogo\pedelogoapp72\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+35            <action android:name="android.intent.action.GET_CONTENT" />
+35-->[:file_picker] D:\Projetos\pedelogo\pedelogoapp72\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+35-->[:file_picker] D:\Projetos\pedelogo\pedelogoapp72\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+36
+37            <data android:mimeType="*/*" />
+37-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+38        </intent>
+39        <intent>
+39-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+40            <action android:name="android.support.customtabs.action.CustomTabsService" />
+40-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+40-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+41        </intent>
+42
+43        <package android:name="com.facebook.katana" /> <!-- Needs to be explicitly declared on Android R+ -->
+43-->[com.facebook.android:facebook-common:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\2e0af1b261a95480f87a248222e8ac4b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:18:9-55
+43-->[com.facebook.android:facebook-common:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\2e0af1b261a95480f87a248222e8ac4b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:18:18-52
+44        <package android:name="com.google.android.apps.maps" />
+44-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\a7e30eb3677680b6aae4dc66a26e8729\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+44-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\a7e30eb3677680b6aae4dc66a26e8729\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+45
+46        <intent>
+46-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
+47            <action android:name="android.media.browse.MediaBrowserService" />
+47-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:13-79
+47-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:21-76
+48        </intent>
+49        <intent>
+49-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:28:9-30:18
+50            <action android:name="androidx.media2.session.MediaSessionService" />
+50-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:13-82
+50-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:21-79
+51        </intent>
+52        <intent>
+52-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:31:9-33:18
+53            <action android:name="androidx.media2.session.MediaLibraryService" />
+53-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:13-82
+53-->[androidx.media2:media2-session:1.2.1] C:\Users\romeu\.gradle\caches\transforms-3\96740b6185e92a7eaddf440e1c147695\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:21-79
+54        </intent>
+55    </queries>
+56
+57    <uses-permission android:name="android.permission.WAKE_LOCK" />
+57-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+57-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+58    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+58-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+58-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+59    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+59-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+59-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+60    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+60-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+60-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+61    <uses-permission android:name="android.permission.VIBRATE" />
+61-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+61-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+62    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+62-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+62-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+63    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+63-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+63-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+64    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+64-->[:file_picker] D:\Projetos\pedelogo\pedelogoapp72\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+64-->[:file_picker] D:\Projetos\pedelogo\pedelogoapp72\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
+65    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+65-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\romeu\.gradle\caches\transforms-3\f0e2c99fea8665f81022edd93a54be39\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
+65-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\romeu\.gradle\caches\transforms-3\f0e2c99fea8665f81022edd93a54be39\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:22-79
+66
+67    <uses-feature
+67-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\a7e30eb3677680b6aae4dc66a26e8729\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+68        android:glEsVersion="0x00020000"
+68-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\a7e30eb3677680b6aae4dc66a26e8729\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+69        android:required="true" />
+69-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\a7e30eb3677680b6aae4dc66a26e8729\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+70
+71    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+71-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:16:5-79
+71-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:16:22-76
+72
+73    <permission
+73-->[androidx.core:core:1.10.1] C:\Users\romeu\.gradle\caches\transforms-3\a774af37300be4187dad3b9ede8d4e64\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+74        android:name="com.pedelogo.cliente.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+74-->[androidx.core:core:1.10.1] C:\Users\romeu\.gradle\caches\transforms-3\a774af37300be4187dad3b9ede8d4e64\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+75        android:protectionLevel="signature" />
+75-->[androidx.core:core:1.10.1] C:\Users\romeu\.gradle\caches\transforms-3\a774af37300be4187dad3b9ede8d4e64\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+76
+77    <uses-permission android:name="com.pedelogo.cliente.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+77-->[androidx.core:core:1.10.1] C:\Users\romeu\.gradle\caches\transforms-3\a774af37300be4187dad3b9ede8d4e64\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+77-->[androidx.core:core:1.10.1] C:\Users\romeu\.gradle\caches\transforms-3\a774af37300be4187dad3b9ede8d4e64\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+78    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+78-->[com.android.installreferrer:installreferrer:1.0] C:\Users\romeu\.gradle\caches\transforms-3\14b8508c2219f18ae44458e760d3ec31\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+78-->[com.android.installreferrer:installreferrer:1.0] C:\Users\romeu\.gradle\caches\transforms-3\14b8508c2219f18ae44458e760d3ec31\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+79
+80    <application
+80-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:27:5-117:19
+81        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+81-->[androidx.core:core:1.10.1] C:\Users\romeu\.gradle\caches\transforms-3\a774af37300be4187dad3b9ede8d4e64\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+82        android:debuggable="true"
+83        android:icon="@mipmap/ic_launcher"
+83-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:31:9-43
+84        android:label="PedeLogo"
+84-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:28:9-33
+85        android:requestLegacyExternalStorage="true"
+85-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:29:9-52
+86        android:supportsRtl="true"
+86-->[com.facebook.android:facebook-login:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\5482458a2ca57ec3c100a35ccfaabf87\transformed\jetified-facebook-login-16.0.1\AndroidManifest.xml:16:18-44
+87        android:usesCleartextTraffic="true" >
+87-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:30:9-44
+88        <meta-data
+88-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:32:9-33:70
+89            android:name="com.google.android.geo.API_KEY"
+89-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:32:20-65
+90            android:value="AIzaSyAFCR8BXMS-PnQ8ep5QrEjspddpERJTeuo" />
+90-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:33:13-68
+91
+92        <activity
+92-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:35:9-79:20
+93            android:name="com.pedelogo.cliente.MainActivity"
+93-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:36:13-41
+94            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+94-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:39:13-163
+95            android:exported="true"
+95-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:41:13-36
+96            android:hardwareAccelerated="true"
+96-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:40:13-47
+97            android:launchMode="singleTop"
+97-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:37:13-43
+98            android:theme="@style/LaunchTheme"
+98-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:38:13-47
+99            android:windowSoftInputMode="adjustResize" >
+99-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:42:13-55
+100
+101            <!--
+102                 Specifies an Android theme to apply to this Activity as soon as
+103                 the Android process has started. This theme is visible to the user
+104                 while the Flutter UI initializes. After that, this theme continues
+105                 to determine the Window background behind the Flutter UI.
+106            -->
+107            <meta-data
+107-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:47:13-50:17
+108                android:name="io.flutter.embedding.android.NormalTheme"
+108-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:48:15-70
+109                android:resource="@style/NormalTheme" />
+109-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:49:15-52
+110            <!--
+111                 Displays an Android View that continues showing the launch screen
+112                 Drawable until Flutter paints its first frame, then this splash
+113                 screen fades out. A splash screen is useful to avoid any visual
+114                 gap between the end of Android's launch screen and the painting of
+115                 Flutter's first frame.
+116            -->
+117            <meta-data
+117-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:56:13-58:44
+118                android:name="com.google.firebase.messaging.default_notification_channel_id"
+118-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:57:17-93
+119                android:value="PedeLogo" />
+119-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:58:17-41
+120
+121            <intent-filter>
+121-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:59:13-62:29
+122                <action android:name="android.intent.action.MAIN" />
+122-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:60:17-68
+122-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:60:25-66
+123
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:61:17-76
+124-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:61:27-74
+125            </intent-filter>
+126            <intent-filter>
+126-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:63:13-66:29
+127                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+127-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:64:17-69
+127-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:64:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:17-76
+129-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:27-73
+130            </intent-filter>
+131
+132            <!-- Deep Links -->
+133            <intent-filter>
+133-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:69:13-77:29
+134                <action android:name="android.intent.action.VIEW" />
+134-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:13-65
+134-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:21-62
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:17-76
+136-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:27-73
+137                <category android:name="android.intent.category.BROWSABLE" />
+137-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:72:17-78
+137-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:72:27-75
+138                <!-- Accepts URIs that begin with YOUR_SCHEME://YOUR_HOST -->
+139                <data
+139-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+140                    android:host="stackfood.com"
+141                    android:scheme="StackFood" />
+141-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:19-41
+142            </intent-filter>
+143        </activity>
+144        <!--
+145             Don't delete the meta-data below.
+146             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+147        -->
+148        <meta-data
+148-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:82:9-84:33
+149            android:name="flutterEmbedding"
+149-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:83:13-44
+150            android:value="2" />
+150-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:84:13-30
+151        <meta-data
+151-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:85:9-107
+152            android:name="com.facebook.sdk.ApplicationId"
+152-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:85:20-65
+153            android:value="@string/facebook_app_id" />
+153-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:85:66-105
+154        <meta-data
+154-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:86:9-111
+155            android:name="com.facebook.sdk.ClientToken"
+155-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:86:20-63
+156            android:value="@string/facebook_client_token" />
+156-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:86:64-109
+157
+158        <activity
+158-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:89:9-92:48
+159            android:name="com.facebook.FacebookActivity"
+159-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:89:19-63
+160            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+160-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:90:13-114
+161            android:label="@string/app_name"
+161-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:92:13-45
+162            android:theme="@style/com_facebook_activity_theme" />
+162-->[com.facebook.android:facebook-common:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\2e0af1b261a95480f87a248222e8ac4b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:25:13-63
+163        <activity
+163-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:93:9-102:20
+164            android:name="com.facebook.CustomTabActivity"
+164-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:94:13-58
+165            android:exported="true" >
+165-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:95:13-36
+166            <intent-filter>
+166-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:96:13-101:29
+167                <action android:name="android.intent.action.VIEW" />
+167-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:13-65
+167-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:21-62
+168
+169                <category android:name="android.intent.category.DEFAULT" />
+169-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:17-76
+169-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:27-73
+170                <category android:name="android.intent.category.BROWSABLE" />
+170-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:72:17-78
+170-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:72:27-75
+171
+172                <data android:scheme="@string/fb_login_protocol_scheme" />
+172-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+172-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:19-41
+173            </intent-filter>
+174            <intent-filter>
+174-->[com.facebook.android:facebook-common:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\2e0af1b261a95480f87a248222e8ac4b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:31:13-40:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:13-65
+175-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:21-62
+176
+177                <category android:name="android.intent.category.DEFAULT" />
+177-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:17-76
+177-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:27-73
+178                <category android:name="android.intent.category.BROWSABLE" />
+178-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:72:17-78
+178-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:72:27-75
+179
+180                <data
+180-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+181                    android:host="cct.com.pedelogo.cliente"
+182                    android:scheme="fbconnect" />
+182-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:19-41
+183            </intent-filter>
+184        </activity>
+185        <activity
+185-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:103:9-115:20
+186            android:name="com.aboutyou.dart_packages.sign_in_with_apple.SignInWithAppleCallback"
+186-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:104:13-97
+187            android:exported="true" >
+187-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:105:13-36
+188            <intent-filter>
+188-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:107:13-114:29
+189                <action android:name="android.intent.action.VIEW" />
+189-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:13-65
+189-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:14:21-62
+190
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:17-76
+191-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:65:27-73
+192                <category android:name="android.intent.category.BROWSABLE" />
+192-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:72:17-78
+192-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:72:27-75
+193
+194                <data android:scheme="signinwithapple" />
+194-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+194-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:19-41
+195                <data android:path="callback" />
+195-->D:\Projetos\pedelogo\pedelogoapp72\android\app\src\main\AndroidManifest.xml:15:13-44
+196            </intent-filter>
+197        </activity>
+198
+199        <service
+199-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+200            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+200-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+201            android:exported="false"
+201-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+202            android:permission="android.permission.BIND_JOB_SERVICE" />
+202-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+203        <service
+203-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+204            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+204-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+205            android:exported="false" >
+205-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+206            <intent-filter>
+206-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+207                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+207-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+207-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+208            </intent-filter>
+209        </service>
+210
+211        <receiver
+211-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+212            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+212-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+213            android:exported="true"
+213-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+214            android:permission="com.google.android.c2dm.permission.SEND" >
+214-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+215            <intent-filter>
+215-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+216                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+216-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+216-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+217            </intent-filter>
+218        </receiver>
+219
+220        <service
+220-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-41:19
+221            android:name="com.google.firebase.components.ComponentDiscoveryService"
+221-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:18-89
+222            android:directBootAware="true"
+222-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+223            android:exported="false" >
+223-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\romeu\.gradle\caches\transforms-3\7493475d0d8a8d3df3f36fd86ef48b88\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:14:13-37
+224            <meta-data
+224-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+225                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+225-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+227            <meta-data
+227-->[:firebase_crashlytics] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+228                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+228-->[:firebase_crashlytics] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-130
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[:firebase_crashlytics] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+230            <meta-data
+230-->[:firebase_core] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+231                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+231-->[:firebase_core] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[:firebase_core] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\romeu\.gradle\caches\transforms-3\7493475d0d8a8d3df3f36fd86ef48b88\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:15:13-17:85
+234                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+234-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\romeu\.gradle\caches\transforms-3\7493475d0d8a8d3df3f36fd86ef48b88\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:16:17-126
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\romeu\.gradle\caches\transforms-3\7493475d0d8a8d3df3f36fd86ef48b88\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:17:17-82
+236            <meta-data
+236-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\romeu\.gradle\caches\transforms-3\7493475d0d8a8d3df3f36fd86ef48b88\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:18:13-20:85
+237                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+237-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\romeu\.gradle\caches\transforms-3\7493475d0d8a8d3df3f36fd86ef48b88\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:19:17-115
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\romeu\.gradle\caches\transforms-3\7493475d0d8a8d3df3f36fd86ef48b88\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:20:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\romeu\.gradle\caches\transforms-3\f0e2c99fea8665f81022edd93a54be39\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+240                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+240-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\romeu\.gradle\caches\transforms-3\f0e2c99fea8665f81022edd93a54be39\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\romeu\.gradle\caches\transforms-3\f0e2c99fea8665f81022edd93a54be39\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+242            <meta-data
+242-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:57:13-59:85
+243                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+243-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:58:17-122
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:59:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:60:13-62:85
+246                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+246-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:61:17-119
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:62:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\8a6205a767dde2ca013e9ef60ae0e676\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:29:13-31:85
+249                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+249-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\8a6205a767dde2ca013e9ef60ae0e676\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:30:17-117
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\8a6205a767dde2ca013e9ef60ae0e676\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:31:17-82
+251            <meta-data
+251-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\romeu\.gradle\caches\transforms-3\b7dbe4e1af988e28c5d46493d9a11ca8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+252                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+252-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\romeu\.gradle\caches\transforms-3\b7dbe4e1af988e28c5d46493d9a11ca8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\romeu\.gradle\caches\transforms-3\b7dbe4e1af988e28c5d46493d9a11ca8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+254            <meta-data
+254-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\romeu\.gradle\caches\transforms-3\b7dbe4e1af988e28c5d46493d9a11ca8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+255                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+255-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\romeu\.gradle\caches\transforms-3\b7dbe4e1af988e28c5d46493d9a11ca8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\romeu\.gradle\caches\transforms-3\b7dbe4e1af988e28c5d46493d9a11ca8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\ac1b185203f1001c1d6b9c8b87846fdd\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+258                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+258-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\ac1b185203f1001c1d6b9c8b87846fdd\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\ac1b185203f1001c1d6b9c8b87846fdd\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+261                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+261-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\romeu\.gradle\caches\transforms-3\eebca42abd5b2c4a242c7e8c027a247a\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+264                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+264-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\romeu\.gradle\caches\transforms-3\eebca42abd5b2c4a242c7e8c027a247a\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\romeu\.gradle\caches\transforms-3\eebca42abd5b2c4a242c7e8c027a247a\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+266        </service>
+267
+268        <provider
+268-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+269            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+269-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+270            android:authorities="com.pedelogo.cliente.flutterfirebasemessaginginitprovider"
+270-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+271            android:exported="false"
+271-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+272            android:initOrder="99" />
+272-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+273
+274        <service
+274-->[:geolocator_android] D:\Projetos\pedelogo\pedelogoapp72\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
+275            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+275-->[:geolocator_android] D:\Projetos\pedelogo\pedelogoapp72\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+276            android:enabled="true"
+276-->[:geolocator_android] D:\Projetos\pedelogo\pedelogoapp72\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
+277            android:exported="false"
+277-->[:geolocator_android] D:\Projetos\pedelogo\pedelogoapp72\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+278            android:foregroundServiceType="location" />
+278-->[:geolocator_android] D:\Projetos\pedelogo\pedelogoapp72\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
+279
+280        <receiver
+280-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+281            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+281-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+282            android:exported="false" />
+282-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+283        <receiver
+283-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+284            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+284-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+285            android:exported="false" />
+285-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+286        <receiver
+286-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+287            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+287-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+288            android:exported="false" >
+288-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+289            <intent-filter>
+289-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+290                <action android:name="android.intent.action.BOOT_COMPLETED" />
+290-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+290-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+291                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+291-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+291-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+292                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+292-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+292-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+293                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+293-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+293-->[:flutter_local_notifications] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+294            </intent-filter>
+295        </receiver>
+296
+297        <activity
+297-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+298            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+298-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+299            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+299-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+300            android:exported="false"
+300-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+301            android:theme="@style/AppTheme" />
+301-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+302        <activity
+302-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+303            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+303-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+304            android:exported="false"
+304-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+305            android:theme="@style/ThemeTransparent" />
+305-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+306        <activity
+306-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+307            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+307-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+308            android:exported="false"
+308-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+309            android:theme="@style/ThemeTransparent" />
+309-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+310        <activity
+310-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+311            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+311-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+312            android:exported="false"
+312-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+313            android:launchMode="singleInstance"
+313-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+314            android:theme="@style/ThemeTransparent" />
+314-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+315        <activity
+315-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+316            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+316-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+317            android:exported="false"
+317-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+318            android:launchMode="singleInstance"
+318-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+319            android:theme="@style/ThemeTransparent" />
+319-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+320
+321        <receiver
+321-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+322            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+322-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+323            android:enabled="true"
+323-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+324            android:exported="false" />
+324-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+325
+326        <meta-data
+326-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+327            android:name="io.flutter.embedded_views_preview"
+327-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+328            android:value="true" />
+328-->[:flutter_inappwebview] D:\Projetos\pedelogo\pedelogoapp72\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+329        <!--
+330           Declares a provider which allows us to store files to share in
+331           '.../caches/share_plus' and grant the receiving action access
+332        -->
+333        <provider
+333-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:20
+334            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+334-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-77
+335            android:authorities="com.pedelogo.cliente.flutter.share_provider"
+335-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-74
+336            android:exported="false"
+336-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+337            android:grantUriPermissions="true" >
+337-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-47
+338            <meta-data
+338-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:68
+339                android:name="android.support.FILE_PROVIDER_PATHS"
+339-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-67
+340                android:resource="@xml/flutter_share_file_paths" />
+340-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-65
+341        </provider>
+342        <!--
+343           This manifest declared broadcast receiver allows us to use an explicit
+344           Intent when creating a PendingItent to be informed of the user's choice
+345        -->
+346        <receiver
+346-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-34:20
+347            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+347-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-82
+348            android:exported="false" >
+348-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-37
+349            <intent-filter>
+349-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-33:29
+350                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+350-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-65
+350-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-62
+351            </intent-filter>
+352        </receiver>
+353
+354        <provider
+354-->[:image_picker_android] D:\Projetos\pedelogo\pedelogoapp72\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+355            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+355-->[:image_picker_android] D:\Projetos\pedelogo\pedelogoapp72\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+356            android:authorities="com.pedelogo.cliente.flutter.image_provider"
+356-->[:image_picker_android] D:\Projetos\pedelogo\pedelogoapp72\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+357            android:exported="false"
+357-->[:image_picker_android] D:\Projetos\pedelogo\pedelogoapp72\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+358            android:grantUriPermissions="true" >
+358-->[:image_picker_android] D:\Projetos\pedelogo\pedelogoapp72\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+359            <meta-data
+359-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:68
+360                android:name="android.support.FILE_PROVIDER_PATHS"
+360-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-67
+361                android:resource="@xml/flutter_image_picker_file_paths" />
+361-->[:share_plus] D:\Projetos\pedelogo\pedelogoapp72\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-65
+362        </provider>
+363
+364        <activity
+364-->[:url_launcher_android] D:\Projetos\pedelogo\pedelogoapp72\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+365            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+365-->[:url_launcher_android] D:\Projetos\pedelogo\pedelogoapp72\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+366            android:exported="false"
+366-->[:url_launcher_android] D:\Projetos\pedelogo\pedelogoapp72\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+367            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+367-->[:url_launcher_android] D:\Projetos\pedelogo\pedelogoapp72\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+368
+369        <receiver
+369-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:29:9-40:20
+370            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+370-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:30:13-78
+371            android:exported="true"
+371-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:31:13-36
+372            android:permission="com.google.android.c2dm.permission.SEND" >
+372-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:32:13-73
+373            <intent-filter>
+373-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+374                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+374-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+374-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+375            </intent-filter>
+376
+377            <meta-data
+377-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:37:13-39:40
+378                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+378-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:38:17-92
+379                android:value="true" />
+379-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:39:17-37
+380        </receiver>
+381        <!--
+382             FirebaseMessagingService performs security checks at runtime,
+383             but set to not exported to explicitly avoid allowing another app to call it.
+384        -->
+385        <service
+385-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:46:9-53:19
+386            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+386-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:47:13-82
+387            android:directBootAware="true"
+387-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:48:13-43
+388            android:exported="false" >
+388-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\romeu\.gradle\caches\transforms-3\e049496da2e37334bfc9da53bc2a244a\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:49:13-37
+389            <intent-filter android:priority="-500" >
+389-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+390                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+390-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+390-->[:firebase_messaging] D:\Projetos\pedelogo\pedelogoapp72\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+391            </intent-filter>
+392        </service>
+393        <service
+393-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\8a6205a767dde2ca013e9ef60ae0e676\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:22:9-25:40
+394            android:name="com.google.firebase.sessions.SessionLifecycleService"
+394-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\8a6205a767dde2ca013e9ef60ae0e676\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:23:13-80
+395            android:enabled="true"
+395-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\8a6205a767dde2ca013e9ef60ae0e676\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:24:13-35
+396            android:exported="false" />
+396-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\8a6205a767dde2ca013e9ef60ae0e676\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:25:13-37
+397
+398        <provider
+398-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+399            android:name="com.google.firebase.provider.FirebaseInitProvider"
+399-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+400            android:authorities="com.pedelogo.cliente.firebaseinitprovider"
+400-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+401            android:directBootAware="true"
+401-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+402            android:exported="false"
+402-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+403            android:initOrder="100" />
+403-->[com.google.firebase:firebase-common:20.4.2] C:\Users\romeu\.gradle\caches\transforms-3\22d16b9e465c0094c18a8e6a8b0e920a\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+404
+405        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
+405-->[com.facebook.android:facebook-common:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\2e0af1b261a95480f87a248222e8ac4b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:26:9-71
+405-->[com.facebook.android:facebook-common:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\2e0af1b261a95480f87a248222e8ac4b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:26:19-68
+406        <uses-library
+406-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\a7e30eb3677680b6aae4dc66a26e8729\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+407            android:name="org.apache.http.legacy"
+407-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\a7e30eb3677680b6aae4dc66a26e8729\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+408            android:required="false" />
+408-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\a7e30eb3677680b6aae4dc66a26e8729\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+409
+410        <activity
+410-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+411            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+411-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+412            android:excludeFromRecents="true"
+412-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+413            android:exported="false"
+413-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+414            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+414-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+415        <!--
+416            Service handling Google Sign-In user revocation. For apps that do not integrate with
+417            Google Sign-In, this service will never be started.
+418        -->
+419        <service
+419-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+420            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+420-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+421            android:exported="true"
+421-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+422            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+422-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+423            android:visibleToInstantApps="true" />
+423-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\romeu\.gradle\caches\transforms-3\21e122dccc6f7292aace2ff98e16efea\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+424
+425        <activity
+425-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\romeu\.gradle\caches\transforms-3\e294ae356b3c761dbde21b65dfa2f41e\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+426            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+426-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\romeu\.gradle\caches\transforms-3\e294ae356b3c761dbde21b65dfa2f41e\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+427            android:exported="false"
+427-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\romeu\.gradle\caches\transforms-3\e294ae356b3c761dbde21b65dfa2f41e\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+428            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+428-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\romeu\.gradle\caches\transforms-3\e294ae356b3c761dbde21b65dfa2f41e\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+429
+430        <meta-data
+430-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\81ec0b4dcd5312c3061d155b57708240\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+431            android:name="com.google.android.gms.version"
+431-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\81ec0b4dcd5312c3061d155b57708240\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+432            android:value="@integer/google_play_services_version" />
+432-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\romeu\.gradle\caches\transforms-3\81ec0b4dcd5312c3061d155b57708240\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+433
+434        <provider
+434-->[androidx.emoji2:emoji2:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\4d9a2742d3686c77433b5768c97eb92c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+435            android:name="androidx.startup.InitializationProvider"
+435-->[androidx.emoji2:emoji2:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\4d9a2742d3686c77433b5768c97eb92c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+436            android:authorities="com.pedelogo.cliente.androidx-startup"
+436-->[androidx.emoji2:emoji2:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\4d9a2742d3686c77433b5768c97eb92c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+437            android:exported="false" >
+437-->[androidx.emoji2:emoji2:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\4d9a2742d3686c77433b5768c97eb92c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+438            <meta-data
+438-->[androidx.emoji2:emoji2:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\4d9a2742d3686c77433b5768c97eb92c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+439                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+439-->[androidx.emoji2:emoji2:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\4d9a2742d3686c77433b5768c97eb92c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+440                android:value="androidx.startup" />
+440-->[androidx.emoji2:emoji2:1.2.0] C:\Users\romeu\.gradle\caches\transforms-3\4d9a2742d3686c77433b5768c97eb92c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+441            <meta-data
+441-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\romeu\.gradle\caches\transforms-3\954c532ca84d196df318864a7919ff71\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+442                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+442-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\romeu\.gradle\caches\transforms-3\954c532ca84d196df318864a7919ff71\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+443                android:value="androidx.startup" />
+443-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\romeu\.gradle\caches\transforms-3\954c532ca84d196df318864a7919ff71\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+444            <meta-data
+444-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+445                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+445-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+446                android:value="androidx.startup" />
+446-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+447        </provider>
+448        <!--
+449         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+450         with the application context. This config is merged in with the host app's manifest,
+451         but there can only be one provider with the same authority activated at any given
+452         point; so if the end user has two or more different apps that use Facebook SDK, only the
+453         first one will be able to use the provider. To work around this problem, we use the
+454         following placeholder in the authority to identify each host application as if it was
+455         a completely different provider.
+456        -->
+457        <provider
+457-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:29:9-32:40
+458            android:name="com.facebook.internal.FacebookInitProvider"
+458-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:30:13-70
+459            android:authorities="com.pedelogo.cliente.FacebookInitProvider"
+459-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:31:13-72
+460            android:exported="false" />
+460-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:32:13-37
+461
+462        <receiver
+462-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:34:9-40:20
+463            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+463-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:35:13-86
+464            android:exported="false" >
+464-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:36:13-37
+465            <intent-filter>
+465-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:37:13-39:29
+466                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+466-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:38:17-95
+466-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:38:25-92
+467            </intent-filter>
+468        </receiver>
+469        <receiver
+469-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:41:9-47:20
+470            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+470-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:42:13-118
+471            android:exported="false" >
+471-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:43:13-37
+472            <intent-filter>
+472-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:44:13-46:29
+473                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+473-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:45:17-103
+473-->[com.facebook.android:facebook-core:16.0.1] C:\Users\romeu\.gradle\caches\transforms-3\9809797b9dedf81f23bcc8a9bc159128\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:45:25-100
+474            </intent-filter>
+475        </receiver>
+476
+477        <uses-library
+477-->[androidx.window:window:1.0.0-beta04] C:\Users\romeu\.gradle\caches\transforms-3\8a7b78c193c81de8056d2152c97b88cd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+478            android:name="androidx.window.extensions"
+478-->[androidx.window:window:1.0.0-beta04] C:\Users\romeu\.gradle\caches\transforms-3\8a7b78c193c81de8056d2152c97b88cd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+479            android:required="false" />
+479-->[androidx.window:window:1.0.0-beta04] C:\Users\romeu\.gradle\caches\transforms-3\8a7b78c193c81de8056d2152c97b88cd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+480        <uses-library
+480-->[androidx.window:window:1.0.0-beta04] C:\Users\romeu\.gradle\caches\transforms-3\8a7b78c193c81de8056d2152c97b88cd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+481            android:name="androidx.window.sidecar"
+481-->[androidx.window:window:1.0.0-beta04] C:\Users\romeu\.gradle\caches\transforms-3\8a7b78c193c81de8056d2152c97b88cd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+482            android:required="false" />
+482-->[androidx.window:window:1.0.0-beta04] C:\Users\romeu\.gradle\caches\transforms-3\8a7b78c193c81de8056d2152c97b88cd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+483
+484        <service
+484-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\b96a8b059f3498c453721cc339f2ab67\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+485            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+485-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\b96a8b059f3498c453721cc339f2ab67\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+486            android:exported="false" >
+486-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\b96a8b059f3498c453721cc339f2ab67\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+487            <meta-data
+487-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\b96a8b059f3498c453721cc339f2ab67\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+488                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+488-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\b96a8b059f3498c453721cc339f2ab67\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+489                android:value="cct" />
+489-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\b96a8b059f3498c453721cc339f2ab67\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+490        </service>
+491
+492        <receiver
+492-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+493            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+493-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+494            android:directBootAware="false"
+494-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+495            android:enabled="true"
+495-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+496            android:exported="true"
+496-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+497            android:permission="android.permission.DUMP" >
+497-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+498            <intent-filter>
+498-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+499                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+499-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+499-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+500            </intent-filter>
+501            <intent-filter>
+501-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+502                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+502-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+502-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+503            </intent-filter>
+504            <intent-filter>
+504-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+505                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+505-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+505-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+506            </intent-filter>
+507            <intent-filter>
+507-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+508                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+508-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+508-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\romeu\.gradle\caches\transforms-3\f03fea3bc992c3be48e50d1be9c2c08f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+509            </intent-filter>
+510        </receiver>
+511
+512        <service
+512-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\3f5c63450a869acf385f4459c5b2a55a\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+513            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+513-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\3f5c63450a869acf385f4459c5b2a55a\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+514            android:exported="false"
+514-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\3f5c63450a869acf385f4459c5b2a55a\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+515            android:permission="android.permission.BIND_JOB_SERVICE" >
+515-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\3f5c63450a869acf385f4459c5b2a55a\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+516        </service>
+517
+518        <receiver
+518-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\3f5c63450a869acf385f4459c5b2a55a\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+519            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+519-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\3f5c63450a869acf385f4459c5b2a55a\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+520            android:exported="false" />
+520-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\romeu\.gradle\caches\transforms-3\3f5c63450a869acf385f4459c5b2a55a\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+521    </application>
+522
+523</manifest>

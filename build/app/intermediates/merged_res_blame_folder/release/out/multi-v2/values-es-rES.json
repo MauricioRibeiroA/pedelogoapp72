@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sixamtech.stack_food.app-mergeReleaseResources-49:/values-es-rES/values-es-rES.xml",
+            "outputFile": "com.pedelogo.cliente.app-mergeReleaseResources-49:/values-es-rES/values-es-rES.xml",
             "map": [
                 {
                     "source": "/home/mauricio/.gradle/caches/transforms-3/5482458a2ca57ec3c100a35ccfaabf87/transformed/jetified-facebook-login-16.0.1/res/values-es-rES/values-es-rES.xml",

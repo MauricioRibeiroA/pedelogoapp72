@@ -4,9 +4,9 @@ io.flutter.plugins.connectivity-core-1.6.0-2 /home/mauricio/.gradle/caches/trans
 io.flutter.plugins.connectivity-jetified-window-java-1.0.0-beta04-3 /home/mauricio/.gradle/caches/transforms-3/f0af934171088345b00674811820840e/transformed/jetified-window-java-1.0.0-beta04/res
 io.flutter.plugins.connectivity-main-4 /home/mauricio/.pub-cache/hosted/pub.dev/connectivity-3.0.6/android/src/main/res
 io.flutter.plugins.connectivity-release-5 /home/mauricio/.pub-cache/hosted/pub.dev/connectivity-3.0.6/android/src/release/res
-io.flutter.plugins.connectivity-pngs-6 /home/mauricio/Documents/ifoome/build/connectivity/generated/res/pngs/release
-io.flutter.plugins.connectivity-resValues-7 /home/mauricio/Documents/ifoome/build/connectivity/generated/res/resValues/release
-io.flutter.plugins.connectivity-rs-8 /home/mauricio/Documents/ifoome/build/connectivity/generated/res/rs/release
-io.flutter.plugins.connectivity-mergeReleaseResources-9 /home/mauricio/Documents/ifoome/build/connectivity/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.connectivity-mergeReleaseResources-10 /home/mauricio/Documents/ifoome/build/connectivity/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.connectivity-merged_res-11 /home/mauricio/Documents/ifoome/build/connectivity/intermediates/merged_res/release
+io.flutter.plugins.connectivity-pngs-6 /home/mauricio/Documents/pedelogoapp72/build/connectivity/generated/res/pngs/release
+io.flutter.plugins.connectivity-resValues-7 /home/mauricio/Documents/pedelogoapp72/build/connectivity/generated/res/resValues/release
+io.flutter.plugins.connectivity-rs-8 /home/mauricio/Documents/pedelogoapp72/build/connectivity/generated/res/rs/release
+io.flutter.plugins.connectivity-mergeReleaseResources-9 /home/mauricio/Documents/pedelogoapp72/build/connectivity/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.connectivity-mergeReleaseResources-10 /home/mauricio/Documents/pedelogoapp72/build/connectivity/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.connectivity-merged_res-11 /home/mauricio/Documents/pedelogoapp72/build/connectivity/intermediates/merged_res/release
