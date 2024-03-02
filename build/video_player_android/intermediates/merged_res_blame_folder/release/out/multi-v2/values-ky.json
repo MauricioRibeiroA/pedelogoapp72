@@ -4,17 +4,7 @@
             "outputFile": "io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-10:/values-ky/values-ky.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/886a07c939d159545f8a324425f03478/transformed/jetified-exoplayer-core-2.18.7/res/values-ky/values-ky.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,126,191,262,333,420,491,578,662",
-                        "endColumns": "70,64,70,70,86,70,86,83,80",
-                        "endOffsets": "121,186,257,328,415,486,573,657,738"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/123c0cfc51594b49bed5b2d4148aec76/transformed/core-1.7.0/res/values-ky/values-ky.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\123c0cfc51594b49bed5b2d4148aec76\\transformed\\core-1.7.0\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "743",
                         "endColumns": "100",
                         "endOffsets": "839"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\886a07c939d159545f8a324425f03478\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,191,262,333,420,491,578,662",
+                        "endColumns": "70,64,70,70,86,70,86,83,80",
+                        "endOffsets": "121,186,257,328,415,486,573,657,738"
                     }
                 }
             ]
@@ -36,17 +36,7 @@
             "outputFile": "io.flutter.plugins.videoplayer.video_player_android-merged_res-12:/values-ky/values-ky.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/886a07c939d159545f8a324425f03478/transformed/jetified-exoplayer-core-2.18.7/res/values-ky/values-ky.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,126,191,262,333,420,491,578,662",
-                        "endColumns": "70,64,70,70,86,70,86,83,80",
-                        "endOffsets": "121,186,257,328,415,486,573,657,738"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/123c0cfc51594b49bed5b2d4148aec76/transformed/core-1.7.0/res/values-ky/values-ky.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\123c0cfc51594b49bed5b2d4148aec76\\transformed\\core-1.7.0\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,6 +50,16 @@
                         "startOffsets": "743",
                         "endColumns": "100",
                         "endOffsets": "839"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\886a07c939d159545f8a324425f03478\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,191,262,333,420,491,578,662",
+                        "endColumns": "70,64,70,70,86,70,86,83,80",
+                        "endOffsets": "121,186,257,328,415,486,573,657,738"
                     }
                 }
             ]

@@ -1,5 +1,5 @@
 {
-  "your_business_name": "StackFood",
+  "your_business_name": "PedeLogo",
   "connection_to_api_server_failed": "Connection to API server failed due to internet connection",
   "select_language": "Select Language",
   "save": "Save",
@@ -878,7 +878,7 @@
   "order_again": "Order Again!",
   "recently_you_ordered_from": "Recently You Ordered from",
   "best_review_item": "Best Review Item",
-  "new_on_stackFood": "New on StackFood",
+  "new_on_stackFood": "New on PedeLogo",
 
   "refer_now": "Refer Now",
   "refer_an_friend": "Refer an Friend",

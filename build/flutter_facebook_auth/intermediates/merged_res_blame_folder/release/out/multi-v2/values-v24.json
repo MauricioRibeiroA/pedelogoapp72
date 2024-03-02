@@ -4,7 +4,7 @@
             "outputFile": "app.meedu.flutter_facebook_auth-mergeReleaseResources-20:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/036af0403f2a4e6141a2b9ee22c60c9f/transformed/appcompat-1.1.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\036af0403f2a4e6141a2b9ee22c60c9f\\transformed\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/6ba0d5c2c9ca7abb5f388e04cd280b39/transformed/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\6ba0d5c2c9ca7abb5f388e04cd280b39\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -36,7 +36,7 @@
             "outputFile": "app.meedu.flutter_facebook_auth-merged_res-22:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/036af0403f2a4e6141a2b9ee22c60c9f/transformed/appcompat-1.1.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\036af0403f2a4e6141a2b9ee22c60c9f\\transformed\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -46,7 +46,7 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/6ba0d5c2c9ca7abb5f388e04cd280b39/transformed/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\6ba0d5c2c9ca7abb5f388e04cd280b39\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

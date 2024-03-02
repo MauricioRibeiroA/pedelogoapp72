@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sixamtech.stack_food.app-mergeReleaseResources-49:/values-v17/values-v17.xml",
+            "outputFile": "com.pedelogo.cliente.app-mergeReleaseResources-49:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/549a5d360e74acb434938f7e796443a1/transformed/appcompat-1.5.1/res/values-v17/values-v17.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\549a5d360e74acb434938f7e796443a1\\transformed\\appcompat-1.5.1\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

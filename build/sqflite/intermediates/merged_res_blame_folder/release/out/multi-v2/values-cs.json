@@ -4,7 +4,7 @@
             "outputFile": "com.tekartik.sqflite-merged_res-10:/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/ef528c58e8c31018cb55dd1282cf517c/transformed/core-1.6.0/res/values-cs/values-cs.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\ef528c58e8c31018cb55dd1282cf517c\\transformed\\core-1.6.0\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "com.tekartik.sqflite-mergeReleaseResources-8:/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/ef528c58e8c31018cb55dd1282cf517c/transformed/core-1.6.0/res/values-cs/values-cs.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\ef528c58e8c31018cb55dd1282cf517c\\transformed\\core-1.6.0\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

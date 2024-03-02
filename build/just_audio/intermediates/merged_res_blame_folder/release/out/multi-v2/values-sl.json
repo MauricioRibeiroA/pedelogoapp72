@@ -4,24 +4,7 @@
             "outputFile": "com.ryanheise.just_audio-mergeReleaseResources-14:/values-sl/values-sl.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/886a07c939d159545f8a324425f03478/transformed/jetified-exoplayer-core-2.18.7/res/values-sl/values-sl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,123,183,247,311,386,467,566,657",
-                        "endColumns": "67,59,63,63,74,80,98,90,73",
-                        "endOffsets": "118,178,242,306,381,462,561,652,726"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "164,232,292,356,420,495,576,675,766",
-                        "endColumns": "67,59,63,63,74,80,98,90,73",
-                        "endOffsets": "227,287,351,415,490,571,670,761,835"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/123c0cfc51594b49bed5b2d4148aec76/transformed/core-1.7.0/res/values-sl/values-sl.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\123c0cfc51594b49bed5b2d4148aec76\\transformed\\core-1.7.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/96740b6185e92a7eaddf440e1c147695/transformed/jetified-media2-session-1.2.1/res/values-sl/values-sl.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\96740b6185e92a7eaddf440e1c147695\\transformed\\jetified-media2-session-1.2.1\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "55,840,951,1052,1184",
                         "endColumns": "108,110,100,131,134",
                         "endOffsets": "159,946,1047,1179,1314"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\886a07c939d159545f8a324425f03478\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,183,247,311,386,467,566,657",
+                        "endColumns": "67,59,63,63,74,80,98,90,73",
+                        "endOffsets": "118,178,242,306,381,462,561,652,726"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "164,232,292,356,420,495,576,675,766",
+                        "endColumns": "67,59,63,63,74,80,98,90,73",
+                        "endOffsets": "227,287,351,415,490,571,670,761,835"
                     }
                 }
             ]
@@ -60,24 +60,7 @@
             "outputFile": "com.ryanheise.just_audio-merged_res-16:/values-sl/values-sl.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/886a07c939d159545f8a324425f03478/transformed/jetified-exoplayer-core-2.18.7/res/values-sl/values-sl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,123,183,247,311,386,467,566,657",
-                        "endColumns": "67,59,63,63,74,80,98,90,73",
-                        "endOffsets": "118,178,242,306,381,462,561,652,726"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "164,232,292,356,420,495,576,675,766",
-                        "endColumns": "67,59,63,63,74,80,98,90,73",
-                        "endOffsets": "227,287,351,415,490,571,670,761,835"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/123c0cfc51594b49bed5b2d4148aec76/transformed/core-1.7.0/res/values-sl/values-sl.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\123c0cfc51594b49bed5b2d4148aec76\\transformed\\core-1.7.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -94,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/96740b6185e92a7eaddf440e1c147695/transformed/jetified-media2-session-1.2.1/res/values-sl/values-sl.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\96740b6185e92a7eaddf440e1c147695\\transformed\\jetified-media2-session-1.2.1\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -108,6 +91,23 @@
                         "startOffsets": "55,840,951,1052,1184",
                         "endColumns": "108,110,100,131,134",
                         "endOffsets": "159,946,1047,1179,1314"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\886a07c939d159545f8a324425f03478\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,183,247,311,386,467,566,657",
+                        "endColumns": "67,59,63,63,74,80,98,90,73",
+                        "endOffsets": "118,178,242,306,381,462,561,652,726"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "164,232,292,356,420,495,576,675,766",
+                        "endColumns": "67,59,63,63,74,80,98,90,73",
+                        "endOffsets": "227,287,351,415,490,571,670,761,835"
                     }
                 }
             ]

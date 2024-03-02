@@ -1,0 +1,4 @@
+#Fri Mar 01 23:13:27 BRT 2024
+base.0=D\:\\Projetos\\pedelogo\\pedelogoapp72\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

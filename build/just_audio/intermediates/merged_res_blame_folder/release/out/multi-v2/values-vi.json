@@ -4,24 +4,7 @@
             "outputFile": "com.ryanheise.just_audio-merged_res-16:/values-vi/values-vi.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/886a07c939d159545f8a324425f03478/transformed/jetified-exoplayer-core-2.18.7/res/values-vi/values-vi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,128,191,259,328,419,489,579,667",
-                        "endColumns": "72,62,67,68,90,69,89,87,79",
-                        "endOffsets": "123,186,254,323,414,484,574,662,742"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "157,230,293,361,430,521,591,681,769",
-                        "endColumns": "72,62,67,68,90,69,89,87,79",
-                        "endOffsets": "225,288,356,425,516,586,676,764,844"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/123c0cfc51594b49bed5b2d4148aec76/transformed/core-1.7.0/res/values-vi/values-vi.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\123c0cfc51594b49bed5b2d4148aec76\\transformed\\core-1.7.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/96740b6185e92a7eaddf440e1c147695/transformed/jetified-media2-session-1.2.1/res/values-vi/values-vi.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\886a07c939d159545f8a324425f03478\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,191,259,328,419,489,579,667",
+                        "endColumns": "72,62,67,68,90,69,89,87,79",
+                        "endOffsets": "123,186,254,323,414,484,574,662,742"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "157,230,293,361,430,521,591,681,769",
+                        "endColumns": "72,62,67,68,90,69,89,87,79",
+                        "endOffsets": "225,288,356,425,516,586,676,764,844"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\96740b6185e92a7eaddf440e1c147695\\transformed\\jetified-media2-session-1.2.1\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -60,24 +60,7 @@
             "outputFile": "com.ryanheise.just_audio-mergeReleaseResources-14:/values-vi/values-vi.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/886a07c939d159545f8a324425f03478/transformed/jetified-exoplayer-core-2.18.7/res/values-vi/values-vi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,128,191,259,328,419,489,579,667",
-                        "endColumns": "72,62,67,68,90,69,89,87,79",
-                        "endOffsets": "123,186,254,323,414,484,574,662,742"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "157,230,293,361,430,521,591,681,769",
-                        "endColumns": "72,62,67,68,90,69,89,87,79",
-                        "endOffsets": "225,288,356,425,516,586,676,764,844"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/123c0cfc51594b49bed5b2d4148aec76/transformed/core-1.7.0/res/values-vi/values-vi.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\123c0cfc51594b49bed5b2d4148aec76\\transformed\\core-1.7.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -94,7 +77,24 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/96740b6185e92a7eaddf440e1c147695/transformed/jetified-media2-session-1.2.1/res/values-vi/values-vi.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\886a07c939d159545f8a324425f03478\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,191,259,328,419,489,579,667",
+                        "endColumns": "72,62,67,68,90,69,89,87,79",
+                        "endOffsets": "123,186,254,323,414,484,574,662,742"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "157,230,293,361,430,521,591,681,769",
+                        "endColumns": "72,62,67,68,90,69,89,87,79",
+                        "endOffsets": "225,288,356,425,516,586,676,764,844"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\96740b6185e92a7eaddf440e1c147695\\transformed\\jetified-media2-session-1.2.1\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

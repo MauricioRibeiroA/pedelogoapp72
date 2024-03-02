@@ -4,24 +4,7 @@
             "outputFile": "com.baseflow.geolocator.geolocator_android-mergeReleaseResources-11:/values-km/values-km.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/c901fe5f1f8d6a37936bdd0c97e8199d/transformed/jetified-play-services-basement-18.1.0/res/values-km/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "144",
-                        "endOffsets": "339"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1054",
-                        "endColumns": "148",
-                        "endOffsets": "1198"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/e294ae356b3c761dbde21b65dfa2f41e/transformed/jetified-play-services-base-18.1.0/res/values-km/values.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\e294ae356b3c761dbde21b65dfa2f41e\\transformed\\jetified-play-services-base-18.1.0\\res\\values-km\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/becfb018f6233f9749dfa83747c3bac0/transformed/core-1.9.0/res/values-km/values-km.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\c901fe5f1f8d6a37936bdd0c97e8199d\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "144",
+                        "endOffsets": "339"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1054",
+                        "endColumns": "148",
+                        "endOffsets": "1198"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\becfb018f6233f9749dfa83747c3bac0\\transformed\\core-1.9.0\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,24 +60,7 @@
             "outputFile": "com.baseflow.geolocator.geolocator_android-merged_res-13:/values-km/values-km.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/c901fe5f1f8d6a37936bdd0c97e8199d/transformed/jetified-play-services-basement-18.1.0/res/values-km/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "144",
-                        "endOffsets": "339"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1054",
-                        "endColumns": "148",
-                        "endOffsets": "1198"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/e294ae356b3c761dbde21b65dfa2f41e/transformed/jetified-play-services-base-18.1.0/res/values-km/values.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\e294ae356b3c761dbde21b65dfa2f41e\\transformed\\jetified-play-services-base-18.1.0\\res\\values-km\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,7 +77,24 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/becfb018f6233f9749dfa83747c3bac0/transformed/core-1.9.0/res/values-km/values-km.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\c901fe5f1f8d6a37936bdd0c97e8199d\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "144",
+                        "endOffsets": "339"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1054",
+                        "endColumns": "148",
+                        "endOffsets": "1198"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\becfb018f6233f9749dfa83747c3bac0\\transformed\\core-1.9.0\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

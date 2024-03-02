@@ -4,7 +4,7 @@
             "outputFile": "com.ryanheise.just_audio-mergeReleaseResources-14:/values-or/values-or.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/123c0cfc51594b49bed5b2d4148aec76/transformed/core-1.7.0/res/values-or/values-or.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\123c0cfc51594b49bed5b2d4148aec76\\transformed\\core-1.7.0\\res\\values-or\\values-or.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/96740b6185e92a7eaddf440e1c147695/transformed/jetified-media2-session-1.2.1/res/values-or/values-or.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\96740b6185e92a7eaddf440e1c147695\\transformed\\jetified-media2-session-1.2.1\\res\\values-or\\values-or.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -36,7 +36,7 @@
             "outputFile": "com.ryanheise.just_audio-merged_res-16:/values-or/values-or.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/123c0cfc51594b49bed5b2d4148aec76/transformed/core-1.7.0/res/values-or/values-or.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\123c0cfc51594b49bed5b2d4148aec76\\transformed\\core-1.7.0\\res\\values-or\\values-or.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -53,7 +53,7 @@
                     }
                 },
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/96740b6185e92a7eaddf440e1c147695/transformed/jetified-media2-session-1.2.1/res/values-or/values-or.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\96740b6185e92a7eaddf440e1c147695\\transformed\\jetified-media2-session-1.2.1\\res\\values-or\\values-or.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

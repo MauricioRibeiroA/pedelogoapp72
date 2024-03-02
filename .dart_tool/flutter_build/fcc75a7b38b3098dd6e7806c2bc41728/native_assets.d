@@ -1,0 +1,1 @@
+ D:\\Projetos\\pedelogo\\pedelogoapp72\\.dart_tool\\flutter_build\\fcc75a7b38b3098dd6e7806c2bc41728\\native_assets.yaml: 

@@ -4,17 +4,7 @@
             "outputFile": "com.aboutyou.dart_packages.sign_in_with_apple-merged_res-11:/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/a8b812acaf15b2f9515cada1b4558b9f/transformed/browser-1.2.0/res/values-ne/values-ne.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,162,274,388",
-                        "endColumns": "106,111,113,113",
-                        "endOffsets": "157,269,383,497"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/ef528c58e8c31018cb55dd1282cf517c/transformed/core-1.6.0/res/values-ne/values-ne.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\ef528c58e8c31018cb55dd1282cf517c\\transformed\\core-1.6.0\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "502",
                         "endColumns": "100",
                         "endOffsets": "598"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\a8b812acaf15b2f9515cada1b4558b9f\\transformed\\browser-1.2.0\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,162,274,388",
+                        "endColumns": "106,111,113,113",
+                        "endOffsets": "157,269,383,497"
                     }
                 }
             ]
@@ -36,17 +36,7 @@
             "outputFile": "com.aboutyou.dart_packages.sign_in_with_apple-mergeReleaseResources-9:/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/a8b812acaf15b2f9515cada1b4558b9f/transformed/browser-1.2.0/res/values-ne/values-ne.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,162,274,388",
-                        "endColumns": "106,111,113,113",
-                        "endOffsets": "157,269,383,497"
-                    }
-                },
-                {
-                    "source": "/home/mauricio/.gradle/caches/transforms-3/ef528c58e8c31018cb55dd1282cf517c/transformed/core-1.6.0/res/values-ne/values-ne.xml",
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\ef528c58e8c31018cb55dd1282cf517c\\transformed\\core-1.6.0\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,6 +50,16 @@
                         "startOffsets": "502",
                         "endColumns": "100",
                         "endOffsets": "598"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romeu\\.gradle\\caches\\transforms-3\\a8b812acaf15b2f9515cada1b4558b9f\\transformed\\browser-1.2.0\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,162,274,388",
+                        "endColumns": "106,111,113,113",
+                        "endOffsets": "157,269,383,497"
                     }
                 }
             ]
