@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">PedeLogo</string>
-    <string name="facebook_app_id">935000671305411</string>
-    <string name="fb_login_protocol_scheme">fb935000671305411</string>
-    <string name="facebook_client_token">0eaa4f2b89430a5403e773f256239933</string>
-</resources>

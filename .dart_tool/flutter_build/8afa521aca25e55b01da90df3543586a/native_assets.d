@@ -1,1 +1,0 @@
- /home/mauricio/Documents/pedelogoapp72/.dart_tool/flutter_build/8afa521aca25e55b01da90df3543586a/native_assets.yaml: 
