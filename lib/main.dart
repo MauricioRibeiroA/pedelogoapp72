@@ -1,21 +1,21 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:efood_multivendor/controller/auth_controller.dart';
-import 'package:efood_multivendor/controller/cart_controller.dart';
-import 'package:efood_multivendor/controller/localization_controller.dart';
-import 'package:efood_multivendor/controller/splash_controller.dart';
-import 'package:efood_multivendor/controller/theme_controller.dart';
-import 'package:efood_multivendor/controller/wishlist_controller.dart';
-import 'package:efood_multivendor/data/model/body/deep_link_body.dart';
-import 'package:efood_multivendor/data/model/body/notification_body.dart';
-import 'package:efood_multivendor/helper/notification_helper.dart';
-import 'package:efood_multivendor/helper/responsive_helper.dart';
-import 'package:efood_multivendor/helper/route_helper.dart';
-import 'package:efood_multivendor/theme/dark_theme.dart';
-import 'package:efood_multivendor/theme/light_theme.dart';
-import 'package:efood_multivendor/util/app_constants.dart';
-import 'package:efood_multivendor/util/messages.dart';
-import 'package:efood_multivendor/view/base/cookies_view.dart';
+import 'package:stackfood_multivendor/features/auth/controllers/auth_controller.dart';
+import 'package:stackfood_multivendor/features/cart/controllers/cart_controller.dart';
+import 'package:stackfood_multivendor/features/language/controllers/localization_controller.dart';
+import 'package:stackfood_multivendor/features/notification/domain/models/notification_body_model.dart';
+import 'package:stackfood_multivendor/features/splash/controllers/splash_controller.dart';
+import 'package:stackfood_multivendor/features/splash/controllers/theme_controller.dart';
+import 'package:stackfood_multivendor/features/favourite/controllers/favourite_controller.dart';
+import 'package:stackfood_multivendor/features/splash/domain/models/deep_link_body.dart';
+import 'package:stackfood_multivendor/helper/notification_helper.dart';
+import 'package:stackfood_multivendor/helper/responsive_helper.dart';
+import 'package:stackfood_multivendor/helper/route_helper.dart';
+import 'package:stackfood_multivendor/theme/dark_theme.dart';
+import 'package:stackfood_multivendor/theme/light_theme.dart';
+import 'package:stackfood_multivendor/util/app_constants.dart';
+import 'package:stackfood_multivendor/util/messages.dart';
+import 'package:stackfood_multivendor/common/widgets/cookies_view_widget.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -38,30 +38,24 @@ Future<void> main() async {
   setPathUrlStrategy();
   WidgetsFlutterBinding.ensureInitialized();
 
-
-
-  // Pass all uncaught "fatal" errors from the framework to Crashlytics
-  FlutterError.onError = (errorDetails) {
-    FirebaseCrashlytics.instance.recordFlutterFatalError(errorDetails);
-  };
-
-
-  // Pass all uncaught asynchronous errors that aren't handled by the Flutter framework to Crashlytics
-  PlatformDispatcher.instance.onError = (error, stack) {
-    FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
-    return true;
-  };
-
-
+  // // Pass all uncaught "fatal" errors from the framework to Crashlytics
+  // FlutterError.onError = (errorDetails) {
+  //   FirebaseCrashlytics.instance.recordFlutterFatalError(errorDetails);
+  // };
+  // // Pass all uncaught asynchronous errors that aren't handled by the Flutter framework to Crashlytics
+  // PlatformDispatcher.instance.onError = (error, stack) {
+  //   FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
+  //   return true;
+  // };
 
   DeepLinkBody? linkBody;
 
   if(GetPlatform.isWeb) {
     await Firebase.initializeApp(options: const FirebaseOptions(
-      apiKey: 'AIzaSyC5az9sNi0x6QoNgHZSbs57ZPSjuZPhr1Q',
-      appId: '1:1042917200218:web:1141f59d4bf3650a736363',
-      messagingSenderId: '1042917200218',
-      projectId: 'pedelogo-3f824',
+      apiKey: 'AIzaSyCeaw_gVN0iQwFHyuF8pQ6PbVDmSVQw8AY',
+      appId: '1:1049699819506:web:a4b5e3bedc729aab89956b',
+      messagingSenderId: '1049699819506',
+      projectId: 'stackfood-bd3ee',
     ));
     MetaSEO().config();
   }else {
@@ -78,7 +72,7 @@ Future<void> main() async {
 
   Map<String, Map<String, String>> languages = await di.init();
 
-  NotificationBody? body;
+  NotificationBodyModel? body;
   try {
     if (GetPlatform.isMobile) {
       final RemoteMessage? remoteMessage = await FirebaseMessaging.instance.getInitialMessage();
@@ -103,9 +97,9 @@ Future<void> main() async {
 
 class MyApp extends StatefulWidget {
   final Map<String, Map<String, String>>? languages;
-  final NotificationBody? body;
+  final NotificationBodyModel? body;
   final DeepLinkBody? linkBody;
-  const MyApp({Key? key, required this.languages, required this.body, required this.linkBody}) : super(key: key);
+  const MyApp({super.key, required this.languages, required this.body, required this.linkBody});
 
   @override
   State<MyApp> createState() => _MyAppState();
@@ -134,7 +128,7 @@ class _MyAppState extends State<MyApp> {
       if (isSuccess) {
         if (Get.find<AuthController>().isLoggedIn()) {
           Get.find<AuthController>().updateToken();
-          await Get.find<WishListController>().getWishList();
+          await Get.find<FavouriteController>().getFavouriteList();
         }
       }
     });
@@ -162,14 +156,14 @@ class _MyAppState extends State<MyApp> {
             defaultTransition: Transition.topLevel,
             transitionDuration: const Duration(milliseconds: 500),
             builder: (BuildContext context, widget) {
-              return MediaQuery(data: MediaQuery.of(context).copyWith(textScaleFactor: 1), child: Material(
+              return MediaQuery(data: MediaQuery.of(context).copyWith(textScaler: const TextScaler.linear(1)), child: Material(
                 child: Stack(children: [
                   widget!,
 
                   GetBuilder<SplashController>(builder: (splashController){
 
                     if(!splashController.savedCookiesData || !splashController.getAcceptCookiesStatus(splashController.configModel?.cookiesText ?? "")){
-                      return ResponsiveHelper.isWeb() ? const Align(alignment: Alignment.bottomCenter, child: CookiesView()) : const SizedBox();
+                      return ResponsiveHelper.isWeb() ? const Align(alignment: Alignment.bottomCenter, child: CookiesViewWidget()) : const SizedBox();
                     }else{
                       return const SizedBox();
                     }

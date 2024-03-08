@@ -1,4 +1,4 @@
-# efood_multivendor
+# stackfood_multivendor
 
 A new Flutter application.
 

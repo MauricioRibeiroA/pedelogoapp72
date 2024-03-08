@@ -1,77 +1,78 @@
 import 'dart:convert';
 
-import 'package:efood_multivendor/controller/auth_controller.dart';
-import 'package:efood_multivendor/controller/location_controller.dart';
-import 'package:efood_multivendor/controller/splash_controller.dart';
-import 'package:efood_multivendor/data/model/body/deep_link_body.dart';
-import 'package:efood_multivendor/data/model/body/notification_body.dart';
-import 'package:efood_multivendor/data/model/body/place_order_body.dart';
-import 'package:efood_multivendor/data/model/body/social_log_in_body.dart';
-import 'package:efood_multivendor/data/model/response/address_model.dart';
-import 'package:efood_multivendor/data/model/response/basic_campaign_model.dart';
-import 'package:efood_multivendor/data/model/response/conversation_model.dart';
-import 'package:efood_multivendor/data/model/response/order_model.dart';
-import 'package:efood_multivendor/data/model/response/pricing_view_model.dart';
-import 'package:efood_multivendor/data/model/response/product_model.dart';
-import 'package:efood_multivendor/data/model/response/restaurant_model.dart';
-import 'package:efood_multivendor/util/app_constants.dart';
-import 'package:efood_multivendor/util/html_type.dart';
-import 'package:efood_multivendor/view/base/image_viewer_screen.dart';
-import 'package:efood_multivendor/view/base/not_found.dart';
-import 'package:efood_multivendor/view/screens/address/add_address_screen.dart';
-import 'package:efood_multivendor/view/screens/address/address_screen.dart';
-import 'package:efood_multivendor/view/screens/auth/business_plan/business_plan.dart';
-import 'package:efood_multivendor/view/screens/auth/business_plan/subscription_success_screen.dart';
-import 'package:efood_multivendor/view/screens/auth/delivery_man_registration_screen.dart';
-import 'package:efood_multivendor/view/screens/auth/restaurant_registration_screen.dart';
-import 'package:efood_multivendor/view/screens/auth/sign_in_screen.dart';
-import 'package:efood_multivendor/view/screens/auth/sign_up_screen.dart';
-import 'package:efood_multivendor/view/screens/cart/cart_screen.dart';
-import 'package:efood_multivendor/view/screens/category/category_product_screen.dart';
-import 'package:efood_multivendor/view/screens/category/category_screen.dart';
-import 'package:efood_multivendor/view/screens/chat/chat_screen.dart';
-import 'package:efood_multivendor/view/screens/chat/conversation_screen.dart';
-import 'package:efood_multivendor/view/screens/checkout/checkout_screen.dart';
-import 'package:efood_multivendor/view/screens/checkout/offline_payment_screen.dart';
-import 'package:efood_multivendor/view/screens/checkout/order_successful_screen.dart';
-import 'package:efood_multivendor/view/screens/checkout/payment_screen.dart';
-import 'package:efood_multivendor/view/screens/checkout/payment_webview_screen.dart';
-import 'package:efood_multivendor/view/screens/coupon/coupon_screen.dart';
-import 'package:efood_multivendor/view/screens/cuisine/cuisine_restaurant_screen.dart';
-import 'package:efood_multivendor/view/screens/cuisine/cuisine_screen.dart';
-import 'package:efood_multivendor/view/screens/dashboard/dashboard_screen.dart';
-import 'package:efood_multivendor/view/screens/food/item_campaign_screen.dart';
-import 'package:efood_multivendor/view/screens/food/popular_food_screen.dart';
-import 'package:efood_multivendor/view/screens/forget/forget_pass_screen.dart';
-import 'package:efood_multivendor/view/screens/forget/new_pass_screen.dart';
-import 'package:efood_multivendor/view/screens/forget/verification_screen.dart';
-import 'package:efood_multivendor/view/screens/home/map_view_screen.dart';
-import 'package:efood_multivendor/view/screens/html/html_viewer_screen.dart';
-import 'package:efood_multivendor/view/screens/interest/interest_screen.dart';
-import 'package:efood_multivendor/view/screens/language/language_screen.dart';
-import 'package:efood_multivendor/view/screens/location/access_location_screen.dart';
-import 'package:efood_multivendor/view/screens/location/map_screen.dart';
-import 'package:efood_multivendor/view/screens/location/pick_map_screen.dart';
-import 'package:efood_multivendor/view/screens/notification/notification_screen.dart';
-import 'package:efood_multivendor/view/screens/onboard/onboarding_screen.dart';
-import 'package:efood_multivendor/view/screens/order/guest_track_order_screen.dart';
-import 'package:efood_multivendor/view/screens/order/order_details_screen.dart';
-import 'package:efood_multivendor/view/screens/order/order_screen.dart';
-import 'package:efood_multivendor/view/screens/order/order_tracking_screen.dart';
-import 'package:efood_multivendor/view/screens/order/refund_request_screen.dart';
-import 'package:efood_multivendor/view/screens/profile/profile_screen.dart';
-import 'package:efood_multivendor/view/screens/profile/update_profile_screen.dart';
-import 'package:efood_multivendor/view/screens/refer_and_earn/refer_and_earn_screen.dart';
-import 'package:efood_multivendor/view/screens/restaurant/all_restaurant_screen.dart';
-import 'package:efood_multivendor/view/screens/restaurant/campaign_screen.dart';
-import 'package:efood_multivendor/view/screens/restaurant/restaurant_product_search_screen.dart';
-import 'package:efood_multivendor/view/screens/restaurant/restaurant_screen.dart';
-import 'package:efood_multivendor/view/screens/restaurant/review_screen.dart';
-import 'package:efood_multivendor/view/screens/search/search_screen.dart';
-import 'package:efood_multivendor/view/screens/splash/splash_screen.dart';
-import 'package:efood_multivendor/view/screens/support/support_screen.dart';
-import 'package:efood_multivendor/view/screens/update/update_screen.dart';
-import 'package:efood_multivendor/view/screens/wallet/wallet_screen.dart';
+import 'package:stackfood_multivendor/common/widgets/image_viewer_screen_widget.dart';
+import 'package:stackfood_multivendor/common/widgets/not_found_widget.dart';
+import 'package:stackfood_multivendor/features/auth/controllers/auth_controller.dart';
+import 'package:stackfood_multivendor/features/cart/screens/cart_screen.dart';
+import 'package:stackfood_multivendor/features/checkout/domain/models/place_order_body_model.dart';
+import 'package:stackfood_multivendor/features/checkout/domain/models/pricing_view_model.dart';
+import 'package:stackfood_multivendor/features/checkout/screens/checkout_screen.dart';
+import 'package:stackfood_multivendor/features/checkout/screens/offline_payment_screen.dart';
+import 'package:stackfood_multivendor/features/checkout/screens/order_successful_screen.dart';
+import 'package:stackfood_multivendor/features/checkout/screens/payment_screen.dart';
+import 'package:stackfood_multivendor/features/checkout/screens/payment_webview_screen.dart';
+import 'package:stackfood_multivendor/features/home/screens/map_view_screen.dart';
+import 'package:stackfood_multivendor/features/html/enums/html_type.dart';
+import 'package:stackfood_multivendor/features/html/screens/html_viewer_screen.dart';
+import 'package:stackfood_multivendor/features/language/screens/language_screen.dart';
+import 'package:stackfood_multivendor/features/location/screens/access_location_screen.dart';
+import 'package:stackfood_multivendor/features/location/screens/map_screen.dart';
+import 'package:stackfood_multivendor/features/location/screens/pick_map_screen.dart';
+import 'package:stackfood_multivendor/features/notification/domain/models/notification_body_model.dart';
+import 'package:stackfood_multivendor/features/notification/screens/notification_screen.dart';
+import 'package:stackfood_multivendor/features/onboard/screens/onboarding_screen.dart';
+import 'package:stackfood_multivendor/features/order/screens/guest_track_order_screen.dart';
+import 'package:stackfood_multivendor/features/order/screens/order_details_screen.dart';
+import 'package:stackfood_multivendor/features/order/screens/order_screen.dart';
+import 'package:stackfood_multivendor/features/order/screens/order_tracking_screen.dart';
+import 'package:stackfood_multivendor/features/order/screens/refund_request_screen.dart';
+import 'package:stackfood_multivendor/features/profile/screens/profile_screen.dart';
+import 'package:stackfood_multivendor/features/profile/screens/update_profile_screen.dart';
+import 'package:stackfood_multivendor/features/refer%20and%20earn/screens/refer_and_earn_screen.dart';
+import 'package:stackfood_multivendor/features/restaurant/screens/all_restaurant_screen.dart';
+import 'package:stackfood_multivendor/features/restaurant/screens/campaign_screen.dart';
+import 'package:stackfood_multivendor/features/restaurant/screens/restaurant_product_search_screen.dart';
+import 'package:stackfood_multivendor/features/restaurant/screens/restaurant_screen.dart';
+import 'package:stackfood_multivendor/features/review/screens/review_screen.dart';
+import 'package:stackfood_multivendor/features/search/screens/search_screen.dart';
+import 'package:stackfood_multivendor/features/splash/controllers/splash_controller.dart';
+import 'package:stackfood_multivendor/features/address/domain/models/address_model.dart';
+import 'package:stackfood_multivendor/features/product/domain/models/basic_campaign_model.dart';
+import 'package:stackfood_multivendor/features/order/domain/models/order_model.dart';
+import 'package:stackfood_multivendor/common/models/product_model.dart';
+import 'package:stackfood_multivendor/common/models/restaurant_model.dart';
+import 'package:stackfood_multivendor/features/address/screens/add_address_screen.dart';
+import 'package:stackfood_multivendor/features/address/screens/address_screen.dart';
+import 'package:stackfood_multivendor/features/auth/domain/models/social_log_in_body_model.dart';
+import 'package:stackfood_multivendor/features/auth/screens/delivery_man_registration_screen.dart';
+import 'package:stackfood_multivendor/features/auth/screens/restaurant_registration_screen.dart';
+import 'package:stackfood_multivendor/features/auth/screens/sign_in_screen.dart';
+import 'package:stackfood_multivendor/features/auth/screens/sign_up_screen.dart';
+import 'package:stackfood_multivendor/features/business/screens/business_plan_screen.dart';
+import 'package:stackfood_multivendor/features/business/screens/subscription_success_screen.dart';
+import 'package:stackfood_multivendor/features/category/screens/category_product_screen.dart';
+import 'package:stackfood_multivendor/features/category/screens/category_screen.dart';
+import 'package:stackfood_multivendor/features/chat/domain/models/conversation_model.dart';
+import 'package:stackfood_multivendor/features/chat/screens/chat_screen.dart';
+import 'package:stackfood_multivendor/features/chat/screens/conversation_screen.dart';
+import 'package:stackfood_multivendor/features/coupon/screens/coupon_screen.dart';
+import 'package:stackfood_multivendor/features/cuisine/screens/cuisine_restaurant_screen.dart';
+import 'package:stackfood_multivendor/features/cuisine/screens/cuisine_screen.dart';
+import 'package:stackfood_multivendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:stackfood_multivendor/features/interest/screens/interest_screen.dart';
+import 'package:stackfood_multivendor/features/loyalty/screens/loyalty_screen.dart';
+import 'package:stackfood_multivendor/features/product/screens/item_campaign_screen.dart';
+import 'package:stackfood_multivendor/features/product/screens/popular_food_screen.dart';
+import 'package:stackfood_multivendor/features/splash/domain/models/deep_link_body.dart';
+import 'package:stackfood_multivendor/features/splash/screens/splash_screen.dart';
+import 'package:stackfood_multivendor/features/support/screens/support_screen.dart';
+import 'package:stackfood_multivendor/features/update/screens/update_screen.dart';
+import 'package:stackfood_multivendor/features/verification/screens/forget_pass_screen.dart';
+import 'package:stackfood_multivendor/features/verification/screens/new_pass_screen.dart';
+import 'package:stackfood_multivendor/features/verification/screens/verification_screen.dart';
+import 'package:stackfood_multivendor/features/wallet/screens/wallet_screen.dart';
+import 'package:stackfood_multivendor/helper/address_helper.dart';
+import 'package:stackfood_multivendor/util/app_constants.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -119,6 +120,7 @@ class RouteHelper {
   static const String restaurantReview = '/restaurant-review';
   static const String allRestaurants = '/restaurants';
   static const String wallet = '/wallet';
+  static const String loyalty = '/loyalty';
   static const String searchRestaurantItem = '/search-Restaurant-item';
   static const String productImages = '/product-images';
   static const String referAndEarn = '/refer-and-earn';
@@ -137,7 +139,7 @@ class RouteHelper {
   static const String guestTrackOrderScreen = '/guest-track-order-screen';
 
   static String getInitialRoute({bool fromSplash = false}) => '$initial?from-splash=$fromSplash';
-  static String getSplashRoute(NotificationBody? body, DeepLinkBody? linkBody) {
+  static String getSplashRoute(NotificationBodyModel? body, DeepLinkBody? linkBody) {
     String data = 'null';
     String linkData = 'null';
     if(body != null) {
@@ -161,10 +163,10 @@ class RouteHelper {
   static String getPickMapRoute(String? page, bool canRoute) => '$pickMap?page=$page&route=${canRoute.toString()}';
   static String getInterestRoute() => interest;
   static String getMainRoute(String page) => '$main?page=$page';
-  static String getForgotPassRoute(bool fromSocialLogin, SocialLogInBody? socialLogInBody) {
+  static String getForgotPassRoute(bool fromSocialLogin, SocialLogInBodyModel? socialLogInModel) {
     String? data;
     if(fromSocialLogin) {
-      data = base64Encode(utf8.encode(jsonEncode(socialLogInBody!.toJson())));
+      data = base64Encode(utf8.encode(jsonEncode(socialLogInModel!.toJson())));
     }
     return '$forgotPassword?page=${fromSocialLogin ? 'social-login' : 'forgot-password'}&data=${fromSocialLogin ? data : 'null'}';
   }
@@ -229,14 +231,15 @@ class RouteHelper {
   }
   static String getRestaurantReviewRoute(int? restaurantID) => '$restaurantReview?id=$restaurantID';
   static String getAllRestaurantRoute(String page) => '$allRestaurants?page=$page';
-  static String getWalletRoute(bool fromWallet, {String? fundStatus}) => '$wallet?page=${fromWallet ? 'wallet' : 'loyalty_points'}&payment_status=$fundStatus';
+  static String getWalletRoute({String? fundStatus}) => '$wallet?payment_status=$fundStatus';
+  static String getLoyaltyRoute() => loyalty;
   static String getSearchRestaurantProductRoute(int? productID) => '$searchRestaurantItem?id=$productID';
   static String getItemImagesRoute(Product product) {
     String data = base64Url.encode(utf8.encode(jsonEncode(product.toJson())));
     return '$productImages?item=$data';
   }
   static String getReferAndEarnRoute() => referAndEarn;
-  static String getChatRoute({required NotificationBody? notificationBody, User? user, int? conversationID, int? index}) {
+  static String getChatRoute({required NotificationBodyModel? notificationBody, User? user, int? conversationID, int? index}) {
     String notificationBody0 = 'null';
     if(notificationBody != null) {
       notificationBody0 = base64Encode(utf8.encode(jsonEncode(notificationBody.toJson())));
@@ -258,7 +261,7 @@ class RouteHelper {
   static String getCuisineRestaurantRoute(int? cuisineId, String? name) => '$cuisineRestaurant?id=$cuisineId&name=$name';
   static String getSubscriptionSuccessRoute(String? status) => '$subscriptionSuccess?flag=$status';
   static String getOfflinePaymentScreen({
-    required PlaceOrderBody placeOrderBody, required int? zoneId, required double total, required double? maxCodOrderAmount, required bool fromCart,
+    required PlaceOrderBodyModel placeOrderBody, required int? zoneId, required double total, required double? maxCodOrderAmount, required bool fromCart,
     required bool? isCodActive, required PricingViewModel pricingView}) {
     List<int> encoded = utf8.encode(jsonEncode(placeOrderBody.toJson()));
     List<int> encoded2 = utf8.encode(jsonEncode(pricingView.toJson()));
@@ -271,11 +274,11 @@ class RouteHelper {
   static List<GetPage> routes = [
     GetPage(name: initial, page: () => getRoute(DashboardScreen(pageIndex: 0, fromSplash: (Get.parameters['from-splash'] == 'true')))),
     GetPage(name: splash, page: () {
-      NotificationBody? data;
+      NotificationBodyModel? data;
       DeepLinkBody? linkData;
       if(Get.parameters['data'] != 'null') {
         List<int> decode = base64Decode(Get.parameters['data'] != null ? Get.parameters['data']!.replaceAll(' ', '+') : '');
-        data = NotificationBody.fromJson(jsonDecode(utf8.decode(decode)));
+        data = NotificationBodyModel.fromJson(jsonDecode(utf8.decode(decode)));
       }
       if(Get.parameters['link'] != 'null') {
         List<int> decode = base64Decode(Get.parameters['link']!.replaceAll(' ', '+'));
@@ -304,10 +307,10 @@ class RouteHelper {
     GetPage(name: pickMap, page: () {
       PickMapScreen? pickMapScreen = Get.arguments;
       bool fromAddress = Get.parameters['page'] == 'add-address';
-      return (fromAddress && pickMapScreen == null) ? const NotFound() : pickMapScreen ?? PickMapScreen(
+      return (fromAddress && pickMapScreen == null) ? const NotFoundWidget() : (pickMapScreen ?? PickMapScreen(
         fromSignUp: Get.parameters['page'] == signUp, fromAddAddress: fromAddress, route: Get.parameters['page'],
         canRoute: Get.parameters['route'] == 'true',
-      );
+      ));
     }),
     GetPage(name: interest, page: () => const InterestScreen()),
     GetPage(name: main, page: () => getRoute(DashboardScreen(
@@ -315,12 +318,12 @@ class RouteHelper {
           : Get.parameters['page'] == 'cart' ? 2 : Get.parameters['page'] == 'order' ? 3 : Get.parameters['page'] == 'menu' ? 4 : 0,
     ))),
     GetPage(name: forgotPassword, page: () {
-      SocialLogInBody? data;
+      SocialLogInBodyModel? data;
       if(Get.parameters['page'] == 'social-login') {
         List<int> decode = base64Decode(Get.parameters['data']!.replaceAll(' ', '+'));
-        data = SocialLogInBody.fromJson(jsonDecode(utf8.decode(decode)));
+        data = SocialLogInBodyModel.fromJson(jsonDecode(utf8.decode(decode)));
       }
-      return ForgetPassScreen(fromSocialLogin: Get.parameters['page'] == 'social-login', socialLogInBody: data);
+      return ForgetPassScreen(fromSocialLogin: Get.parameters['page'] == 'social-login', socialLogInModel: data);
     }),
     GetPage(name: resetPassword, page: () => NewPassScreen(
       resetToken: Get.parameters['token'], number: Get.parameters['phone'], fromPasswordChange: Get.parameters['page'] == 'password-change',
@@ -384,7 +387,7 @@ class RouteHelper {
     GetPage(name: checkout, page: () {
       CheckoutScreen? checkoutScreen = Get.arguments;
       bool fromCart = Get.parameters['page'] == 'cart';
-      return getRoute(checkoutScreen ?? (!fromCart ? const NotFound() : CheckoutScreen(
+      return getRoute(checkoutScreen ?? (!fromCart ? const NotFoundWidget() : CheckoutScreen(
         cartList: null, fromCart: Get.parameters['page'] == 'cart',
       )));
     }),
@@ -426,7 +429,7 @@ class RouteHelper {
         fromCheckout: false, address: data, forGuest: Get.parameters['from-guest'] == 'true',
       ));
     }),
-    GetPage(name: rateReview, page: () => getRoute(Get.arguments ?? const NotFound())),
+    GetPage(name: rateReview, page: () => getRoute(Get.arguments ?? const NotFoundWidget())),
     GetPage(name: restaurantReview, page: () => getRoute(ReviewScreen(restaurantID: Get.parameters['id']))),
     GetPage(name: allRestaurants, page: () => getRoute(
         AllRestaurantScreen(
@@ -436,17 +439,18 @@ class RouteHelper {
         ),
     )),
     GetPage(name: wallet, page: () {
-      return getRoute(WalletScreen(fromWallet: Get.parameters['flag'] != null || Get.parameters['page'] == 'wallet', fundStatus: Get.parameters['flag'] ?? Get.parameters['payment_status']));
+      return getRoute(WalletScreen(fundStatus: Get.parameters['flag'] ?? Get.parameters['payment_status']));
     }),
+    GetPage(name: loyalty, page: () => getRoute(const LoyaltyScreen())),
     GetPage(name: searchRestaurantItem, page: () => getRoute(RestaurantProductSearchScreen(storeID: Get.parameters['id']))),
-    GetPage(name: productImages, page: () => getRoute(ImageViewerScreen(
+    GetPage(name: productImages, page: () => getRoute(ImageViewerScreenWidget(
       product: Product.fromJson(jsonDecode(utf8.decode(base64Url.decode(Get.parameters['item']!.replaceAll(' ', '+'))))),
     ))),
     GetPage(name: referAndEarn, page: () => getRoute(const ReferAndEarnScreen())),
     GetPage(name: messages, page: () {
-      NotificationBody? notificationBody;
+      NotificationBodyModel? notificationBody;
       if(Get.parameters['notification'] != 'null') {
-        notificationBody = NotificationBody.fromJson(jsonDecode(utf8.decode(base64Url.decode(Get.parameters['notification']!.replaceAll(' ', '+')))));
+        notificationBody = NotificationBodyModel.fromJson(jsonDecode(utf8.decode(base64Url.decode(Get.parameters['notification']!.replaceAll(' ', '+')))));
       }
       User? user;
       if(Get.parameters['user'] != 'null') {
@@ -469,13 +473,13 @@ class RouteHelper {
     GetPage(name: subscriptionSuccess, page: () => getRoute(SubscriptionSuccessScreen(success: Get.parameters['flag'] == 'success'))),
     GetPage(name: offlinePaymentScreen, page: () {
       List<int> decode = base64Decode(Get.parameters['order_body']!.replaceAll(' ', '+'));
-      PlaceOrderBody orderBody = PlaceOrderBody.fromJson(jsonDecode(utf8.decode(decode)));
+      PlaceOrderBodyModel orderBody = PlaceOrderBodyModel.fromJson(jsonDecode(utf8.decode(decode)));
 
       List<int> decode2 = base64Decode(Get.parameters['pricing_body']!.replaceAll(' ', '+'));
       PricingViewModel pricingViewBody = PricingViewModel.fromJson(jsonDecode(utf8.decode(decode2)));
 
       return OfflinePaymentScreen(
-        placeOrderBody: orderBody, zoneId: int.parse(Get.parameters['zone_id']!),
+        placeOrderBodyModel: orderBody, zoneId: int.parse(Get.parameters['zone_id']!),
         total: double.parse(Get.parameters['total']!),
         maxCodOrderAmount: (Get.parameters['max_cod_amount'] != null && Get.parameters['max_cod_amount'] != 'null') ? double.parse(Get.parameters['max_cod_amount']!) : null,
         fromCart: Get.parameters['from_cart'] == 'true', isCashOnDeliveryActive: Get.parameters['cod_active'] == 'true', pricingView: pricingViewBody,
@@ -495,7 +499,7 @@ class RouteHelper {
     }
     return AppConstants.appVersion < minimumVersion! ? const UpdateScreen(isUpdate: true)
         : Get.find<SplashController>().configModel!.maintenanceMode! ? const UpdateScreen(isUpdate: false)
-        : (Get.find<LocationController>().getUserAddress() == null && !byPuss)
+        : (AddressHelper.getAddressFromSharedPref() == null && !byPuss)
         ? AccessLocationScreen(fromSignUp: false, fromHome: false, route: Get.currentRoute) : navigateTo;
   }
 }

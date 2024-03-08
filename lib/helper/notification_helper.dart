@@ -1,18 +1,17 @@
 import 'dart:convert';
 import 'dart:io';
-
-import 'package:efood_multivendor/controller/auth_controller.dart';
-import 'package:efood_multivendor/controller/chat_controller.dart';
-import 'package:efood_multivendor/controller/notification_controller.dart';
-import 'package:efood_multivendor/controller/order_controller.dart';
-import 'package:efood_multivendor/data/model/body/notification_body.dart';
-import 'package:efood_multivendor/helper/route_helper.dart';
-import 'package:efood_multivendor/helper/user_type.dart';
-import 'package:efood_multivendor/view/screens/dashboard/dashboard_screen.dart';
+import 'package:stackfood_multivendor/features/auth/controllers/auth_controller.dart';
+import 'package:stackfood_multivendor/features/chat/controllers/chat_controller.dart';
+import 'package:stackfood_multivendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:stackfood_multivendor/features/notification/controllers/notification_controller.dart';
+import 'package:stackfood_multivendor/features/notification/domain/models/notification_body_model.dart';
+import 'package:stackfood_multivendor/features/order/controllers/order_controller.dart';
+import 'package:stackfood_multivendor/helper/route_helper.dart';
+import 'package:stackfood_multivendor/common/enums/user_type.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:efood_multivendor/util/app_constants.dart';
+import 'package:stackfood_multivendor/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:http/http.dart' as http;
@@ -23,12 +22,12 @@ class NotificationHelper {
     var androidInitialize = const AndroidInitializationSettings('notification_icon');
     var iOSInitialize = const DarwinInitializationSettings();
     var initializationsSettings = InitializationSettings(android: androidInitialize, iOS: iOSInitialize);
-    flutterLocalNotificationsPlugin.resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()!.requestPermission();
+    flutterLocalNotificationsPlugin.resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()!.requestNotificationsPermission();
     flutterLocalNotificationsPlugin.initialize(initializationsSettings, onDidReceiveNotificationResponse: (NotificationResponse response) async {
       try{
-        NotificationBody payload;
+        NotificationBodyModel payload;
         if(response.payload!.isNotEmpty) {
-          payload = NotificationBody.fromJson(jsonDecode(response.payload!));
+          payload = NotificationBodyModel.fromJson(jsonDecode(response.payload!));
           if(payload.notificationType == NotificationType.order) {
             if(Get.find<AuthController>().isGuestLoggedIn()){
               Get.to(()=> const DashboardScreen(pageIndex: 3, fromSplash: false));
@@ -52,7 +51,7 @@ class NotificationHelper {
           Get.find<ChatController>().getConversationList(1);
           if(Get.find<ChatController>().messageModel!.conversation!.id.toString() == message.data['conversation_id'].toString()) {
             Get.find<ChatController>().getMessages(
-              1, NotificationBody(
+              1, NotificationBodyModel(
                 notificationType: NotificationType.message, adminId: message.data['sender_type'] == UserType.admin.name ? 0 : null,
                 restaurantId: message.data['sender_type'] == UserType.vendor.name ? 0 : null,
                 deliverymanId: message.data['sender_type'] == UserType.delivery_man.name ? 0 : null,
@@ -74,13 +73,6 @@ class NotificationHelper {
           Get.find<OrderController>().getRunningOrders(1);
           Get.find<OrderController>().getHistoryOrders(1);
           Get.find<NotificationController>().getNotificationList(true);
-          // if(message.data['type'] == 'message' && message.data['message'] != null && message.data['message'].isNotEmpty) {
-          //   if(Get.currentRoute.contains(RouteHelper.conversation)) {
-          //     Get.find<ChatController>().reloadConversationWithNotification(m.Message.fromJson(message.data['message']).conversationId);
-          //   }else {
-          //     Get.find<ChatController>().reloadMessageWithNotification(m.Message.fromJson(message.data['message']));
-          //   }
-          // }
         }
       }
     });
@@ -88,7 +80,7 @@ class NotificationHelper {
       debugPrint("onOpenApp: ${message.notification!.title}/${message.notification!.body}/${message.notification!.titleLocKey}");
       try{
         if(message.data.isNotEmpty) {
-          NotificationBody notificationBody = convertNotification(message.data);
+          NotificationBodyModel notificationBody = convertNotification(message.data);
           if(notificationBody.notificationType == NotificationType.order) {
             Get.toNamed(RouteHelper.getOrderDetailsRoute(int.parse(message.data['order_id'])));
           } else if(notificationBody.notificationType == NotificationType.general) {
@@ -107,7 +99,7 @@ class NotificationHelper {
       String? body;
       String? orderID;
       String? image;
-      NotificationBody notificationBody = convertNotification(message.data);
+      NotificationBodyModel notificationBody = convertNotification(message.data);
       if(data) {
         title = message.data['title'];
         body = message.data['body'];
@@ -142,7 +134,7 @@ class NotificationHelper {
     }
   }
 
-  static Future<void> showTextNotification(String title, String body, String orderID, NotificationBody? notificationBody, FlutterLocalNotificationsPlugin fln) async {
+  static Future<void> showTextNotification(String title, String body, String orderID, NotificationBodyModel? notificationBody, FlutterLocalNotificationsPlugin fln) async {
     const AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
       'stackfood', 'stackfood', playSound: true,
       importance: Importance.max, priority: Priority.max, sound: RawResourceAndroidNotificationSound('notification'),
@@ -151,7 +143,7 @@ class NotificationHelper {
     await fln.show(0, title, body, platformChannelSpecifics, payload: notificationBody != null ? jsonEncode(notificationBody.toJson()) : null);
   }
 
-  static Future<void> showBigTextNotification(String? title, String body, String? orderID, NotificationBody? notificationBody, FlutterLocalNotificationsPlugin fln) async {
+  static Future<void> showBigTextNotification(String? title, String body, String? orderID, NotificationBodyModel? notificationBody, FlutterLocalNotificationsPlugin fln) async {
     BigTextStyleInformation bigTextStyleInformation = BigTextStyleInformation(
       body, htmlFormatBigText: true,
       contentTitle: title, htmlFormatContentTitle: true,
@@ -166,7 +158,7 @@ class NotificationHelper {
   }
 
   static Future<void> showBigPictureNotificationHiddenLargeIcon(
-      String? title, String? body, String? orderID, NotificationBody? notificationBody, String image, FlutterLocalNotificationsPlugin fln,
+      String? title, String? body, String? orderID, NotificationBodyModel? notificationBody, String image, FlutterLocalNotificationsPlugin fln,
       ) async {
     final String largeIconPath = await _downloadAndSaveFile(image, 'largeIcon');
     final String bigPicturePath = await _downloadAndSaveFile(image, 'bigPicture');
@@ -194,13 +186,13 @@ class NotificationHelper {
     return filePath;
   }
 
-  static NotificationBody convertNotification(Map<String, dynamic> data){
+  static NotificationBodyModel convertNotification(Map<String, dynamic> data){
     if(data['type'] == 'general') {
-      return NotificationBody(notificationType: NotificationType.general);
+      return NotificationBodyModel(notificationType: NotificationType.general);
     }else if(data['type'] == 'order_status') {
-      return NotificationBody(notificationType: NotificationType.order, orderId: int.parse(data['order_id']));
+      return NotificationBodyModel(notificationType: NotificationType.order, orderId: int.parse(data['order_id']));
     }else {
-      return NotificationBody(
+      return NotificationBodyModel(
         notificationType: NotificationType.message,
         deliverymanId: data['sender_type'] == 'delivery_man' ? 0 : null,
         adminId: data['sender_type'] == 'admin' ? 0 : null,

@@ -31,7 +31,7 @@
   "invalid_phone_number": "Numero de telefono invalido. Ingrese su número de teléfono sin código de país",
   "enter_password": "Ingresa tu contraseña",
   "confirm_password_does_not_matched": "La contraseña confirmada no coincide",
-  "password_should_be": "La contraseña debe ser mayor de 6 caracteres",
+  "password_should_be": "La contraseña debe ser mayor de 8 caracteres",
   "otp_verification": "Verificación OTP",
   "enter_the_verification_sent_to": "Ingrese el código de verificación (OTP) enviado a",
   "verify": "Verificar",
@@ -913,7 +913,7 @@
   "sorry_no_data_found_related_to_your_search": "Lo sentimos, no se encontraron datos relacionados con su búsqueda.",
   "no_promo_available": "No hay promoción disponible",
   "please_add_manually_or_collect_promo_from": "Agregue manualmente o recopile la promoción de",
-  "new_on_stackFood": "Nuevo en PedeLogo",
+  "new_on_stackFood": "Nuevo en StackFood",
 
   "no_contact_information_added": "No se ha añadido información de contacto",
   "continue": "Continuar",
@@ -971,5 +971,8 @@
   "currently_digital_payment_is_not_available": "Actualmente, el pago digital no está disponible",
   "all_food_items": "Todos los ítems de comida",
   "this_is_my_refer_code": "Este es mi código de referencia",
-  "instance_order_is_not_active": "La orden de instancia no está activa"
+  "instance_order_is_not_active": "La orden de instancia no está activa",
+  "joined" : "Unida",
+  "password_should_be_8_characters" : "La contraseña debe tener 8 caracteres.",
+  "please_enter_order_id" : "Por favor ingrese la identificación del pedido"
 }

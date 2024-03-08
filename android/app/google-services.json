@@ -1,65 +1,64 @@
 {
   "project_info": {
-    "project_number": "1042917200218",
-    "project_id": "pedelogo-3f824",
-    "storage_bucket": "pedelogo-3f824.appspot.com"
+    "project_number": "1025418518982",
+    "project_id": "pede-logo-99040",
+    "storage_bucket": "pede-logo-99040.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1042917200218:android:4d9c5710c1ecddb7736363",
+        "mobilesdk_app_id": "1:1025418518982:android:f1283a4f13d8b472a752c7",
         "android_client_info": {
           "package_name": "com.pedelogo.cliente"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDLNS40sKR90kt0_lrr26aFXXriWhPB3e8"
+          "current_key": "AIzaSyB_j7avbNGNyxYjbcnNBeUWzaKMLKfYNa4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1042917200218:android:7e7f25c250ff448e736363",
+        "mobilesdk_app_id": "1:1025418518982:android:3455c9cef06ad35ca752c7",
         "android_client_info": {
-          "package_name": "com.pedelogo.restaurante"
+          "package_name": "com.pedelogo.entregador"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDLNS40sKR90kt0_lrr26aFXXriWhPB3e8"
+          "current_key": "AIzaSyB_j7avbNGNyxYjbcnNBeUWzaKMLKfYNa4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1042917200218-5eicntos6i5c0ee0rv0a48mfkbs4t4bl.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025418518982:android:27b14ca16e00a472a752c7",
+        "android_client_info": {
+          "package_name": "com.pedelogo.restaurante"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_j7avbNGNyxYjbcnNBeUWzaKMLKfYNa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -1,9 +1,9 @@
-import 'package:efood_multivendor/data/model/body/place_order_body.dart';
-import 'package:efood_multivendor/data/model/response/cart_model.dart';
-import 'package:efood_multivendor/data/model/response/online_cart_model.dart';
-import 'package:efood_multivendor/data/model/response/product_model.dart';
-import 'package:efood_multivendor/data/model/response/product_model.dart' as pv;
-import 'package:efood_multivendor/helper/price_converter.dart';
+import 'package:stackfood_multivendor/common/models/online_cart_model.dart';
+import 'package:stackfood_multivendor/features/checkout/domain/models/place_order_body_model.dart';
+import 'package:stackfood_multivendor/features/cart/domain/models/cart_model.dart';
+import 'package:stackfood_multivendor/common/models/product_model.dart';
+import 'package:stackfood_multivendor/common/models/product_model.dart' as pv;
+import 'package:stackfood_multivendor/helper/price_converter.dart';
 
 class CartHelper {
 

@@ -1,8 +1,7 @@
-import 'package:efood_multivendor/util/app_constants.dart';
+import 'package:stackfood_multivendor/util/app_constants.dart';
 import 'package:flutter/material.dart';
 
 ThemeData light = ThemeData(
-  useMaterial3: false,
   fontFamily: AppConstants.fontFamily,
   primaryColor: const Color(0xFFFF8200),
   secondaryHeaderColor: const Color(0xFF1ED7AA),
@@ -15,5 +14,12 @@ ThemeData light = ThemeData(
       tertiary: Color(0xff6165D7),
       tertiaryContainer: Color(0xff171DB6),
       secondary: Color(0xFFFF8200)).copyWith(background: const Color(0xFFF3F3F3)).copyWith(error: const Color(0xFFE84D4F)),
-
+  popupMenuTheme: const PopupMenuThemeData(color: Colors.white, surfaceTintColor: Colors.white),
+  dialogTheme: const DialogTheme(surfaceTintColor: Colors.white),
+  floatingActionButtonTheme: FloatingActionButtonThemeData(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(500))),
+  bottomAppBarTheme: const BottomAppBarTheme(
+    surfaceTintColor: Colors.white, height: 60,
+    padding: EdgeInsets.symmetric(vertical: 5),
+  ),
+  dividerTheme: const DividerThemeData(thickness: 0.2, color: Color(0xFFA0A4A8)),
 );

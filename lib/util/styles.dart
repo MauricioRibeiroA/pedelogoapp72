@@ -1,5 +1,5 @@
-import 'package:efood_multivendor/util/app_constants.dart';
-import 'package:efood_multivendor/util/dimensions.dart';
+import 'package:stackfood_multivendor/util/app_constants.dart';
+import 'package:stackfood_multivendor/util/dimensions.dart';
 import 'package:flutter/material.dart';
 
 final robotoRegular = TextStyle(
