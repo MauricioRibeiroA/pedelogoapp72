@@ -29,6 +29,7 @@
 .packages
 .pub-cache/
 .pub/
+/build/
 .firebaserc
 firebase.json
 .firebase
